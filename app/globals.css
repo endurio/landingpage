@@ -18,10 +18,30 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #0e0c15;
+}
+
+.button-link:hover {
+  border-bottom: 3px solid #01a7fa;
+  color: #01a7fa;
+}
+
+.text-grey-1 {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.border-gradient {
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #ff98e2 0deg,
+    #ffc876 16.88deg,
+    #79fff7 142.5deg,
+    #0182fa 258.75deg,
+    #ff98e2 360deg
+  );
+}
+
+.galaxy-bg {
+  /* left: calc(50% - 1440px / 2) !important; */
+  top: 213px !important;
 }

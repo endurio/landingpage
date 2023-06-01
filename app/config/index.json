@@ -1,0 +1,25 @@
+{
+  "navigation": [
+    {
+      "name": "HOME",
+      "href": "#home"
+    },
+    {
+      "name": "ABOUT US",
+      "href": "#about"
+    },
+
+    {
+      "name": "FORUM",
+      "href": "#forum"
+    },
+    {
+      "name": "DOCS",
+      "href": "#docs"
+    },
+    {
+      "name": "BLOG",
+      "href": "#blog"
+    }
+  ]
+}
