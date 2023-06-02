@@ -6,7 +6,7 @@ const Menu = () => {
   const { navigation } = config;
   return (
     <>
-      <div className="flex flex-col items-start absolute w-full h-[80px] top-[117px] bg-transparent	 backdrop-blur-[32px]">
+      <div className="flex flex-col items-start fixed w-full h-[80px] bg-[rgba(0, 0, 0, 0.1)] top-[117px] backdrop-blur-[32px] z-[9999]">
         <nav className="flex flex-row justify-between px-[120px] py-0 w-full gap-[265px] h-full border-b-[1px] border-zinc-700">
           <div className="flex justify-center items-center h-full">
             <a href="#">

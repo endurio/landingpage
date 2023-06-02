@@ -45,3 +45,15 @@ body {
   /* left: calc(50% - 1440px / 2) !important; */
   top: 213px !important;
 }
+
+.background-gray {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.padding-card {
+  padding: 56px 24px 32px;
+}
+
+.discover-padding {
+  padding: 0px 0px 120px;
+}

@@ -21,5 +21,42 @@
       "name": "BLOG",
       "href": "#blog"
     }
+  ],
+  "innovation": [
+    {
+      "title": "Effcient",
+      "content": "Opening and closing position costs as much as an AMM token swap.",
+      "icon": "Effcient"
+    },
+    {
+      "title": "Transparency",
+      "content": "No backend service. No permissoned roles. Everyone have the same right.",
+      "icon": "Transparency"
+    },
+    {
+      "title": "High Resistance",
+      "content": "Price feed are protected against manipulations and flashloan.",
+      "icon": "HighResistance"
+    },
+    {
+      "title": "Zero Trading Fee",
+      "content": "Open and Close position cost nothing as Fee and Interest are charged over time.",
+      "icon": "ZeroTradingFee"
+    },
+    {
+      "title": "Real Yield",
+      "content": "Real service brings real profit. Pool reserve, fee and interest are paid from trader to LP and protocol using time-proven token reserve (ETH, BTC, etc.)",
+      "icon": "RealYield"
+    },
+    {
+      "title": "No Liquidation",
+      "content": "Derivative positions (long/short) are power perpetual fungible token, which has compound leverage that never be liquidated. (ETH^x or ETH^-x value can never go negative).",
+      "icon": "NoLiquidation"
+    },
+    {
+      "title": "Infinite Liquidity",
+      "content": "Counter-party risks miltigated: LP is less exposed to the market volatility. Liquidity can never be exhausted.",
+      "icon": "InfiniteLiquidity"
+    }
   ]
 }
