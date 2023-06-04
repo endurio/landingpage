@@ -14,7 +14,7 @@ const Avaiable = () => {
           Avaiable on
         </p>
         <div className="flex flex-row justify-between items-start gap-8 max-w-[584px]">
-          <div className="relative bg-gray box-border flex flex-col items-center justify-center rounded-3xl gap-[26px] w-[276px] h-[292px]">
+          <div className="relative background-gray box-border flex flex-col items-center justify-center rounded-3xl gap-[26px] w-[276px] h-[292px]">
             <Image src={Arbitrum} alt="" className="absolute -z-[2] top-0" />
             <div className="flex flex-col items-center gap-4 max-w-[100px] max-h-[146px]">
               <Image src={ArbitrumIcon} alt="" />
@@ -32,7 +32,7 @@ const Avaiable = () => {
               </div>
             </div>
           </div>
-          <div className="relative bg-gray box-border flex flex-col items-center justify-center rounded-3xl gap-[26px] w-[276px] h-[292px]">
+          <div className="relative background-gray box-border flex flex-col items-center justify-center rounded-3xl gap-[26px] w-[276px] h-[292px]">
             <Image src={Ethereum} alt="" className="absolute -z-[2] top-0" />
             <div className="flex flex-col items-center gap-4 max-w-[100px] max-h-[146px]">
               <Image src={EthereumIcon} alt="" />

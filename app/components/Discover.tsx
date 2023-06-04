@@ -7,8 +7,8 @@ const Discover = () => {
       <div className="flex flex-col items-center discover-padding gap-[10px]">
         <div className="relative flex flex-row max-h-[328px] max-w-[996px] rounded-3xl">
           <RectangleGradient />
-          <div className="flex flex-col items-start gap-6 max-w-[443px] px-[39px] py-10 absolute">
-            <div className="flex flex-col items-start gap-4">
+          <div className="flex flex-row justify-between items-start gap-6 w-full px-[39px] py-10 absolute">
+            <div className="flex flex-col items-start gap-4 max-w-[443px]">
               <p className="font-['Sora'] font-semibold text-5xl text-[#FFFFFF]">
                 Be part of us!
               </p>

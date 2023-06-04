@@ -1,14 +1,8 @@
 import React from "react";
-import {
-  HomeContentHeader,
-  GroupSocial,
-  Twitter,
-  Discord,
-  Github,
-  ScrollSVG,
-} from "../icons";
+import { HomeContentHeader, ScrollSVG } from "../icons";
+import { GroupSocial, Twitter, Discord, Github } from "../icons/socials";
 import FunctionPilot from "./FuncPilot";
-import Innovation from "./Innovation";
+import Innovation from "./innovation/Innovation";
 import Avaiable from "./Avaiable";
 import Discover from "./Discover";
 const HomeContent = () => {
@@ -26,10 +20,10 @@ const HomeContent = () => {
           </span>
         </div>
         <div className="flex flex-row items-start gap-16 max-w-[384px]">
-          <GroupSocial />
-          <Twitter />
-          <Discord />
-          <Github />
+          <GroupSocial height={48} width={48} />
+          <Twitter height={48} width={48} />
+          <Discord height={48} width={48} />
+          <Github height={48} width={48} />
         </div>
         <div className="flex flex-col items-center gap-4 max-w-[46px] mt-[100px]">
           <ScrollSVG />

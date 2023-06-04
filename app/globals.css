@@ -17,6 +17,7 @@
 }
 
 body {
+  height: 100%;
   color: rgb(var(--foreground-rgb));
   background: #0e0c15;
 }
@@ -50,10 +51,21 @@ body {
   background: rgba(0, 0, 0, 0.1);
 }
 
+.background-gray:hover {
+  background: rgba(14, 12, 21, 0.4);
+}
+
 .padding-card {
   padding: 56px 24px 32px;
 }
 
 .discover-padding {
-  padding: 0px 0px 120px;
+  padding: 0px 0px 120px 0px;
 }
+
+.footer-border-top {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+/* .button-read:hover {
+  color: ;
+} */

@@ -1,6 +1,7 @@
 import React from "react";
 import {
   CardBorder,
+  CardBorderHover,
   Efficient,
   Transparency,
   HighResistance,
@@ -9,8 +10,9 @@ import {
   NoLiquidition,
   InfiniteLiquidity,
   ArrowIcon,
-} from "../icons";
-import config from "../config/index.json";
+} from "../../icons";
+import InnovationCard from "./components/InnovationCard";
+import config from "../../config/index.json";
 
 const checkIcon = (icon) => {
   switch (icon) {
@@ -35,6 +37,7 @@ const checkIcon = (icon) => {
 
 const Innovation = () => {
   const { innovation } = config;
+
   return (
     <>
       <div
@@ -53,28 +56,7 @@ const Innovation = () => {
         <div className="flex flex-col items-center gap-8">
           <div className="flex flex-row justify-center max-w-[1200px] flex-wrap items-start gap-8">
             {innovation.map((item, idx) => (
-              <div key={idx} className="relative max-w-[276px] h-[336px]">
-                <CardBorder />
-                <div className="absolute flex flex-col justify-between h-full items-start p-6 gap-6 top-0">
-                  <div className="flex flex-col gap-6">
-                    {checkIcon(item.icon)}
-                    <div className="flex flex-col items-start gap-4">
-                      <span className="font-['Sora'] font-semibold text-xl text-[#FFFFFF]">
-                        {item.title}
-                      </span>
-                      <span className="font-['Sora'] font-normal text-sm text-[#CAC6DD]">
-                        {item.content}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="flex flex-row items-center gap-2 cursor-pointer">
-                    <span className="font-['Sora'] font-semibold text-sm text-[#CAC6DD]">
-                      READ MORE
-                    </span>
-                    <ArrowIcon />
-                  </div>
-                </div>
-              </div>
+              <InnovationCard key={idx} item={item} />
             ))}
           </div>
         </div>
