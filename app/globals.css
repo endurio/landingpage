@@ -17,13 +17,20 @@
 }
 
 body {
+  width: 100%;
   height: 100%;
-  color: rgb(var(--foreground-rgb));
+  /* color: rgb(var(--foreground-rgb)); */
   background: #0e0c15;
+  color: #fff;
 }
 
 .button-link:hover {
   border-bottom: 3px solid #01a7fa;
+  color: #01a7fa;
+}
+
+.button-link-mobile:hover {
+  border-left: 3px solid #01a7fa;
   color: #01a7fa;
 }
 
@@ -40,6 +47,10 @@ body {
     #0182fa 258.75deg,
     #ff98e2 360deg
   );
+}
+
+.border-gradient-1 {
+  border-color: linear-gradient(#33ceff, #d633ff);
 }
 
 .galaxy-bg {

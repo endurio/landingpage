@@ -1,4 +1,4 @@
-const GroupSocial = ({ height, width, color }) => {
+const GroupSocial = (height, width, color) => {
   return (
     <svg
       width="48"

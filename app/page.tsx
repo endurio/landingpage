@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="relative w-full min-h-[4384px]">
+    <div className="relative flex w-full">
       <UniverBackground />
       <Header />
       <HomeContent />
