@@ -20,7 +20,7 @@ const Footer = () => {
   ];
   return (
     <>
-      <div className="footer-border-top flex box-border flex-col justify-center items-center py-8 gap-4 absolute w-full inset-x-0 bottom-0 min-h-[164px] z-[9999]">
+      <div className="footer-border-top flex box-border flex-col justify-center items-center py-8 gap-4 w-full mt-[120px] bottom-0 min-h-[164px] z-[9999]">
         <div className="max-w-[133.71px] max-h-6">
           <DerivableLogoMini />
         </div>
@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
           ))}
         </div>
-        <div className="flex flex-row justify-center items-center gap-2 font-['Sora'] font-normal text-xs text-[#CAC6DD]">
+        <div className="flex flex-row justify-center items-center gap-2 text-normal text-xs">
           <p>Terms and Conditions</p>
           <Ellipse />
           <p>Copyright © 2023 Derivable. All rights reserved</p>

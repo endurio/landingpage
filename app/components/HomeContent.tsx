@@ -10,7 +10,10 @@ import FunctionPilot from "./FuncPilot";
 import Innovation from "./innovation/Innovation";
 import Avaiable from "./Avaiable";
 import Discover from "./Discover";
-const HomeContent = () => {
+import Footer from "./Footer";
+import AboutUs from "./about-us/AboutUs";
+
+const HomeContent = (props) => {
   const [matches, setMatches] = useState(
     window.matchMedia("(min-width: 768px)").matches
   );
@@ -23,8 +26,8 @@ const HomeContent = () => {
 
   return (
     <>
-      <div className="absolute flex flex-col justify-center inset-x-0 items-center py-0 md:py-[240px] gap-10 w-full top-[277px]">
-        {matches ? (
+      <div className="absolute flex flex-col justify-center inset-x-0 items-center py-0 w-full top-[277px]">
+        {/* {matches ? (
           <>
             <div id="home" className="flex flex-col items-center gap-6">
               <HomeContentHeader />
@@ -60,6 +63,8 @@ const HomeContent = () => {
         <Innovation />
         <Avaiable />
         <Discover />
+        <Footer /> */}
+        <AboutUs />
       </div>
     </>
   );

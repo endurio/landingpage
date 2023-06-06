@@ -34,6 +34,18 @@ body {
   color: #01a7fa;
 }
 
+.text-heading {
+  font-family: "Sora";
+  font-weight: 600;
+  color: #fff;
+}
+
+.text-normal {
+  font-family: "Sora";
+  font-weight: 400;
+  color: #cac6dd;
+}
+
 .text-grey-1 {
   color: rgba(255, 255, 255, 0.5);
 }

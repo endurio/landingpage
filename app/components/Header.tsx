@@ -6,13 +6,13 @@ import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { Link } from "react-scroll";
 
-const Menu = () => {
+const Menu = (props) => {
   const { navigation } = config;
   return (
     <>
       <Popover>
-        <div className="flex flex-col items-start fixed w-full h-[80px] bg-[rgba(0, 0, 0, 0.1)] top-0 md:top-[117px] backdrop-blur-[32px] z-[9999]">
-          <nav className="flex flex-row justify-between lg:px-[120px] py-0 w-full gap-[265px] h-full border-b-[1px] border-zinc-700">
+        <div className="flex flex-col items-start fixed w-full h-[80px] bg-[rgba(0, 0, 0, 0.1)] top-0 backdrop-blur-[32px] z-[9999]">
+          <nav className="flex flex-row justify-between p-2 lg:px-[120px] py-0 w-full h-full border-b-[1px] border-zinc-700">
             <div className="flex justify-center items-center h-full">
               <a href="#">
                 <DerivableLogo />
@@ -20,7 +20,12 @@ const Menu = () => {
             </div>
             <div className="hidden md:flex flex-row justify-center items-center gap-[56px] self-stretch h-full">
               {navigation.map((item, index) => (
-                <a key={index} href={item.href} className="h-full">
+                <a
+                  key={index}
+                  href={item.href}
+                  onClick={() => props.setUrl(item.href)}
+                  className="h-full"
+                >
                   <div className="h-full button-link box-border flex flex-row items-center py-2 gap-2 font-['Sora'] text-sm font-semibold text-grey-1">
                     {item.name}
                   </div>
@@ -38,7 +43,7 @@ const Menu = () => {
             </div>
             <div className="flex items-center md:hidden">
               <Popover.Button
-                className={`bg-background rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-secondary`}
+                className={`bg-background rounded-md inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-secondary`}
               >
                 <span className="sr-only">Open main menu</span>
                 <MenuIcon className="h-8 w-8" aria-hidden="true" />

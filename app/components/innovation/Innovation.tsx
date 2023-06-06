@@ -21,13 +21,13 @@ const Innovation = () => {
     <>
       <div
         id="innovation"
-        className="flex flex-col items-center gap-6 md:pt-[120px] md:gap-[56px]"
+        className="flex flex-col items-center gap-6 pb-[120px] md:gap-[56px]"
       >
         <div className="flex flex-col justify-center items-center gap-6">
-          <p className="font-['Sora'] font-semibold text-[34px] md:text-5xl text-[#FFFFFF]">
+          <p className="text-heading text-[34px] md:text-5xl">
             OUR INNOVATIONS
           </p>
-          <p className="font-['Sora'] font-normal text-lg text-[#CAC6DD] text-center">
+          <p className="text-normal text-lg text-center">
             Uniswap solves the spot DEX problems. <br /> Derivable solves the
             perpetual futures DEX problems
           </p>
@@ -42,7 +42,7 @@ const Innovation = () => {
           </div>
         ) : (
           <div className="flex flex-col items-center gap-8">
-            <div className="flex flex-row justify-center max-w-[343px] flex-wrap items-start gap-8">
+            <div className="flex flex-row justify-center max-w-[343px] items-start gap-8">
               <Carousel show={1.2} slide={3} swiping={true}>
                 {innovation.map((item, idx) => (
                   <InnovationCard key={idx} item={item} />
