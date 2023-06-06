@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className="relative flex w-full">
       <UniverBackground />
-      <Header setUrl={setUrl} />
+      <Header url={url} setUrl={setUrl} />
       <HomeContent url={url} />
     </div>
   );

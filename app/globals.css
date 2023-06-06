@@ -24,6 +24,11 @@ body {
   color: #fff;
 }
 
+.button-active {
+  border-bottom: 3px solid #01a7fa !important;
+  color: #01a7fa !important;
+}
+
 .button-link:hover {
   border-bottom: 3px solid #01a7fa;
   color: #01a7fa;
@@ -35,15 +40,19 @@ body {
 }
 
 .text-heading {
-  font-family: "Sora";
+  font-family: "Sora", sans-serif;
   font-weight: 600;
   color: #fff;
 }
 
 .text-normal {
-  font-family: "Sora";
+  font-family: "Sora", sans-serif;
   font-weight: 400;
   color: #cac6dd;
+}
+
+.text-blue-1 {
+  color: rgba(1, 167, 250, 1);
 }
 
 .text-grey-1 {

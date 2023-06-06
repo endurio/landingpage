@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
           ))}
         </div>
-        <div className="flex flex-row justify-center items-center gap-2 text-normal text-xs">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-2 text-normal text-xs">
           <p>Terms and Conditions</p>
           <Ellipse />
           <p>Copyright © 2023 Derivable. All rights reserved</p>

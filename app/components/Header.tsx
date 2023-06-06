@@ -26,14 +26,18 @@ const Menu = (props) => {
                   onClick={() => props.setUrl(item.href)}
                   className="h-full"
                 >
-                  <div className="h-full button-link box-border flex flex-row items-center py-2 gap-2 font-['Sora'] text-sm font-semibold text-grey-1">
+                  <div
+                    className={`h-full ${
+                      props.url === item.href && "button-active"
+                    } button-link box-border flex flex-row items-center py-2 gap-2 text-heading text-sm text-grey-1`}
+                  >
                     {item.name}
                   </div>
                 </a>
               ))}
             </div>
             <div className="hidden md:flex h-full justify-center items-center">
-              <div className="box-border flex flex-row justify-center items-center py-[14px] px-5 gap-[10px] h-12 min-w-[120px] rounded-lg font-['Sora'] text-xs font-semibold">
+              <div className="box-border flex flex-row justify-center items-center py-[14px] px-5 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
                 <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
                   <div className="h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	flex flex-row justify-center items-center">
                     launch app
@@ -87,14 +91,15 @@ const Menu = (props) => {
                         duration={1000}
                         key={item.name}
                         to={item.href}
-                        className="block px-3 py-2 font-['Sora] font-semibold text-2xl text-grey-1 border-l-[3px] border-transparent button-link-mobile"
+                        onClick={() => props.setUrl(item.href)}
+                        className="block px-3 py-2 text-heading text-2xl text-grey-1 border-l-[3px] border-transparent button-link-mobile"
                       >
                         {item.name}
                       </Link>
                     ))}
                   </div>
                   <div className="flex h-full justify-start">
-                    <div className="box-border flex flex-row justify-center items-center px-3 py-2 gap-[10px] h-12 min-w-[120px] rounded-lg font-['Sora'] text-xs font-semibold">
+                    <div className="box-border flex flex-row justify-center items-center px-3 py-2 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
                       <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
                         <div className=" h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	flex flex-row justify-center items-center">
                           launch app

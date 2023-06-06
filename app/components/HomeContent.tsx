@@ -12,6 +12,7 @@ import Avaiable from "./Avaiable";
 import Discover from "./Discover";
 import Footer from "./Footer";
 import AboutUs from "./about-us/AboutUs";
+import Blog from "./blog/Blog";
 
 const HomeContent = (props) => {
   const [matches, setMatches] = useState(
@@ -26,45 +27,56 @@ const HomeContent = (props) => {
 
   return (
     <>
-      <div className="absolute flex flex-col justify-center inset-x-0 items-center py-0 w-full top-[277px]">
-        {/* {matches ? (
+      <div className="absolute flex flex-col justify-center inset-x-0 items-center py-0 px-4 w-full top-[104px] md:top-[277px]">
+        {props.url === "#home" && (
           <>
-            <div id="home" className="flex flex-col items-center gap-6">
-              <HomeContentHeader />
-              <span className="font-['Sora'] text-lg md:text-xl font-normal text-center text-[#CAC6DD] self-stretch leading-[30px]">
-                Developers, traders, and liquidity providers participate
-                together in a derivatives marketplace that is open and
-                accessible to all.
-              </span>
+            {matches ? (
+              <div className="flex flex-col gap-[40px] items-center">
+                <div id="home" className="flex flex-col items-center gap-6">
+                  <HomeContentHeader />
+                  <span className="text-normal text-lg md:text-xl text-center self-stretch leading-[30px]">
+                    Developers, traders, and liquidity providers participate
+                    together in a derivatives marketplace that is open and
+                    accessible to all.
+                  </span>
+                </div>
+                <div className="flex flex-row items-start gap-16 max-w-[384px]">
+                  <GroupSocial height={48} width={48} />
+                  <Twitter height={48} width={48} />
+                  <Discord height={48} width={48} />
+                  <Github height={48} width={48} />
+                </div>
+              </div>
+            ) : (
+              <div className="flex flex-col gap-[40px]">
+                <div id="home" className="flex flex-col items-center gap-6">
+                  <HomeContentHeaderMobile />
+                  <span className="text-normal text-xl text-center self-stretch leading-[30px]">
+                    Developers, traders, and liquidity providers participate
+                    together in a derivatives marketplace that is open and
+                    accessible to all.
+                  </span>
+                </div>
+                <div className="flex flex-row items-start gap-16 max-w-[384px]">
+                  <GroupSocial height={48} width={48} />
+                  <Twitter height={48} width={48} />
+                  <Discord height={48} width={48} />
+                  <Github height={48} width={48} />
+                </div>
+              </div>
+            )}
+            <div className="flex flex-col items-center gap-4 max-w-[46px] mt-[100px]">
+              <ScrollSVG />
             </div>
-            <div className="flex flex-row items-start gap-16 max-w-[384px]">
-              <GroupSocial height={48} width={48} />
-              <Twitter height={48} width={48} />
-              <Discord height={48} width={48} />
-              <Github height={48} width={48} />
-            </div>
-          </>
-        ) : (
-          <>
-            <div id="home" className="flex flex-col items-center gap-6">
-              <HomeContentHeaderMobile />
-              <span className="font-['Sora'] text-xl font-normal text-center text-[#CAC6DD] self-stretch leading-[30px]">
-                Developers, traders, and liquidity providers participate
-                together in a derivatives marketplace that is open and
-                accessible to all.
-              </span>
-            </div>
+            <FunctionPilot />
+            <Innovation />
+            <Avaiable />
+            <Discover />
           </>
         )}
-        <div className="flex flex-col items-center gap-4 max-w-[46px] mt-[100px]">
-          <ScrollSVG />
-        </div>
-        <FunctionPilot />
-        <Innovation />
-        <Avaiable />
-        <Discover />
-        <Footer /> */}
-        <AboutUs />
+        {props.url === "#about" && <AboutUs />}
+        {props.url === "#blog" && <Blog />}
+        <Footer />
       </div>
     </>
   );
