@@ -23,4 +23,42 @@ const TwitterLogo = () => {
   );
 };
 
-export { TwitterLogo };
+const SearchIcon = () => {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16.9265 17.0401L20.3996 20.4001M19.2796 11.4401C19.2796 15.77 15.7695 19.2801 11.4396 19.2801C7.1097 19.2801 3.59961 15.77 3.59961 11.4401C3.59961 7.11019 7.1097 3.6001 11.4396 3.6001C15.7695 3.6001 19.2796 7.11019 19.2796 11.4401Z"
+        stroke="#3F3A52"
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+    </svg>
+  );
+};
+
+const ArrowRotate = () => {
+  return (
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2.11909 10.0001C2.95893 12.5552 5.36421 14.4001 8.20039 14.4001C11.735 14.4001 14.6004 11.5347 14.6004 8.0001C14.6004 4.46547 11.735 1.6001 8.20039 1.6001C5.83149 1.6001 3.76319 2.88713 2.6566 4.8001M4.60039 5.6001H1.40039V2.4001"
+        stroke="#01A7FA"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
+
+export { TwitterLogo, SearchIcon, ArrowRotate };

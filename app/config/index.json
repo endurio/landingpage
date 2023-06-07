@@ -70,5 +70,9 @@
   "mission": {
     "text-1": "At Derivable Labs, our mission is to create a fair, transparent, and community-driven leveraged derivatives market. We are dedicated to building innovative tools, seamless trading experiences, and robust risk management solutions. We strive to empower our community members with the knowledge and resources they need to navigate the world of leveraged derivatives confidently.",
     "text-2": "Through our platform and academic community, we aim to cultivate a collaborative environment where experts, researchers, and enthusiasts can come together to shape the future of leveraged trading."
+  },
+  "topic": {
+    "topic-1": "TOPIC 1",
+    "topic-2": "LOREM IPSUM"
   }
 }

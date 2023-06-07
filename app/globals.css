@@ -74,6 +74,10 @@ body {
   border-color: linear-gradient(#33ceff, #d633ff);
 }
 
+.border-gray-1 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 .galaxy-bg {
   /* left: calc(50% - 1440px / 2) !important; */
   top: 213px !important;
