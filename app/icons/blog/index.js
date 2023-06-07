@@ -23,6 +23,31 @@ const TwitterLogo = () => {
   );
 };
 
+const FacebookLogo = () => {
+  return (
+    <svg
+      width="40"
+      height="40"
+      viewBox="0 0 40 40"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clip-path="url(#clip0_497_13348)">
+        <rect width="40" height="40" rx="20" fill="#337FFF" />
+        <path
+          d="M24.8941 21.302L25.464 17.6809H21.9533V15.3272C21.9533 14.3371 22.4434 13.3696 24.0107 13.3696H25.6293V10.286C24.6867 10.1357 23.7343 10.0544 22.7797 10.0427C19.8902 10.0427 18.0037 11.7797 18.0037 14.9199V17.6809H14.8008V21.302H18.0037V30.0605H21.9533V21.302H24.8941Z"
+          fill="white"
+        />
+      </g>
+      <defs>
+        <clipPath id="clip0_497_13348">
+          <rect width="40" height="40" rx="20" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+};
+
 const SearchIcon = () => {
   return (
     <svg
@@ -61,4 +86,4 @@ const ArrowRotate = () => {
   );
 };
 
-export { TwitterLogo, SearchIcon, ArrowRotate };
+export { TwitterLogo, SearchIcon, ArrowRotate, FacebookLogo };

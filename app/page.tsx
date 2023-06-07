@@ -6,11 +6,12 @@ import HomeContent from "./components/HomeContent";
 
 const App = () => {
   const [url, setUrl] = useState("");
+
   return (
     <div className="relative flex w-full">
       <UniverBackground />
       <Header url={url} setUrl={setUrl} />
-      <HomeContent url={url} />
+      <HomeContent url={url} setUrl={setUrl} />
     </div>
   );
 };
