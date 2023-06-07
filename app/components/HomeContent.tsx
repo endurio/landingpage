@@ -76,8 +76,8 @@ const HomeContent = (props) => {
           </>
         )}
         {props.url === "#about" && <AboutUs />}
-        {props.url === "#blog" && <Blog />}
-        {props.url === "#forum" && <BlogDetail setUrl={props.setUrl} />}
+        {props.url === "#blog" && <Blog setUrl={props.setUrl} />}
+        {props.url === "#blog-detail" && <BlogDetail setUrl={props.setUrl} />}
         <Footer />
       </div>
     </>

@@ -49,18 +49,12 @@ const InnovationCard = (item: any) => {
         <div className="flex flex-col gap-6">
           {checkIcon(item.item.icon)}
           <div className="flex flex-col items-start gap-4">
-            <span className="font-['Sora'] font-semibold text-xl text-[#FFFFFF]">
-              {item.item.title}
-            </span>
-            <span className="font-['Sora'] font-normal text-sm text-[#CAC6DD]">
-              {item.item.content}
-            </span>
+            <span className="text-heading text-xl">{item.item.title}</span>
+            <span className="text-normal text-sm">{item.item.content}</span>
           </div>
         </div>
         <div className="flex flex-row items-center gap-2 cursor-pointer">
-          <span className="font-['Sora'] font-semibold text-sm text-[#CAC6DD]">
-            READ MORE
-          </span>
+          <span className="text-heading text-sm text-[#CAC6DD]">READ MORE</span>
           <ArrowIcon />
         </div>
       </div>

@@ -74,5 +74,16 @@
   "topic": {
     "topic-1": "TOPIC 1",
     "topic-2": "LOREM IPSUM"
+  },
+  "blog": {
+    "blog-detail-1": {
+      "text-1": "Lorem ipsum dolor sit amet consectetur. Maecenas amet commodo pulvinar hendrerit sed proin orci ornare. Blandit nunc in id tellus. Praesent augue pellentesque eu purus mi tellus. In iaculis tempus viverra ut arcu vel. Maecenas vestibulum amet volutpat blandit praesent dictum sed tincidunt cursus. Quis tempus nulla felis magnis pulvinar odio enim aliquam.",
+      "text-2": "Sapien pellentesque id tortor adipiscing velit elementum enim libero aliquet. Viverra dictum sed sed justo nunc fringilla massa ac. Quis vel quis feugiat pulvinar eu sed. Mauris elementum pellentesque in platea sagittis odio rutrum elementum diam. Neque ultrices id neque facilisis vel purus nisl risus. Est ultricies ultrices non scelerisque penatibus est morbi sit ultrices. Nunc enim tincidunt mi sapien id faucibus. Massa eget ultricies felis ornare lectus mattis. Eget nec morbi pellentesque ultricies. Gravida elementum arcu quis venenatis aliquet. Massa vitae est elementum porta rhoncus ut risus tincidunt. Aliquam est tempor pellentesque odio vulputate odio. Adipiscing est quisque consequat pretium tempor blandit tincidunt nec fermentum.",
+      "text-3": "Ut ultrices ornare ultrices urna sit turpis interdum libero. Integer massa luctus faucibus cursus eget. Nam lectus proin commodo mollis. Placerat malesuada scelerisque nulla rhoncus sagittis turpis at. Sed vestibulum aliquam odio fermentum. Ullamcorper rutrum mauris turpis morbi commodo integer. Donec aenean nunc diam parturient mollis pulvinar. Nulla etiam potenti duis nisi condimentum leo scelerisque. At amet tortor sed nibh. Odio cursus habitasse in vitae."
+    },
+    "blog-detail-2": {
+      "text-1": "Lorem ipsum dolor sit amet consectetur. Maecenas amet commodo pulvinar hendrerit sed proin orci ornare. Blandit nunc in id tellus. Praesent augue pellentesque eu purus mi tellus. In iaculis tempus viverra ut arcu vel. Maecenas vestibulum amet volutpat blandit praesent dictum sed tincidunt cursus. Quis tempus nulla felis magnis pulvinar odio enim aliquam.",
+      "text-2": "Ut ultrices ornare ultrices urna sit turpis interdum libero. Integer massa luctus faucibus cursus eget. Nam lectus proin commodo mollis. Placerat malesuada scelerisque nulla rhoncus sagittis turpis at. Sed vestibulum aliquam odio fermentum. Ullamcorper rutrum mauris turpis morbi commodo integer. Donec aenean nunc diam parturient mollis pulvinar. Nulla etiam potenti duis nisi condimentum leo scelerisque. At amet tortor sed nibh. Odio cursus habitasse in vitae."
+    }
   }
 }

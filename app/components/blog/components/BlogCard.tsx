@@ -16,7 +16,10 @@ const BlogCard = (props) => {
   return (
     <>
       {props.isMain && (
-        <div className="w-full md:flex md:justify-center md:items-center">
+        <div
+          className="w-full md:flex md:justify-center md:items-center cursor-pointer"
+          onClick={() => props.setUrl("#blog-detail")}
+        >
           <div className="flex flex-col md:flex-row md:w-[1062px] items-start gap-6">
             <Image src={props.src} alt="blog-1" className="md:w-[519px]" />
             <div className="flex flex-col items-start gap-6 md:max-w-[519px] md:h-full">
@@ -49,7 +52,10 @@ const BlogCard = (props) => {
         </div>
       )}
       {!props.isMain && (
-        <div className="flex flex-col items-start gap-6">
+        <div
+          className="flex flex-col items-start gap-6 cursor-pointer"
+          onClick={() => props.setUrl("#blog-detail")}
+        >
           <Image src={props.src} alt="blog-1" className="md:w-[394px]" />
           <div className="flex flex-col items-start gap-6 md:max-w-[394px]">
             <div className="flex flex-col items-start gap-3">

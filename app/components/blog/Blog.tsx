@@ -12,7 +12,7 @@ import blog7 from "../../icons/blog/blog-7.png";
 import blog8 from "../../icons/blog/blog-8.png";
 import config from "../../config/index.json";
 
-const Blog = () => {
+const Blog = (props) => {
   const { topic } = config;
   const imgArr = [blog2, blog3, blog4, blog5, blog6, blog7, blog8];
 
@@ -27,13 +27,23 @@ const Blog = () => {
           <span className="text-normal text-sm">Follow @Octan</span>
         </div>
       </div>
-      <BlogCard isMain={true} topic={topic["topic-1"]} src={blog1} />
+      <BlogCard
+        isMain={true}
+        topic={topic["topic-1"]}
+        src={blog1}
+        setUrl={props.setUrl}
+      />
       <div className="md:flex md:flex-row md:items-center md:max-w-[1062px] md:justify-center">
         <div className="flex flex-col gap-[56px] md:flex md:flex-row md:items-start md:gap-6 md:max-w-[1062px] md:justify-center md:">
           <FilterCard />
           <div className="flex flex-col gap-8 md:flex md:flex-row md:items-center md:gap-[20px] md:max-w-[812px] md:flex-wrap">
             {imgArr.map((data, idx) => (
-              <BlogCard topic={topic["topic-2"]} src={data} key={idx} />
+              <BlogCard
+                topic={topic["topic-2"]}
+                src={data}
+                key={idx}
+                setUrl={props.setUrl}
+              />
             ))}
           </div>
         </div>
