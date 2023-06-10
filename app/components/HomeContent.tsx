@@ -27,11 +27,20 @@ const HomeContent = (props) => {
             {matches ? (
               <div className="flex flex-col gap-[40px] items-center">
                 <div id="home" className="flex flex-col items-center gap-6">
-                  <HomeContentHeader />
+                  <div className="flex flex-col items-start gap-3">
+                    <div className="relative">
+                      <span className="text-heading text-[40px]">
+                        The 1<sup className="text-3xl absolute top-0">st</sup>
+                      </span>
+                    </div>
+                    <HomeContentHeader />
+                    <div className="text-heading text-[40px] text-right w-full">
+                      Ever
+                    </div>
+                  </div>
                   <span className="text-normal text-lg md:text-xl text-center self-stretch leading-[30px]">
-                    Developers, traders, and liquidity providers participate
-                    together in a derivatives marketplace that is open and
-                    accessible to all.
+                    Leverage trading and liquidity for any token. By anyone. For
+                    all sides.
                   </span>
                 </div>
                 <div className="flex flex-row items-start gap-16 max-w-[384px]">
@@ -42,13 +51,12 @@ const HomeContent = (props) => {
                 </div>
               </div>
             ) : (
-              <div className="flex flex-col gap-[40px]">
+              <div className="flex flex-col gap-[40px] mt-[160px]">
                 <div id="home" className="flex flex-col items-center gap-6">
                   <HomeContentHeaderMobile />
                   <span className="text-normal text-xl text-center self-stretch leading-[30px]">
-                    Developers, traders, and liquidity providers participate
-                    together in a derivatives marketplace that is open and
-                    accessible to all.
+                    Leverage trading and liquidity for any token. By anyone. For
+                    all sides.
                   </span>
                 </div>
                 <div className="flex flex-row items-start gap-16 max-w-[384px]">
@@ -59,7 +67,7 @@ const HomeContent = (props) => {
                 </div>
               </div>
             )}
-            <div className="flex flex-col items-center gap-4 max-w-[46px] mt-[100px]">
+            <div className="flex flex-col items-center gap-4 max-w-[46px] mt-[130px] md:mt-[180px]">
               <ScrollSVG />
             </div>
             <FunctionPilot />

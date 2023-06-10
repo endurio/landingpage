@@ -24,6 +24,13 @@ body {
   color: #fff;
 }
 
+.vanta {
+  min-height: 300px;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+}
+
 .button-active {
   border-bottom: 3px solid #01a7fa !important;
   color: #01a7fa !important;
