@@ -4,17 +4,10 @@ import { AboutUsBanner, AboutUsBannerMobile } from "../../icons/about-us/index";
 import Card from "./components/Card";
 import Discover from "./components/Discover";
 import config from "../../config/index.json";
+import useMediaQuery from "../hooks/useMedia";
 const AboutUs = () => {
   const { about } = config;
-  const [matches, setMatches] = useState(
-    window.matchMedia("(min-width: 768px)").matches
-  );
-
-  useEffect(() => {
-    window
-      .matchMedia("(min-width: 768px)")
-      .addEventListener("change", (e) => setMatches(e.matches));
-  }, []);
+  const matches = useMediaQuery(768);
   return (
     <>
       <div className="flex flex-col justify-between items-center px-4 md:px-0 gap-[56px]">

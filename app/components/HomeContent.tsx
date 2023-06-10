@@ -14,17 +14,10 @@ import Footer from "./Footer";
 import AboutUs from "./about-us/AboutUs";
 import Blog from "./blog/Blog";
 import BlogDetail from "./blog/BlogDetail";
+import useMediaQuery from "./hooks/useMedia";
 
 const HomeContent = (props) => {
-  const [matches, setMatches] = useState(
-    window.matchMedia("(min-width: 768px)").matches
-  );
-
-  useEffect(() => {
-    window
-      .matchMedia("(min-width: 768px)")
-      .addEventListener("change", (e) => setMatches(e.matches));
-  }, []);
+  const matches = useMediaQuery(768);
 
   return (
     <>

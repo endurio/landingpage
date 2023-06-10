@@ -7,17 +7,10 @@ import {
   OurMissionIcon,
 } from "@/app/icons/about-us";
 import config from "../../../config/index.json";
+import useMediaQuery from "../../hooks/useMedia";
 const Card = () => {
   const { vision, mission } = config;
-  const [matches, setMatches] = useState(
-    window.matchMedia("(min-width: 768px)").matches
-  );
-
-  useEffect(() => {
-    window
-      .matchMedia("(min-width: 768px)")
-      .addEventListener("change", (e) => setMatches(e.matches));
-  });
+  const matches = useMediaQuery(768);
 
   return (
     <>

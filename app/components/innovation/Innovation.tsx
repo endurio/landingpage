@@ -4,19 +4,11 @@ import InnovationCard from "./components/InnovationCard";
 import config from "../../config/index.json";
 import { Carousel } from "@trendyol-js/react-carousel";
 import { EllipseSlider } from "@/app/icons";
+import useMediaQuery from "../hooks/useMedia";
 
 const Innovation = () => {
   const { innovation } = config;
-  const [matches, setMatches] = useState(
-    window.matchMedia("(min-width: 768px)").matches
-  );
-
-  useEffect(() => {
-    window
-      .matchMedia("(min-width: 768px)")
-      .addEventListener("change", (e) => setMatches(e.matches));
-  }, []);
-
+  const matches = useMediaQuery(768);
   return (
     <>
       <div

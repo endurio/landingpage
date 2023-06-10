@@ -1,17 +1,10 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { FunctionPilotMobile, FunctionPilotTemplate } from "../icons";
+import useMediaQuery from "./hooks/useMedia";
 
 const FunctionPilot = () => {
-  const [matches, setMatches] = useState(
-    window.matchMedia("(min-width: 768px)").matches
-  );
-
-  useEffect(() => {
-    window
-      .matchMedia("(min-width: 768px)")
-      .addEventListener("change", (e) => setMatches(e.matches));
-  }, []);
+  const matches = useMediaQuery(768);
 
   return (
     <>

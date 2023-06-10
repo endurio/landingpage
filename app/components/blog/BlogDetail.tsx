@@ -8,18 +8,11 @@ import blogDetail3 from "../../icons/blog/blog-detail-3.png";
 import Image from "next/image";
 import config from "../../config/index.json";
 import BlogCard from "./components/BlogCard";
+import useMediaQuery from "../hooks/useMedia";
 
 const BlogDetail = (props) => {
   const { blog } = config;
-  const [matches, setMatches] = useState(
-    window.matchMedia("(min-width: 768px)").matches
-  );
-
-  useEffect(() => {
-    window
-      .matchMedia("(min-width: 768px)")
-      .addEventListener("change", (e) => setMatches(e.matches));
-  }, []);
+  const matches = useMediaQuery(768);
   return (
     <div className="flex flex-col gap-[40px] md:w-full">
       <Breadcrumb setUrl={props.setUrl} />
