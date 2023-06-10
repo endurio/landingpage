@@ -25,9 +25,9 @@ const UniverBackground = () => {
         })
       );
     }
-    return () => {
-      if (vantaEffect) vantaEffect.destroy();
-    };
+    // return () => {
+    //   if (vantaEffect) vantaEffect.destroy();
+    // };
   }, [vantaEffect]);
   return (
     <>
