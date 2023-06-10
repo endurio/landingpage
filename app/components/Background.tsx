@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import BIRDS from "vanta/dist/vanta.birds.min";
 import * as THREE from "three";
 // import { GalaxyBackground, EclipBackground, GradientBackgound } from "../icons";
-import MyComponent from "../about/page";
 
 const UniverBackground = () => {
   const [vantaEffect, setVantaEffect] = useState(0);
