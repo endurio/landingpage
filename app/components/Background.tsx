@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
-import BIRDS from "vanta/dist/vanta.birds.min";
+// import BIRDS from "vanta/dist/vanta.birds.min";
+import CELLS from "vanta/dist/vanta.cells.min";
 import * as THREE from "three";
 // import { GalaxyBackground, EclipBackground, GradientBackgound } from "../icons";
 
@@ -10,7 +11,7 @@ const UniverBackground = () => {
   useEffect(() => {
     if (!vantaEffect) {
       setVantaEffect(
-        BIRDS({
+        CELLS({
           el: vantaRef.current,
           THREE: THREE,
           mouseControls: true,
