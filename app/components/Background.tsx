@@ -1,8 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
-// import BIRDS from "vanta/dist/vanta.birds.min";
 import CELLS from "vanta/dist/vanta.cells.min";
 import * as THREE from "three";
-// import { GalaxyBackground, EclipBackground, GradientBackgound } from "../icons";
 
 const UniverBackground = () => {
   const [vantaEffect, setVantaEffect] = useState(0);
@@ -36,14 +34,7 @@ const UniverBackground = () => {
         ref={vantaRef}
         className="fixed flex justify-center items-center w-full h-full -z-10"
       >
-        {/* <EclipBackground /> */}
       </div>
-      {/* <div className="fixed flex justify-center items-center w-full max-h-[800px] galaxy-bg -z-10">
-        <GalaxyBackground />
-      </div>
-      <div className="fixed flex justify-center w-full max-h-[905px] mix-blend-color-dodge blur-[128px] -z-10">
-        <GradientBackgound />
-      </div> */}
     </>
   );
 };
