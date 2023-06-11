@@ -39,8 +39,7 @@ const HomeContent = (props) => {
                     </div>
                   </div>
                   <span className="text-normal text-lg md:text-xl text-center self-stretch leading-[30px]">
-                    Leverage trading and liquidity for any token. By anyone. For
-                    all sides.
+                    Perpetuals trading and liquidity for any token, with any leverage. By anyone.
                   </span>
                 </div>
                 <div className="flex flex-row items-start gap-16 max-w-[384px]">
@@ -55,8 +54,7 @@ const HomeContent = (props) => {
                 <div id="home" className="flex flex-col items-center gap-6">
                   <HomeContentHeaderMobile />
                   <span className="text-normal text-xl text-center self-stretch leading-[30px]">
-                    Leverage trading and liquidity for any token. By anyone. For
-                    all sides.
+                    Perpetuals trading and liquidity for any token, with any leverage. By anyone.
                   </span>
                 </div>
                 <div className="flex flex-row items-start gap-16 max-w-[384px]">
