@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import CELLS from "vanta/dist/vanta.cells.min";
 import * as THREE from "three";
-
+import { ScrollSVG } from "../icons";
 const UniverBackground = () => {
   const [vantaEffect, setVantaEffect] = useState(0);
   const vantaRef = useRef(null);
@@ -34,6 +34,9 @@ const UniverBackground = () => {
         ref={vantaRef}
         className="fixed flex justify-center items-center w-full h-full -z-10"
       >
+        <div className="absolute bottom-[30px] items-center gap-4 max-w-[46px]">
+          <ScrollSVG />
+        </div>
       </div>
     </>
   );

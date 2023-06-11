@@ -8,6 +8,7 @@ import {
   TwitterMini,
   DiscordMini,
 } from "../icons/socials";
+import Link from "next/link";
 
 const Footer = () => {
   const icons = [
@@ -26,9 +27,9 @@ const Footer = () => {
         </div>
         <div className="flex flex-row items-start gap-6 max-w-[264px]">
           {icons.map((item, idx) => (
-            <div key={idx} className="max-w-6 max-h-6">
-              {item}
-            </div>
+            <Link key={idx} href={"https://app.derivable.org"} target="_blank">
+              <div className="max-w-6 max-h-6">{item}</div>
+            </Link>
           ))}
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center gap-2 text-normal text-xs">

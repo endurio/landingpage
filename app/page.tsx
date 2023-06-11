@@ -8,7 +8,7 @@ const App = () => {
   const [url, setUrl] = useState("");
 
   return (
-    <div className="relative flex w-full">
+    <div className="relative flex w-full h-full">
       <UniverBackground />
       <Header url={url} setUrl={setUrl} />
       <HomeContent url={url} setUrl={setUrl} />

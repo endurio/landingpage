@@ -2,24 +2,29 @@
   "navigation": [
     {
       "name": "HOME",
-      "href": "#home"
+      "href": "#home",
+      "target": "_self"
     },
     {
       "name": "ABOUT US",
-      "href": "#about"
+      "href": "#about",
+      "target": "_self"
     },
 
     {
       "name": "FORUM",
-      "href": "forum"
+      "href": "forum",
+      "target": "_self"
     },
     {
       "name": "DOCS",
-      "href": "https://docs.derivable.org"
+      "href": "https://docs.derivable.org",
+      "target": "_blank"
     },
     {
       "name": "BLOG",
-      "href": "blog"
+      "href": "blog",
+      "target": "_self"
     }
   ],
   "innovation": [

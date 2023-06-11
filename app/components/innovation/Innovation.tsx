@@ -26,7 +26,7 @@ const Innovation = () => {
         </div>
         {matches ? (
           <div className="flex flex-col items-center gap-8">
-            <div className="flex flex-row justify-center max-w-[1200px] flex-wrap items-start gap-8">
+            <div className="flex flex-row justify-center max-w-[900px] flex-wrap items-start gap-8">
               {innovation.map((item, idx) => (
                 <InnovationCard key={idx} item={item} />
               ))}
