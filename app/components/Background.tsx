@@ -14,7 +14,7 @@ const UniverBackground = () => {
           THREE: THREE,
           mouseControls: true,
           touchControls: true,
-          gyroControls: false,
+          gyroControls: true,
           minHeight: 600.0,
           minWidth: 600.0,
           scale: 3.0,
