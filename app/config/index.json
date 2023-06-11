@@ -11,15 +11,15 @@
 
     {
       "name": "FORUM",
-      "href": "#forum"
+      "href": "forum"
     },
     {
       "name": "DOCS",
-      "href": "#docs"
+      "href": "https://docs.derivable.org"
     },
     {
       "name": "BLOG",
-      "href": "#blog"
+      "href": "blog"
     }
   ],
   "innovation": [
