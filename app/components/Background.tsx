@@ -19,10 +19,10 @@ const UniverBackground = () => {
           gyroControls: false,
           minHeight: 600.0,
           minWidth: 600.0,
-          scale: 1.0,
+          scale: 3.0,
           scaleMobile: 1.0,
-          color1: "#ff0000",
-          color2: "#00ff00",
+          color1: "#37103D",
+          color2: "#0c1857",
         })
       );
     }
