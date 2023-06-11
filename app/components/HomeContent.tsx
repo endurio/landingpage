@@ -35,7 +35,7 @@ const HomeContent = (props) => {
                     </div>
                     <HomeContentHeader />
                     <div className="text-heading text-[40px] text-right w-full">
-                      Ever
+                      Ever.
                     </div>
                   </div>
                   <span className="text-normal text-lg md:text-xl text-center self-stretch leading-[30px]">
