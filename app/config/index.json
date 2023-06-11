@@ -24,39 +24,29 @@
   ],
   "innovation": [
     {
-      "title": "Effcient",
-      "content": "Opening and closing position costs as much as an AMM token swap.",
-      "icon": "Effcient"
-    },
-    {
-      "title": "Transparency",
-      "content": "No backend service. No permissoned roles. Everyone have the same right.",
-      "icon": "Transparency"
-    },
-    {
-      "title": "High Resistance",
-      "content": "Price feed are protected against manipulations and flashloan.",
-      "icon": "HighResistance"
-    },
-    {
-      "title": "Zero Trading Fee",
-      "content": "Open and Close position cost nothing as Fee and Interest are charged over time.",
-      "icon": "ZeroTradingFee"
-    },
-    {
-      "title": "Real Yield",
-      "content": "Real service brings real profit. Pool reserve, fee and interest are paid from trader to LP and protocol using time-proven token reserve (ETH, BTC, etc.)",
-      "icon": "RealYield"
-    },
-    {
       "title": "No Liquidation",
-      "content": "Derivative positions (long/short) are power perpetual fungible token, which has compound leverage that never be liquidated. (ETH^x or ETH^-x value can never go negative).",
+      "content": "With compounding leverage, positions never need to be liquidated and always retain maximum capital efficiency. They can be hodl'ed with no risk of liquidation or hassle of re-compounding.",
       "icon": "NoLiquidation"
     },
     {
       "title": "Infinite Liquidity",
-      "content": "Counter-party risks miltigated: LP is less exposed to the market volatility. Liquidity can never be exhausted.",
+      "content": "Liquidity never runs out with any token price. Providers are protected from market volatility and compensated with interest, fees, and premiums.",
       "icon": "InfiniteLiquidity"
+    },
+    {
+      "title": "Fully On-Chain",
+      "content": "Efficiently run on Ethereum mainnet with non-custodial smart-contracts, no backend service nor off-chain data. Opening and closing position costs as much as a token swap.",
+      "icon": "Effcient"
+    },
+    {
+      "title": "Resistance",
+      "content": "Pools are protected against manipulations and extractions with the double prices system, maturity, and premiums.",
+      "icon": "HighResistance"
+    },
+    {
+      "title": "Open & Inclusive",
+      "content": "Markets for any token can be created with preferred leverage, interest rate, premium, and fee. Anyone can take sides, either as liquidity providers or long-short traders.",
+      "icon": "RealYield"
     }
   ],
   "about": {
