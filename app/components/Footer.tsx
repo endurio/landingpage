@@ -11,13 +11,31 @@ import {
 import Link from "next/link";
 
 const Footer = () => {
-  const icons = [
-    <TwitterMini key={0} />,
-    <DiscordMini key={1} />,
-    <Reddit key={2} />,
-    <Medium key={3} />,
-    <Linkedin key={4} />,
-    <Youtube key={5} />,
+  const iconsArr = [
+    {
+      icon: <TwitterMini />,
+      link: "a",
+    },
+    {
+      icon: <DiscordMini />,
+      link: "b",
+    },
+    {
+      icon: <Reddit />,
+      link: "c",
+    },
+    {
+      icon: <Medium />,
+      link: "d",
+    },
+    {
+      icon: <Linkedin />,
+      link: "e",
+    },
+    {
+      icon: <Youtube />,
+      link: "f",
+    },
   ];
   return (
     <>
@@ -26,9 +44,9 @@ const Footer = () => {
           <DerivableLogoMini />
         </div>
         <div className="flex flex-row items-start gap-6 max-w-[264px]">
-          {icons.map((item, idx) => (
-            <Link key={idx} href={"https://app.derivable.org"} target="_blank">
-              <div className="max-w-6 max-h-6">{item}</div>
+          {iconsArr.map((item, idx) => (
+            <Link key={idx} href={item.link} target="_blank">
+              <div className="max-w-6 max-h-6">{item.icon}</div>
             </Link>
           ))}
         </div>

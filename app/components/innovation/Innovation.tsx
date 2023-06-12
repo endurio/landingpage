@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import InnovationCard from "./components/InnovationCard";
 import config from "../../config/index.json";
 import { Carousel } from "@trendyol-js/react-carousel";
-import { EllipseSlider } from "@/app/icons";
+import { ArrowRightIcon, EllipseSlider } from "@/app/icons";
 import useMediaQuery from "../hooks/useMedia";
 
 const Innovation = () => {
@@ -33,9 +33,17 @@ const Innovation = () => {
             </div>
           </div>
         ) : (
-          <div className="flex flex-col items-center gap-8">
+          <div className="relative flex flex-col items-center gap-8">
             <div className="flex flex-row justify-center max-w-[343px] items-start gap-8">
-              <Carousel show={1.2} slide={3} swiping={true}>
+              <Carousel
+                show={1.2}
+                slide={1}
+                swiping={true}
+                useArrowKeys
+                rightArrow={
+                  <div className="absolute w-[55.2px] h-full opacity-0 bg-transparent right-0"></div>
+                }
+              >
                 {innovation.map((item, idx) => (
                   <InnovationCard key={idx} item={item} />
                 ))}
