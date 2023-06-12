@@ -19,7 +19,7 @@ const UniverBackground = () => {
           minWidth: 600.0,
           scale: 3.0,
           scaleMobile: 3.0,
-          color1: "#37103D",
+          color1: "#2c0c30",
           color2: "#0c1857",
         })
       );
