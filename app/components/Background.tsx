@@ -1,12 +1,25 @@
-import React, { useState, useEffect, useRef } from "react";
-// import BIRDS from "vanta/dist/vanta.birds.min";
+import React, { useState, useEffect, useRef, useCallback } from "react";
 import CELLS from "vanta/dist/vanta.cells.min";
 import * as THREE from "three";
-// import { GalaxyBackground, EclipBackground, GradientBackgound } from "../icons";
-
 const UniverBackground = () => {
   const [vantaEffect, setVantaEffect] = useState(0);
+  const [scrollY, setScrollY] = useState(0);
+
   const vantaRef = useRef(null);
+
+  const onScroll = useCallback((event) => {
+    const { pageYOffset, scrollY } = window;
+    setScrollY(scrollY);
+  }, []);
+
+  useEffect(() => {
+    //add eventlistener to window
+    window.addEventListener("scroll", onScroll, { passive: true });
+    // remove event on unmount to prevent a memory leak with the cleanup
+    // return () => {
+    //   window.removeEventListener("scroll", onScroll, { passive: true });
+    // };
+  }, []);
 
   useEffect(() => {
     if (!vantaEffect) {
@@ -16,13 +29,14 @@ const UniverBackground = () => {
           THREE: THREE,
           mouseControls: true,
           touchControls: true,
-          gyroControls: false,
+          gyroControls: true,
           minHeight: 600.0,
           minWidth: 600.0,
           scale: 1.0,
-          scaleMobile: 1.0,
-          color1: "#ff0000",
-          color2: "#00ff00",
+          zoom: 1,
+          scaleMobile: 3.0,
+          color1: "#2c0c30",
+          color2: "#0c1857",
         })
       );
     }
@@ -35,15 +49,7 @@ const UniverBackground = () => {
       <div
         ref={vantaRef}
         className="fixed flex justify-center items-center w-full h-full -z-10"
-      >
-        {/* <EclipBackground /> */}
-      </div>
-      {/* <div className="fixed flex justify-center items-center w-full max-h-[800px] galaxy-bg -z-10">
-        <GalaxyBackground />
-      </div>
-      <div className="fixed flex justify-center w-full max-h-[905px] mix-blend-color-dodge blur-[128px] -z-10">
-        <GradientBackgound />
-      </div> */}
+      ></div>
     </>
   );
 };

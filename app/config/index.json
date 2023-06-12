@@ -2,61 +2,56 @@
   "navigation": [
     {
       "name": "HOME",
-      "href": "#home"
+      "href": "#home",
+      "target": "_self"
     },
     {
       "name": "ABOUT US",
-      "href": "#about"
+      "href": "#about",
+      "target": "_self"
     },
 
     {
       "name": "FORUM",
-      "href": "#forum"
+      "href": "forum",
+      "target": "_blank"
     },
     {
       "name": "DOCS",
-      "href": "#docs"
+      "href": "https://docs.derivable.org",
+      "target": "_blank"
     },
     {
       "name": "BLOG",
-      "href": "#blog"
+      "href": "blog",
+      "target": "_self"
     }
   ],
   "innovation": [
     {
-      "title": "Effcient",
-      "content": "Opening and closing position costs as much as an AMM token swap.",
-      "icon": "Effcient"
-    },
-    {
-      "title": "Transparency",
-      "content": "No backend service. No permissoned roles. Everyone have the same right.",
-      "icon": "Transparency"
-    },
-    {
-      "title": "High Resistance",
-      "content": "Price feed are protected against manipulations and flashloan.",
-      "icon": "HighResistance"
-    },
-    {
-      "title": "Zero Trading Fee",
-      "content": "Open and Close position cost nothing as Fee and Interest are charged over time.",
-      "icon": "ZeroTradingFee"
-    },
-    {
-      "title": "Real Yield",
-      "content": "Real service brings real profit. Pool reserve, fee and interest are paid from trader to LP and protocol using time-proven token reserve (ETH, BTC, etc.)",
-      "icon": "RealYield"
-    },
-    {
       "title": "No Liquidation",
-      "content": "Derivative positions (long/short) are power perpetual fungible token, which has compound leverage that never be liquidated. (ETH^x or ETH^-x value can never go negative).",
+      "content": "With continuous compounding leverage, positions can be HODL'ed with no risk of liquidation or any hassle of re-compounding to retain maximum capital efficiency.",
       "icon": "NoLiquidation"
     },
     {
       "title": "Infinite Liquidity",
-      "content": "Counter-party risks miltigated: LP is less exposed to the market volatility. Liquidity can never be exhausted.",
+      "content": "Liquidity is always available, regardless of the index price. Providers are protected from market volatility and incentivized with interest, fees, and premiums.",
       "icon": "InfiniteLiquidity"
+    },
+    {
+      "title": "Fully On-Chain",
+      "content": "Efficiently run on Ethereum mainnet with non-custodial smart-contracts, no backend service nor off-chain data. Opening and closing position costs no more than a token swap.",
+      "icon": "Effcient"
+    },
+    {
+      "title": "Hight Resistance",
+      "content": "Perpetual pools are protected against manipulations and extractions with the double prices system, maturity, and premiums.",
+      "icon": "HighResistance"
+    },
+    {
+      "title": "Open & Inclusive",
+      "content": "Markets can be constructed for any token and leverage. Anyone can take sides, either as liquidity providers or long-short traders.",
+      "icon": "RealYield"
     }
   ],
   "about": {

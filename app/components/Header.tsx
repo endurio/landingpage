@@ -5,6 +5,7 @@ import config from "../config/index.json";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { Link } from "react-scroll";
+import NextLink from "next/link";
 
 const Menu = (props) => {
   const { navigation } = config;
@@ -23,7 +24,10 @@ const Menu = (props) => {
                 <a
                   key={index}
                   href={item.href}
-                  onClick={() => props.setUrl(item.href)}
+                  target={item.target}
+                  onClick={() =>
+                    item.href !== "DOCS" && props.setUrl(item.href)
+                  }
                   className="h-full"
                 >
                   <div
@@ -37,13 +41,15 @@ const Menu = (props) => {
               ))}
             </div>
             <div className="hidden md:flex h-full justify-center items-center">
-              <div className="box-border flex flex-row justify-center items-center py-[14px] px-5 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
-                <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
-                  <div className="h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	flex flex-row justify-center items-center">
-                    launch app
+              <NextLink href={"https://app.derivable.org"} target="_blank">
+                <div className="box-border flex flex-row justify-center items-center py-[14px] px-5 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
+                  <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
+                    <div className="h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	flex flex-row justify-center items-center">
+                      Launch app
+                    </div>
                   </div>
                 </div>
-              </div>
+              </NextLink>
             </div>
             <div className="flex items-center md:hidden">
               <Popover.Button
@@ -99,13 +105,18 @@ const Menu = (props) => {
                     ))}
                   </div>
                   <div className="flex h-full justify-start">
-                    <div className="box-border flex flex-row justify-center items-center px-3 py-2 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
-                      <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
-                        <div className=" h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	flex flex-row justify-center items-center">
-                          launch app
+                    <NextLink
+                      href={"https://app.derivable.org"}
+                      target="_blank"
+                    >
+                      <div className="box-border flex flex-row justify-center items-center px-3 py-2 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
+                        <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
+                          <div className=" h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	flex flex-row justify-center items-center">
+                            Launch app
+                          </div>
                         </div>
                       </div>
-                    </div>
+                    </NextLink>
                   </div>
                 </div>
               </Popover.Panel>

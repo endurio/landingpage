@@ -14,7 +14,7 @@ const AboutUsBanner = () => {
       <path
         d="M203 80C225.826 77.8628 253.543 77.3305 278 78.9312"
         stroke="url(#paint0_angular_656_9823)"
-        stroke-width="6"
+        strokeWidth="6"
       />
       <defs>
         <radialGradient
@@ -25,10 +25,10 @@ const AboutUsBanner = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(240.5 79) rotate(90) scale(1 37.5)"
         >
-          <stop offset="0.046875" stop-color="#FFC876" />
-          <stop offset="0.395833" stop-color="#79FFF7" />
-          <stop offset="0.718753" stop-color="#0182FA" />
-          <stop offset="1" stop-color="#FF98E2" />
+          <stop offset="0.046875" stopColor="#FFC876" />
+          <stop offset="0.395833" stopColor="#79FFF7" />
+          <stop offset="0.718753" stopColor="#0182FA" />
+          <stop offset="1" stopColor="#FF98E2" />
         </radialGradient>
       </defs>
     </svg>
@@ -51,7 +51,7 @@ const AboutUsBannerMobile = () => {
       <path
         d="M131.5 56C139.981 54.4908 161.654 52.3778 180.5 56"
         stroke="url(#paint0_angular_656_10214)"
-        stroke-width="6"
+        strokeWidth="6"
       />
       <defs>
         <radialGradient
@@ -62,10 +62,10 @@ const AboutUsBannerMobile = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(156 55) rotate(90) scale(1 24.5)"
         >
-          <stop offset="0.0993526" stop-color="#FFC876" />
-          <stop offset="0.526122" stop-color="#ACFF8E" />
-          <stop offset="0.739587" stop-color="#9453FF" />
-          <stop offset="0.913343" stop-color="#FF89C2" />
+          <stop offset="0.0993526" stopColor="#FFC876" />
+          <stop offset="0.526122" stopColor="#ACFF8E" />
+          <stop offset="0.739587" stopColor="#9453FF" />
+          <stop offset="0.913343" stopColor="#FF89C2" />
         </radialGradient>
       </defs>
     </svg>
@@ -85,17 +85,17 @@ const CardBorderMobile = () => {
         <path
           d="M0 24C0 10.7452 10.7452 0 24 0H212.824C219.328 0 225.553 2.63964 230.075 7.3146L282 61L335.685 112.925C340.36 117.447 343 123.672 343 130.176V427C343 440.255 332.255 451 319 451H24C10.7452 451 0 440.255 0 427V24Z"
           fill="black"
-          fill-opacity="0.1"
+          fillOpacity="0.1"
         />
         <path
           d="M281.641 61.3476L281.646 61.3536L281.652 61.3594L335.338 113.285C339.915 117.712 342.5 123.808 342.5 130.176V427C342.5 439.979 331.979 450.5 319 450.5H24C11.0213 450.5 0.5 439.979 0.5 427V24C0.5 11.0213 11.0213 0.5 24 0.5H212.824C219.192 0.5 225.288 3.08465 229.715 7.66221L281.641 61.3476Z"
           stroke="white"
-          stroke-opacity="0.15"
+          strokeOpacity="0.15"
         />
         <path
           d="M281.641 61.3476L281.646 61.3536L281.652 61.3594L335.338 113.285C339.915 117.712 342.5 123.808 342.5 130.176V427C342.5 439.979 331.979 450.5 319 450.5H24C11.0213 450.5 0.5 439.979 0.5 427V24C0.5 11.0213 11.0213 0.5 24 0.5H212.824C219.192 0.5 225.288 3.08465 229.715 7.66221L281.641 61.3476Z"
           stroke="url(#paint0_linear_656_10221)"
-          stroke-opacity="0.85"
+          strokeOpacity="0.85"
         />
       </g>
       <defs>
@@ -106,9 +106,9 @@ const CardBorderMobile = () => {
           width="471"
           height="579"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="32" />
           <feComposite
             in2="SourceAlpha"
@@ -130,8 +130,8 @@ const CardBorderMobile = () => {
           y2="451"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#33CEFF" />
-          <stop offset="0.562842" stop-color="#D633FF" stop-opacity="0" />
+          <stop stopColor="#33CEFF" />
+          <stop offset="0.562842" stopColor="#D633FF" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>
@@ -151,17 +151,17 @@ const CardBorder = () => {
         <path
           d="M0 24C0 10.7452 10.7452 0 24 0H411.015C417.406 0 423.533 2.54926 428.038 7.08272L500.5 80L572.917 151.961C577.451 156.467 580 162.594 580 168.986V544C580 557.255 569.255 568 556 568H24C10.7452 568 0 557.255 0 544V24Z"
           fill="black"
-          fill-opacity="0.1"
+          fillOpacity="0.1"
         />
         <path
           d="M500.145 80.3524L500.148 80.3547L572.565 152.316C577.004 156.727 579.5 162.727 579.5 168.986V544C579.5 556.979 568.979 567.5 556 567.5H24C11.0213 567.5 0.5 556.979 0.5 544V24C0.5 11.0213 11.0213 0.5 24 0.5H411.015C417.273 0.5 423.273 2.99616 427.684 7.43516L500.145 80.3524Z"
           stroke="white"
-          stroke-opacity="0.15"
+          strokeOpacity="0.15"
         />
         <path
           d="M500.145 80.3524L500.148 80.3547L572.565 152.316C577.004 156.727 579.5 162.727 579.5 168.986V544C579.5 556.979 568.979 567.5 556 567.5H24C11.0213 567.5 0.5 556.979 0.5 544V24C0.5 11.0213 11.0213 0.5 24 0.5H411.015C417.273 0.5 423.273 2.99616 427.684 7.43516L500.145 80.3524Z"
           stroke="url(#paint0_linear_656_9830)"
-          stroke-opacity="0.85"
+          strokeOpacity="0.85"
         />
       </g>
       <defs>
@@ -172,9 +172,9 @@ const CardBorder = () => {
           width="708"
           height="696"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="32" />
           <feComposite
             in2="SourceAlpha"
@@ -196,8 +196,8 @@ const CardBorder = () => {
           y2="568"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#33CEFF" />
-          <stop offset="0.562842" stop-color="#D633FF" stop-opacity="0" />
+          <stop stopColor="#33CEFF" />
+          <stop offset="0.562842" stopColor="#D633FF" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>
@@ -230,10 +230,10 @@ const OurVisionIcon = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(28 28) rotate(90) scale(28)"
         >
-          <stop offset="0.046875" stop-color="#FFC876" />
-          <stop offset="0.395833" stop-color="#79FFF7" />
-          <stop offset="0.718753" stop-color="#0182FA" />
-          <stop offset="1" stop-color="#FF98E2" />
+          <stop offset="0.046875" stopColor="#FFC876" />
+          <stop offset="0.395833" stopColor="#79FFF7" />
+          <stop offset="0.718753" stopColor="#0182FA" />
+          <stop offset="1" stopColor="#FF98E2" />
         </radialGradient>
         <radialGradient
           id="paint1_angular_656_10227"
@@ -243,10 +243,10 @@ const OurVisionIcon = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(27.9994 28.0001) rotate(90) scale(9.33333)"
         >
-          <stop offset="0.046875" stop-color="#FFC876" />
-          <stop offset="0.395833" stop-color="#79FFF7" />
-          <stop offset="0.718753" stop-color="#0182FA" />
-          <stop offset="1" stop-color="#FF98E2" />
+          <stop offset="0.046875" stopColor="#FFC876" />
+          <stop offset="0.395833" stopColor="#79FFF7" />
+          <stop offset="0.718753" stopColor="#0182FA" />
+          <stop offset="1" stopColor="#FF98E2" />
         </radialGradient>
       </defs>
     </svg>
@@ -262,7 +262,7 @@ const OurMissionIcon = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_656_10237)">
+      <g clipPath="url(#clip0_656_10237)">
         <path
           d="M24.0108 29.6567C24.2277 29.8754 24.4858 30.049 24.7701 30.1674C25.0544 30.2859 25.3594 30.3469 25.6674 30.3469C25.9755 30.3469 26.2804 30.2859 26.5648 30.1674C26.8491 30.049 27.1072 29.8754 27.3241 29.6567L38.9908 17.99L39.1541 17.78C39.201 17.6867 39.2753 17.6098 39.367 17.5598C39.4587 17.5098 39.5635 17.4889 39.6674 17.5H43.5874C44.3542 17.5027 45.1139 17.3535 45.8227 17.0612C46.5315 16.7688 47.1755 16.3391 47.7174 15.7967L53.3408 10.15C53.5226 10.0024 53.6525 9.80047 53.7113 9.57373C53.77 9.347 53.7547 9.1074 53.6674 8.89003C53.5826 8.67513 53.4346 8.49098 53.243 8.36186C53.0514 8.23273 52.8251 8.16469 52.5941 8.16669H46.0841C45.9294 8.16669 45.781 8.10524 45.6716 7.99584C45.5622 7.88644 45.5008 7.73807 45.5008 7.58336V1.16669C45.519 0.920738 45.4588 0.675332 45.3288 0.46572C45.1989 0.256108 45.0058 0.0930727 44.7774 2.73213e-05C44.5665 -0.0917836 44.3324 -0.116401 44.1069 -0.0704787C43.8815 -0.0245561 43.6757 0.0896785 43.5174 0.256694L37.8708 5.97336C37.478 6.3727 37.1476 6.82893 36.8908 7.32669C33.3131 5.43308 29.3077 4.49386 25.2612 4.59974C21.2147 4.70563 17.2639 5.85302 13.7902 7.93115C10.3165 10.0093 7.43726 12.9479 5.43052 16.4634C3.42378 19.9788 2.35732 23.9522 2.33411 28C2.32253 34.1015 4.70133 39.9647 8.96077 44.3334C9.05429 44.4398 9.10587 44.5767 9.10587 44.7184C9.10587 44.8601 9.05429 44.9969 8.96077 45.1034L2.89411 52.15C2.49186 52.6203 2.29292 53.2312 2.34106 53.8482C2.38919 54.4652 2.68046 55.0378 3.15077 55.44C3.62109 55.8423 4.23194 56.0412 4.84893 55.9931C5.46592 55.9449 6.03853 55.6537 6.44077 55.1834L12.6474 47.95C12.7349 47.8409 12.86 47.7683 12.9981 47.7468C13.1363 47.7252 13.2776 47.7561 13.3941 47.8334C17.0816 50.114 21.3317 51.3221 25.6674 51.3221C30.0032 51.3221 34.2533 50.114 37.9408 47.8334C38.0573 47.7561 38.1986 47.7252 38.3368 47.7468C38.4749 47.7683 38.6 47.8409 38.6874 47.95L44.8941 55.1834C45.2963 55.6537 45.8689 55.9449 46.4859 55.9931C47.1029 56.0412 47.7138 55.8423 48.1841 55.44C48.6544 55.0378 48.9457 54.4652 48.9938 53.8482C49.042 53.2312 48.843 52.6203 48.4408 52.15L42.3508 45.0334C42.2572 44.9269 42.2057 44.7901 42.2057 44.6484C42.2057 44.5067 42.2572 44.3698 42.3508 44.2634C46.6145 39.9242 49.0028 34.0835 49.0008 28C49.0008 27.3812 48.7549 26.7877 48.3174 26.3501C47.8798 25.9125 47.2863 25.6667 46.6674 25.6667C46.0486 25.6667 45.4551 25.9125 45.0175 26.3501C44.5799 26.7877 44.3341 27.3812 44.3341 28C44.3341 32.9507 42.3674 37.6987 38.8668 41.1994C35.3661 44.7 30.6181 46.6667 25.6674 46.6667C20.7167 46.6667 15.9688 44.7 12.4681 41.1994C8.96743 37.6987 7.00077 32.9507 7.00077 28C7.00077 14.3267 21.7474 4.10669 36.1674 12.2967V14C36.1737 14.1001 36.1506 14.1999 36.1008 14.287C36.0511 14.374 35.9769 14.4446 35.8874 14.49L35.6774 14.6534L33.9274 16.4267C22.9841 9.91669 11.6674 17.64 11.6674 28C11.6674 31.7131 13.1424 35.274 15.7679 37.8995C18.3935 40.525 21.9544 42 25.6674 42C29.3805 42 32.9414 40.525 35.5669 37.8995C38.1924 35.274 39.6674 31.7131 39.6674 28C39.6674 27.3812 39.4216 26.7877 38.984 26.3501C38.5464 25.9125 37.9529 25.6667 37.3341 25.6667C36.7153 25.6667 36.1218 25.9125 35.6842 26.3501C35.2466 26.7877 35.0008 27.3812 35.0008 28C34.9796 30.0573 34.2793 32.05 33.0087 33.6682C31.7381 35.2863 29.9684 36.4393 27.9748 36.9478C25.9812 37.4564 23.8755 37.2919 21.985 36.4801C20.0946 35.6682 18.5253 34.2545 17.5213 32.4587C16.5173 30.6629 16.1349 28.5856 16.4333 26.55C16.7318 24.5144 17.6946 22.6344 19.1719 21.2024C20.6492 19.7704 22.5582 18.8667 24.6022 18.6318C26.6461 18.3969 28.7104 18.8439 30.4741 19.9034L24.0108 26.3434C23.7921 26.5603 23.6185 26.8183 23.5 27.1027C23.3816 27.387 23.3206 27.692 23.3206 28C23.3206 28.3081 23.3816 28.613 23.5 28.8974C23.6185 29.1817 23.7921 29.4398 24.0108 29.6567Z"
           fill="url(#paint0_angular_656_10237)"
@@ -277,10 +277,10 @@ const OurMissionIcon = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(28.0402 27.9536) rotate(90) scale(28.0466 25.7062)"
         >
-          <stop offset="0.046875" stop-color="#FFC876" />
-          <stop offset="0.395833" stop-color="#79FFF7" />
-          <stop offset="0.718753" stop-color="#0182FA" />
-          <stop offset="1" stop-color="#FF98E2" />
+          <stop offset="0.046875" stopColor="#FFC876" />
+          <stop offset="0.395833" stopColor="#79FFF7" />
+          <stop offset="0.718753" stopColor="#0182FA" />
+          <stop offset="1" stopColor="#FF98E2" />
         </radialGradient>
         <clipPath id="clip0_656_10237">
           <rect width="56" height="56" fill="white" />
@@ -1607,11 +1607,11 @@ const DiscoverBannerMobile = () => {
           y2="103.999"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1645" stop-color="#5E67DA" />
-          <stop offset="0.4051" stop-color="#727AE2" />
-          <stop offset="0.6924" stop-color="#9297EE" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1645" stopColor="#5E67DA" />
+          <stop offset="0.4051" stopColor="#727AE2" />
+          <stop offset="0.6924" stopColor="#9297EE" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_656_10249"
@@ -1621,11 +1621,11 @@ const DiscoverBannerMobile = () => {
           y2="100.258"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1645" stop-color="#5E67DA" />
-          <stop offset="0.4051" stop-color="#727AE2" />
-          <stop offset="0.6924" stop-color="#9297EE" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1645" stopColor="#5E67DA" />
+          <stop offset="0.4051" stopColor="#727AE2" />
+          <stop offset="0.6924" stopColor="#9297EE" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_656_10249"
@@ -1635,11 +1635,11 @@ const DiscoverBannerMobile = () => {
           y2="96.45"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1645" stop-color="#5E67DA" />
-          <stop offset="0.4051" stop-color="#727AE2" />
-          <stop offset="0.6924" stop-color="#9297EE" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1645" stopColor="#5E67DA" />
+          <stop offset="0.4051" stopColor="#727AE2" />
+          <stop offset="0.6924" stopColor="#9297EE" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_656_10249"
@@ -1649,13 +1649,13 @@ const DiscoverBannerMobile = () => {
           y2="102.64"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1507" stop-color="#43E3E0" />
-          <stop offset="0.3285" stop-color="#45D5DF" />
-          <stop offset="0.5199" stop-color="#49BDDD" />
-          <stop offset="0.7209" stop-color="#4E9CDB" />
-          <stop offset="0.9274" stop-color="#5472D8" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1507" stopColor="#43E3E0" />
+          <stop offset="0.3285" stopColor="#45D5DF" />
+          <stop offset="0.5199" stopColor="#49BDDD" />
+          <stop offset="0.7209" stopColor="#4E9CDB" />
+          <stop offset="0.9274" stopColor="#5472D8" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_656_10249"
@@ -1665,13 +1665,13 @@ const DiscoverBannerMobile = () => {
           y2="98.898"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1507" stop-color="#43E3E0" />
-          <stop offset="0.3285" stop-color="#45D5DF" />
-          <stop offset="0.5199" stop-color="#49BDDD" />
-          <stop offset="0.7209" stop-color="#4E9CDB" />
-          <stop offset="0.9274" stop-color="#5472D8" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1507" stopColor="#43E3E0" />
+          <stop offset="0.3285" stopColor="#45D5DF" />
+          <stop offset="0.5199" stopColor="#49BDDD" />
+          <stop offset="0.7209" stopColor="#4E9CDB" />
+          <stop offset="0.9274" stopColor="#5472D8" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_656_10249"
@@ -1681,13 +1681,13 @@ const DiscoverBannerMobile = () => {
           y2="95.0893"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1507" stop-color="#43E3E0" />
-          <stop offset="0.3285" stop-color="#45D5DF" />
-          <stop offset="0.5199" stop-color="#49BDDD" />
-          <stop offset="0.7209" stop-color="#4E9CDB" />
-          <stop offset="0.9274" stop-color="#5472D8" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1507" stopColor="#43E3E0" />
+          <stop offset="0.3285" stopColor="#45D5DF" />
+          <stop offset="0.5199" stopColor="#49BDDD" />
+          <stop offset="0.7209" stopColor="#4E9CDB" />
+          <stop offset="0.9274" stopColor="#5472D8" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_656_10249"
@@ -1697,11 +1697,11 @@ const DiscoverBannerMobile = () => {
           y2="117.635"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.3076" stop-color="#9297EE" />
-          <stop offset="0.5949" stop-color="#727AE2" />
-          <stop offset="0.8355" stop-color="#5E67DA" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.3076" stopColor="#9297EE" />
+          <stop offset="0.5949" stopColor="#727AE2" />
+          <stop offset="0.8355" stopColor="#5E67DA" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_656_10249"
@@ -1711,11 +1711,11 @@ const DiscoverBannerMobile = () => {
           y2="134.398"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1645" stop-color="#5E67DA" />
-          <stop offset="0.4051" stop-color="#727AE2" />
-          <stop offset="0.6924" stop-color="#9297EE" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1645" stopColor="#5E67DA" />
+          <stop offset="0.4051" stopColor="#727AE2" />
+          <stop offset="0.6924" stopColor="#9297EE" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_656_10249"
@@ -1725,13 +1725,13 @@ const DiscoverBannerMobile = () => {
           y2="111.721"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1507" stop-color="#43E3E0" />
-          <stop offset="0.3285" stop-color="#45D5DF" />
-          <stop offset="0.5199" stop-color="#49BDDD" />
-          <stop offset="0.7209" stop-color="#4E9CDB" />
-          <stop offset="0.9274" stop-color="#5472D8" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1507" stopColor="#43E3E0" />
+          <stop offset="0.3285" stopColor="#45D5DF" />
+          <stop offset="0.5199" stopColor="#49BDDD" />
+          <stop offset="0.7209" stopColor="#4E9CDB" />
+          <stop offset="0.9274" stopColor="#5472D8" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_656_10249"
@@ -1741,13 +1741,13 @@ const DiscoverBannerMobile = () => {
           y2="113.469"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1507" stop-color="#43E3E0" />
-          <stop offset="0.3285" stop-color="#45D5DF" />
-          <stop offset="0.5199" stop-color="#49BDDD" />
-          <stop offset="0.7209" stop-color="#4E9CDB" />
-          <stop offset="0.9274" stop-color="#5472D8" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1507" stopColor="#43E3E0" />
+          <stop offset="0.3285" stopColor="#45D5DF" />
+          <stop offset="0.5199" stopColor="#49BDDD" />
+          <stop offset="0.7209" stopColor="#4E9CDB" />
+          <stop offset="0.9274" stopColor="#5472D8" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <radialGradient
           id="paint10_radial_656_10249"
@@ -1757,10 +1757,10 @@ const DiscoverBannerMobile = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(97.856 182.207) rotate(-59.6141) scale(48.6448 48.6447)"
         >
-          <stop stop-color="#E9E9FD" />
-          <stop offset="0.3601" stop-color="#D3D2F9" />
-          <stop offset="0.7062" stop-color="#C5C4F7" />
-          <stop offset="1" stop-color="#C0BFF6" />
+          <stop stopColor="#E9E9FD" />
+          <stop offset="0.3601" stopColor="#D3D2F9" />
+          <stop offset="0.7062" stopColor="#C5C4F7" />
+          <stop offset="1" stopColor="#C0BFF6" />
         </radialGradient>
         <linearGradient
           id="paint11_linear_656_10249"
@@ -1770,11 +1770,11 @@ const DiscoverBannerMobile = () => {
           y2="149.806"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.1237" stop-color="#B4B6FC" />
-          <stop offset="0.3207" stop-color="#9CA1F2" />
-          <stop offset="0.5651" stop-color="#777EE4" />
-          <stop offset="0.744" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.1237" stopColor="#B4B6FC" />
+          <stop offset="0.3207" stopColor="#9CA1F2" />
+          <stop offset="0.5651" stopColor="#777EE4" />
+          <stop offset="0.744" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_656_10249"
@@ -1784,10 +1784,10 @@ const DiscoverBannerMobile = () => {
           y2="155.11"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_656_10249"
@@ -1797,10 +1797,10 @@ const DiscoverBannerMobile = () => {
           y2="166.456"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E9E9FD" />
-          <stop offset="0.3601" stop-color="#D3D2F9" />
-          <stop offset="0.7062" stop-color="#C5C4F7" />
-          <stop offset="1" stop-color="#C0BFF6" />
+          <stop stopColor="#E9E9FD" />
+          <stop offset="0.3601" stopColor="#D3D2F9" />
+          <stop offset="0.7062" stopColor="#C5C4F7" />
+          <stop offset="1" stopColor="#C0BFF6" />
         </linearGradient>
         <radialGradient
           id="paint14_radial_656_10249"
@@ -1810,10 +1810,10 @@ const DiscoverBannerMobile = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(47.993 204.454) scale(54.8863 54.8863)"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </radialGradient>
         <linearGradient
           id="paint15_linear_656_10249"
@@ -1823,10 +1823,10 @@ const DiscoverBannerMobile = () => {
           y2="162.499"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E9E9FD" />
-          <stop offset="0.3601" stop-color="#D3D2F9" />
-          <stop offset="0.7062" stop-color="#C5C4F7" />
-          <stop offset="1" stop-color="#C0BFF6" />
+          <stop stopColor="#E9E9FD" />
+          <stop offset="0.3601" stopColor="#D3D2F9" />
+          <stop offset="0.7062" stopColor="#C5C4F7" />
+          <stop offset="1" stopColor="#C0BFF6" />
         </linearGradient>
         <radialGradient
           id="paint16_radial_656_10249"
@@ -1836,10 +1836,10 @@ const DiscoverBannerMobile = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(37.1164 201.031) rotate(-58.0359) scale(31.3376 31.3376)"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </radialGradient>
         <linearGradient
           id="paint17_linear_656_10249"
@@ -1849,10 +1849,10 @@ const DiscoverBannerMobile = () => {
           y2="128.772"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_656_10249"
@@ -1862,10 +1862,10 @@ const DiscoverBannerMobile = () => {
           y2="130.024"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_656_10249"
@@ -1875,12 +1875,12 @@ const DiscoverBannerMobile = () => {
           y2="171.993"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1779" stop-color="#5C66D9" />
-          <stop offset="0.3876" stop-color="#6A73DF" />
-          <stop offset="0.6134" stop-color="#8289E8" />
-          <stop offset="0.849" stop-color="#A3A7F5" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1779" stopColor="#5C66D9" />
+          <stop offset="0.3876" stopColor="#6A73DF" />
+          <stop offset="0.6134" stopColor="#8289E8" />
+          <stop offset="0.849" stopColor="#A3A7F5" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_656_10249"
@@ -1890,10 +1890,10 @@ const DiscoverBannerMobile = () => {
           y2="168.205"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C0BFF6" />
-          <stop offset="0.2938" stop-color="#C5C4F7" />
-          <stop offset="0.6399" stop-color="#D3D2F9" />
-          <stop offset="1" stop-color="#E9E9FD" />
+          <stop stopColor="#C0BFF6" />
+          <stop offset="0.2938" stopColor="#C5C4F7" />
+          <stop offset="0.6399" stopColor="#D3D2F9" />
+          <stop offset="1" stopColor="#E9E9FD" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_656_10249"
@@ -1903,10 +1903,10 @@ const DiscoverBannerMobile = () => {
           y2="96.8217"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C0BFF6" />
-          <stop offset="0.2938" stop-color="#C5C4F7" />
-          <stop offset="0.6399" stop-color="#D3D2F9" />
-          <stop offset="1" stop-color="#E9E9FD" />
+          <stop stopColor="#C0BFF6" />
+          <stop offset="0.2938" stopColor="#C5C4F7" />
+          <stop offset="0.6399" stopColor="#D3D2F9" />
+          <stop offset="1" stopColor="#E9E9FD" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_656_10249"
@@ -1916,12 +1916,12 @@ const DiscoverBannerMobile = () => {
           y2="126.355"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1779" stop-color="#5C66D9" />
-          <stop offset="0.3876" stop-color="#6A73DF" />
-          <stop offset="0.6134" stop-color="#8289E8" />
-          <stop offset="0.849" stop-color="#A3A7F5" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1779" stopColor="#5C66D9" />
+          <stop offset="0.3876" stopColor="#6A73DF" />
+          <stop offset="0.6134" stopColor="#8289E8" />
+          <stop offset="0.849" stopColor="#A3A7F5" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_656_10249"
@@ -1931,12 +1931,12 @@ const DiscoverBannerMobile = () => {
           y2="158.578"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1779" stop-color="#5C66D9" />
-          <stop offset="0.3876" stop-color="#6A73DF" />
-          <stop offset="0.6134" stop-color="#8289E8" />
-          <stop offset="0.849" stop-color="#A3A7F5" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1779" stopColor="#5C66D9" />
+          <stop offset="0.3876" stopColor="#6A73DF" />
+          <stop offset="0.6134" stopColor="#8289E8" />
+          <stop offset="0.849" stopColor="#A3A7F5" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint24_linear_656_10249"
@@ -1946,10 +1946,10 @@ const DiscoverBannerMobile = () => {
           y2="154.13"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C0BFF6" />
-          <stop offset="0.2938" stop-color="#C5C4F7" />
-          <stop offset="0.6399" stop-color="#D3D2F9" />
-          <stop offset="1" stop-color="#E9E9FD" />
+          <stop stopColor="#C0BFF6" />
+          <stop offset="0.2938" stopColor="#C5C4F7" />
+          <stop offset="0.6399" stopColor="#D3D2F9" />
+          <stop offset="1" stopColor="#E9E9FD" />
         </linearGradient>
         <linearGradient
           id="paint25_linear_656_10249"
@@ -1959,12 +1959,12 @@ const DiscoverBannerMobile = () => {
           y2="122.783"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1779" stop-color="#5C66D9" />
-          <stop offset="0.3876" stop-color="#6A73DF" />
-          <stop offset="0.6134" stop-color="#8289E8" />
-          <stop offset="0.849" stop-color="#A3A7F5" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1779" stopColor="#5C66D9" />
+          <stop offset="0.3876" stopColor="#6A73DF" />
+          <stop offset="0.6134" stopColor="#8289E8" />
+          <stop offset="0.849" stopColor="#A3A7F5" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint26_linear_656_10249"
@@ -1974,10 +1974,10 @@ const DiscoverBannerMobile = () => {
           y2="118.334"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C0BFF6" />
-          <stop offset="0.2938" stop-color="#C5C4F7" />
-          <stop offset="0.6399" stop-color="#D3D2F9" />
-          <stop offset="1" stop-color="#E9E9FD" />
+          <stop stopColor="#C0BFF6" />
+          <stop offset="0.2938" stopColor="#C5C4F7" />
+          <stop offset="0.6399" stopColor="#D3D2F9" />
+          <stop offset="1" stopColor="#E9E9FD" />
         </linearGradient>
         <linearGradient
           id="paint27_linear_656_10249"
@@ -1987,10 +1987,10 @@ const DiscoverBannerMobile = () => {
           y2="86.1187"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint28_linear_656_10249"
@@ -2000,10 +2000,10 @@ const DiscoverBannerMobile = () => {
           y2="87.8364"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint29_linear_656_10249"
@@ -2013,10 +2013,10 @@ const DiscoverBannerMobile = () => {
           y2="90.8453"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <radialGradient
           id="paint30_radial_656_10249"
@@ -2026,10 +2026,10 @@ const DiscoverBannerMobile = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(66.3325 31.8625) rotate(1.57587) scale(48.6445 48.6444)"
         >
-          <stop stop-color="#E9E9FD" />
-          <stop offset="0.3601" stop-color="#D3D2F9" />
-          <stop offset="0.7062" stop-color="#C5C4F7" />
-          <stop offset="1" stop-color="#C0BFF6" />
+          <stop stopColor="#E9E9FD" />
+          <stop offset="0.3601" stopColor="#D3D2F9" />
+          <stop offset="0.7062" stopColor="#C5C4F7" />
+          <stop offset="1" stopColor="#C0BFF6" />
         </radialGradient>
         <radialGradient
           id="paint31_radial_656_10249"
@@ -2039,8 +2039,8 @@ const DiscoverBannerMobile = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(72.7689 59.7705) rotate(31.576) scale(13.9322 12.066)"
         >
-          <stop stop-color="#F9636B" />
-          <stop offset="1" stop-color="#B6246E" />
+          <stop stopColor="#F9636B" />
+          <stop offset="1" stopColor="#B6246E" />
         </radialGradient>
         <linearGradient
           id="paint32_linear_656_10249"
@@ -2050,11 +2050,11 @@ const DiscoverBannerMobile = () => {
           y2="89.4683"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.1237" stop-color="#B4B6FC" />
-          <stop offset="0.3207" stop-color="#9CA1F2" />
-          <stop offset="0.5651" stop-color="#777EE4" />
-          <stop offset="0.744" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.1237" stopColor="#B4B6FC" />
+          <stop offset="0.3207" stopColor="#9CA1F2" />
+          <stop offset="0.5651" stopColor="#777EE4" />
+          <stop offset="0.744" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint33_linear_656_10249"
@@ -2064,10 +2064,10 @@ const DiscoverBannerMobile = () => {
           y2="105.717"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint34_linear_656_10249"
@@ -2077,10 +2077,10 @@ const DiscoverBannerMobile = () => {
           y2="82.191"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E9E9FD" />
-          <stop offset="0.3601" stop-color="#D3D2F9" />
-          <stop offset="0.7062" stop-color="#C5C4F7" />
-          <stop offset="1" stop-color="#C0BFF6" />
+          <stop stopColor="#E9E9FD" />
+          <stop offset="0.3601" stopColor="#D3D2F9" />
+          <stop offset="0.7062" stopColor="#C5C4F7" />
+          <stop offset="1" stopColor="#C0BFF6" />
         </linearGradient>
         <radialGradient
           id="paint35_radial_656_10249"
@@ -2090,10 +2090,10 @@ const DiscoverBannerMobile = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(40.8204 99.0611) rotate(1.57587) scale(54.9154 54.9154)"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </radialGradient>
         <linearGradient
           id="paint36_linear_656_10249"
@@ -2103,10 +2103,10 @@ const DiscoverBannerMobile = () => {
           y2="70.2477"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E9E9FD" />
-          <stop offset="0.3601" stop-color="#D3D2F9" />
-          <stop offset="0.7062" stop-color="#C5C4F7" />
-          <stop offset="1" stop-color="#C0BFF6" />
+          <stop stopColor="#E9E9FD" />
+          <stop offset="0.3601" stopColor="#D3D2F9" />
+          <stop offset="0.7062" stopColor="#C5C4F7" />
+          <stop offset="1" stopColor="#C0BFF6" />
         </linearGradient>
         <radialGradient
           id="paint37_radial_656_10249"
@@ -2116,10 +2116,10 @@ const DiscoverBannerMobile = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(18.2105 73.4269) scale(31.3377 31.3377)"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </radialGradient>
         <linearGradient
           id="paint38_linear_656_10249"
@@ -2129,15 +2129,15 @@ const DiscoverBannerMobile = () => {
           y2="137.224"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1055" stop-color="#37B6BF" />
-          <stop offset="0.2197" stop-color="#2C87A1" />
-          <stop offset="0.338" stop-color="#235F87" />
-          <stop offset="0.4587" stop-color="#1C3F72" />
-          <stop offset="0.5824" stop-color="#162561" />
-          <stop offset="0.7105" stop-color="#121355" />
-          <stop offset="0.8458" stop-color="#10084E" />
-          <stop offset="1" stop-color="#0F054C" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1055" stopColor="#37B6BF" />
+          <stop offset="0.2197" stopColor="#2C87A1" />
+          <stop offset="0.338" stopColor="#235F87" />
+          <stop offset="0.4587" stopColor="#1C3F72" />
+          <stop offset="0.5824" stopColor="#162561" />
+          <stop offset="0.7105" stopColor="#121355" />
+          <stop offset="0.8458" stopColor="#10084E" />
+          <stop offset="1" stopColor="#0F054C" />
         </linearGradient>
         <linearGradient
           id="paint39_linear_656_10249"
@@ -2147,15 +2147,15 @@ const DiscoverBannerMobile = () => {
           y2="122.457"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1055" stop-color="#37B6BF" />
-          <stop offset="0.2197" stop-color="#2C87A1" />
-          <stop offset="0.338" stop-color="#235F87" />
-          <stop offset="0.4587" stop-color="#1C3F72" />
-          <stop offset="0.5824" stop-color="#162561" />
-          <stop offset="0.7105" stop-color="#121355" />
-          <stop offset="0.8458" stop-color="#10084E" />
-          <stop offset="1" stop-color="#0F054C" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1055" stopColor="#37B6BF" />
+          <stop offset="0.2197" stopColor="#2C87A1" />
+          <stop offset="0.338" stopColor="#235F87" />
+          <stop offset="0.4587" stopColor="#1C3F72" />
+          <stop offset="0.5824" stopColor="#162561" />
+          <stop offset="0.7105" stopColor="#121355" />
+          <stop offset="0.8458" stopColor="#10084E" />
+          <stop offset="1" stopColor="#0F054C" />
         </linearGradient>
         <linearGradient
           id="paint40_linear_656_10249"
@@ -2165,11 +2165,11 @@ const DiscoverBannerMobile = () => {
           y2="16.8683"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1645" stop-color="#5E67DA" />
-          <stop offset="0.4051" stop-color="#727AE2" />
-          <stop offset="0.6924" stop-color="#9297EE" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1645" stopColor="#5E67DA" />
+          <stop offset="0.4051" stopColor="#727AE2" />
+          <stop offset="0.6924" stopColor="#9297EE" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint41_linear_656_10249"
@@ -2179,11 +2179,11 @@ const DiscoverBannerMobile = () => {
           y2="13.1268"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1645" stop-color="#5E67DA" />
-          <stop offset="0.4051" stop-color="#727AE2" />
-          <stop offset="0.6924" stop-color="#9297EE" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1645" stopColor="#5E67DA" />
+          <stop offset="0.4051" stopColor="#727AE2" />
+          <stop offset="0.6924" stopColor="#9297EE" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint42_linear_656_10249"
@@ -2193,11 +2193,11 @@ const DiscoverBannerMobile = () => {
           y2="9.31883"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1645" stop-color="#5E67DA" />
-          <stop offset="0.4051" stop-color="#727AE2" />
-          <stop offset="0.6924" stop-color="#9297EE" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1645" stopColor="#5E67DA" />
+          <stop offset="0.4051" stopColor="#727AE2" />
+          <stop offset="0.6924" stopColor="#9297EE" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint43_linear_656_10249"
@@ -2207,13 +2207,13 @@ const DiscoverBannerMobile = () => {
           y2="15.5092"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1507" stop-color="#43E3E0" />
-          <stop offset="0.3285" stop-color="#45D5DF" />
-          <stop offset="0.5199" stop-color="#49BDDD" />
-          <stop offset="0.7209" stop-color="#4E9CDB" />
-          <stop offset="0.9274" stop-color="#5472D8" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1507" stopColor="#43E3E0" />
+          <stop offset="0.3285" stopColor="#45D5DF" />
+          <stop offset="0.5199" stopColor="#49BDDD" />
+          <stop offset="0.7209" stopColor="#4E9CDB" />
+          <stop offset="0.9274" stopColor="#5472D8" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint44_linear_656_10249"
@@ -2223,13 +2223,13 @@ const DiscoverBannerMobile = () => {
           y2="11.7667"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1507" stop-color="#43E3E0" />
-          <stop offset="0.3285" stop-color="#45D5DF" />
-          <stop offset="0.5199" stop-color="#49BDDD" />
-          <stop offset="0.7209" stop-color="#4E9CDB" />
-          <stop offset="0.9274" stop-color="#5472D8" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1507" stopColor="#43E3E0" />
+          <stop offset="0.3285" stopColor="#45D5DF" />
+          <stop offset="0.5199" stopColor="#49BDDD" />
+          <stop offset="0.7209" stopColor="#4E9CDB" />
+          <stop offset="0.9274" stopColor="#5472D8" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint45_linear_656_10249"
@@ -2239,13 +2239,13 @@ const DiscoverBannerMobile = () => {
           y2="7.95798"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1507" stop-color="#43E3E0" />
-          <stop offset="0.3285" stop-color="#45D5DF" />
-          <stop offset="0.5199" stop-color="#49BDDD" />
-          <stop offset="0.7209" stop-color="#4E9CDB" />
-          <stop offset="0.9274" stop-color="#5472D8" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1507" stopColor="#43E3E0" />
+          <stop offset="0.3285" stopColor="#45D5DF" />
+          <stop offset="0.5199" stopColor="#49BDDD" />
+          <stop offset="0.7209" stopColor="#4E9CDB" />
+          <stop offset="0.9274" stopColor="#5472D8" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint46_linear_656_10249"
@@ -2255,11 +2255,11 @@ const DiscoverBannerMobile = () => {
           y2="30.5061"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.3076" stop-color="#9297EE" />
-          <stop offset="0.5949" stop-color="#727AE2" />
-          <stop offset="0.8355" stop-color="#5E67DA" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.3076" stopColor="#9297EE" />
+          <stop offset="0.5949" stopColor="#727AE2" />
+          <stop offset="0.8355" stopColor="#5E67DA" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint47_linear_656_10249"
@@ -2269,11 +2269,11 @@ const DiscoverBannerMobile = () => {
           y2="47.269"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1645" stop-color="#5E67DA" />
-          <stop offset="0.4051" stop-color="#727AE2" />
-          <stop offset="0.6924" stop-color="#9297EE" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1645" stopColor="#5E67DA" />
+          <stop offset="0.4051" stopColor="#727AE2" />
+          <stop offset="0.6924" stopColor="#9297EE" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint48_linear_656_10249"
@@ -2283,13 +2283,13 @@ const DiscoverBannerMobile = () => {
           y2="24.5922"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1507" stop-color="#43E3E0" />
-          <stop offset="0.3285" stop-color="#45D5DF" />
-          <stop offset="0.5199" stop-color="#49BDDD" />
-          <stop offset="0.7209" stop-color="#4E9CDB" />
-          <stop offset="0.9274" stop-color="#5472D8" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1507" stopColor="#43E3E0" />
+          <stop offset="0.3285" stopColor="#45D5DF" />
+          <stop offset="0.5199" stopColor="#49BDDD" />
+          <stop offset="0.7209" stopColor="#4E9CDB" />
+          <stop offset="0.9274" stopColor="#5472D8" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint49_linear_656_10249"
@@ -2299,13 +2299,13 @@ const DiscoverBannerMobile = () => {
           y2="26.34"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1507" stop-color="#43E3E0" />
-          <stop offset="0.3285" stop-color="#45D5DF" />
-          <stop offset="0.5199" stop-color="#49BDDD" />
-          <stop offset="0.7209" stop-color="#4E9CDB" />
-          <stop offset="0.9274" stop-color="#5472D8" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1507" stopColor="#43E3E0" />
+          <stop offset="0.3285" stopColor="#45D5DF" />
+          <stop offset="0.5199" stopColor="#49BDDD" />
+          <stop offset="0.7209" stopColor="#4E9CDB" />
+          <stop offset="0.9274" stopColor="#5472D8" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
       </defs>
     </svg>
@@ -3629,11 +3629,11 @@ const DiscoverBanner = () => {
           y2="157.939"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1645" stop-color="#5E67DA" />
-          <stop offset="0.4051" stop-color="#727AE2" />
-          <stop offset="0.6924" stop-color="#9297EE" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1645" stopColor="#5E67DA" />
+          <stop offset="0.4051" stopColor="#727AE2" />
+          <stop offset="0.6924" stopColor="#9297EE" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_656_9840"
@@ -3643,11 +3643,11 @@ const DiscoverBanner = () => {
           y2="152.23"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1645" stop-color="#5E67DA" />
-          <stop offset="0.4051" stop-color="#727AE2" />
-          <stop offset="0.6924" stop-color="#9297EE" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1645" stopColor="#5E67DA" />
+          <stop offset="0.4051" stopColor="#727AE2" />
+          <stop offset="0.6924" stopColor="#9297EE" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_656_9840"
@@ -3657,11 +3657,11 @@ const DiscoverBanner = () => {
           y2="146.418"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1645" stop-color="#5E67DA" />
-          <stop offset="0.4051" stop-color="#727AE2" />
-          <stop offset="0.6924" stop-color="#9297EE" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1645" stopColor="#5E67DA" />
+          <stop offset="0.4051" stopColor="#727AE2" />
+          <stop offset="0.6924" stopColor="#9297EE" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_656_9840"
@@ -3671,13 +3671,13 @@ const DiscoverBanner = () => {
           y2="155.865"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1507" stop-color="#43E3E0" />
-          <stop offset="0.3285" stop-color="#45D5DF" />
-          <stop offset="0.5199" stop-color="#49BDDD" />
-          <stop offset="0.7209" stop-color="#4E9CDB" />
-          <stop offset="0.9274" stop-color="#5472D8" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1507" stopColor="#43E3E0" />
+          <stop offset="0.3285" stopColor="#45D5DF" />
+          <stop offset="0.5199" stopColor="#49BDDD" />
+          <stop offset="0.7209" stopColor="#4E9CDB" />
+          <stop offset="0.9274" stopColor="#5472D8" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_656_9840"
@@ -3687,13 +3687,13 @@ const DiscoverBanner = () => {
           y2="150.154"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1507" stop-color="#43E3E0" />
-          <stop offset="0.3285" stop-color="#45D5DF" />
-          <stop offset="0.5199" stop-color="#49BDDD" />
-          <stop offset="0.7209" stop-color="#4E9CDB" />
-          <stop offset="0.9274" stop-color="#5472D8" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1507" stopColor="#43E3E0" />
+          <stop offset="0.3285" stopColor="#45D5DF" />
+          <stop offset="0.5199" stopColor="#49BDDD" />
+          <stop offset="0.7209" stopColor="#4E9CDB" />
+          <stop offset="0.9274" stopColor="#5472D8" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_656_9840"
@@ -3703,13 +3703,13 @@ const DiscoverBanner = () => {
           y2="144.342"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1507" stop-color="#43E3E0" />
-          <stop offset="0.3285" stop-color="#45D5DF" />
-          <stop offset="0.5199" stop-color="#49BDDD" />
-          <stop offset="0.7209" stop-color="#4E9CDB" />
-          <stop offset="0.9274" stop-color="#5472D8" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1507" stopColor="#43E3E0" />
+          <stop offset="0.3285" stopColor="#45D5DF" />
+          <stop offset="0.5199" stopColor="#49BDDD" />
+          <stop offset="0.7209" stopColor="#4E9CDB" />
+          <stop offset="0.9274" stopColor="#5472D8" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_656_9840"
@@ -3719,11 +3719,11 @@ const DiscoverBanner = () => {
           y2="178.749"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.3076" stop-color="#9297EE" />
-          <stop offset="0.5949" stop-color="#727AE2" />
-          <stop offset="0.8355" stop-color="#5E67DA" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.3076" stopColor="#9297EE" />
+          <stop offset="0.5949" stopColor="#727AE2" />
+          <stop offset="0.8355" stopColor="#5E67DA" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_656_9840"
@@ -3733,11 +3733,11 @@ const DiscoverBanner = () => {
           y2="204.328"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1645" stop-color="#5E67DA" />
-          <stop offset="0.4051" stop-color="#727AE2" />
-          <stop offset="0.6924" stop-color="#9297EE" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1645" stopColor="#5E67DA" />
+          <stop offset="0.4051" stopColor="#727AE2" />
+          <stop offset="0.6924" stopColor="#9297EE" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_656_9840"
@@ -3747,13 +3747,13 @@ const DiscoverBanner = () => {
           y2="169.724"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1507" stop-color="#43E3E0" />
-          <stop offset="0.3285" stop-color="#45D5DF" />
-          <stop offset="0.5199" stop-color="#49BDDD" />
-          <stop offset="0.7209" stop-color="#4E9CDB" />
-          <stop offset="0.9274" stop-color="#5472D8" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1507" stopColor="#43E3E0" />
+          <stop offset="0.3285" stopColor="#45D5DF" />
+          <stop offset="0.5199" stopColor="#49BDDD" />
+          <stop offset="0.7209" stopColor="#4E9CDB" />
+          <stop offset="0.9274" stopColor="#5472D8" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_656_9840"
@@ -3763,13 +3763,13 @@ const DiscoverBanner = () => {
           y2="172.392"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1507" stop-color="#43E3E0" />
-          <stop offset="0.3285" stop-color="#45D5DF" />
-          <stop offset="0.5199" stop-color="#49BDDD" />
-          <stop offset="0.7209" stop-color="#4E9CDB" />
-          <stop offset="0.9274" stop-color="#5472D8" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1507" stopColor="#43E3E0" />
+          <stop offset="0.3285" stopColor="#45D5DF" />
+          <stop offset="0.5199" stopColor="#49BDDD" />
+          <stop offset="0.7209" stopColor="#4E9CDB" />
+          <stop offset="0.9274" stopColor="#5472D8" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <radialGradient
           id="paint10_radial_656_9840"
@@ -3779,10 +3779,10 @@ const DiscoverBanner = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(150.162 277.286) rotate(-59.6141) scale(74.2318 74.2318)"
         >
-          <stop stop-color="#E9E9FD" />
-          <stop offset="0.3601" stop-color="#D3D2F9" />
-          <stop offset="0.7062" stop-color="#C5C4F7" />
-          <stop offset="1" stop-color="#C0BFF6" />
+          <stop stopColor="#E9E9FD" />
+          <stop offset="0.3601" stopColor="#D3D2F9" />
+          <stop offset="0.7062" stopColor="#C5C4F7" />
+          <stop offset="1" stopColor="#C0BFF6" />
         </radialGradient>
         <linearGradient
           id="paint11_linear_656_9840"
@@ -3792,11 +3792,11 @@ const DiscoverBanner = () => {
           y2="227.841"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.1237" stop-color="#B4B6FC" />
-          <stop offset="0.3207" stop-color="#9CA1F2" />
-          <stop offset="0.5651" stop-color="#777EE4" />
-          <stop offset="0.744" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.1237" stopColor="#B4B6FC" />
+          <stop offset="0.3207" stopColor="#9CA1F2" />
+          <stop offset="0.5651" stopColor="#777EE4" />
+          <stop offset="0.744" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_656_9840"
@@ -3806,10 +3806,10 @@ const DiscoverBanner = () => {
           y2="235.935"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_656_9840"
@@ -3819,10 +3819,10 @@ const DiscoverBanner = () => {
           y2="253.25"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E9E9FD" />
-          <stop offset="0.3601" stop-color="#D3D2F9" />
-          <stop offset="0.7062" stop-color="#C5C4F7" />
-          <stop offset="1" stop-color="#C0BFF6" />
+          <stop stopColor="#E9E9FD" />
+          <stop offset="0.3601" stopColor="#D3D2F9" />
+          <stop offset="0.7062" stopColor="#C5C4F7" />
+          <stop offset="1" stopColor="#C0BFF6" />
         </linearGradient>
         <radialGradient
           id="paint14_radial_656_9840"
@@ -3832,10 +3832,10 @@ const DiscoverBanner = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(74.0734 311.234) scale(83.7564 83.7564)"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </radialGradient>
         <linearGradient
           id="paint15_linear_656_9840"
@@ -3845,10 +3845,10 @@ const DiscoverBanner = () => {
           y2="247.211"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E9E9FD" />
-          <stop offset="0.3601" stop-color="#D3D2F9" />
-          <stop offset="0.7062" stop-color="#C5C4F7" />
-          <stop offset="1" stop-color="#C0BFF6" />
+          <stop stopColor="#E9E9FD" />
+          <stop offset="0.3601" stopColor="#D3D2F9" />
+          <stop offset="0.7062" stopColor="#C5C4F7" />
+          <stop offset="1" stopColor="#C0BFF6" />
         </linearGradient>
         <radialGradient
           id="paint16_radial_656_9840"
@@ -3858,10 +3858,10 @@ const DiscoverBanner = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(57.4748 306.009) rotate(-58.0359) scale(47.821 47.8211)"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </radialGradient>
         <linearGradient
           id="paint17_linear_656_9840"
@@ -3871,10 +3871,10 @@ const DiscoverBanner = () => {
           y2="195.744"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_656_9840"
@@ -3884,10 +3884,10 @@ const DiscoverBanner = () => {
           y2="197.654"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_656_9840"
@@ -3897,12 +3897,12 @@ const DiscoverBanner = () => {
           y2="261.7"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1779" stop-color="#5C66D9" />
-          <stop offset="0.3876" stop-color="#6A73DF" />
-          <stop offset="0.6134" stop-color="#8289E8" />
-          <stop offset="0.849" stop-color="#A3A7F5" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1779" stopColor="#5C66D9" />
+          <stop offset="0.3876" stopColor="#6A73DF" />
+          <stop offset="0.6134" stopColor="#8289E8" />
+          <stop offset="0.849" stopColor="#A3A7F5" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_656_9840"
@@ -3912,10 +3912,10 @@ const DiscoverBanner = () => {
           y2="255.918"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C0BFF6" />
-          <stop offset="0.2938" stop-color="#C5C4F7" />
-          <stop offset="0.6399" stop-color="#D3D2F9" />
-          <stop offset="1" stop-color="#E9E9FD" />
+          <stop stopColor="#C0BFF6" />
+          <stop offset="0.2938" stopColor="#C5C4F7" />
+          <stop offset="0.6399" stopColor="#D3D2F9" />
+          <stop offset="1" stopColor="#E9E9FD" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_656_9840"
@@ -3925,10 +3925,10 @@ const DiscoverBanner = () => {
           y2="146.987"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C0BFF6" />
-          <stop offset="0.2938" stop-color="#C5C4F7" />
-          <stop offset="0.6399" stop-color="#D3D2F9" />
-          <stop offset="1" stop-color="#E9E9FD" />
+          <stop stopColor="#C0BFF6" />
+          <stop offset="0.2938" stopColor="#C5C4F7" />
+          <stop offset="0.6399" stopColor="#D3D2F9" />
+          <stop offset="1" stopColor="#E9E9FD" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_656_9840"
@@ -3938,12 +3938,12 @@ const DiscoverBanner = () => {
           y2="192.054"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1779" stop-color="#5C66D9" />
-          <stop offset="0.3876" stop-color="#6A73DF" />
-          <stop offset="0.6134" stop-color="#8289E8" />
-          <stop offset="0.849" stop-color="#A3A7F5" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1779" stopColor="#5C66D9" />
+          <stop offset="0.3876" stopColor="#6A73DF" />
+          <stop offset="0.6134" stopColor="#8289E8" />
+          <stop offset="0.849" stopColor="#A3A7F5" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_656_9840"
@@ -3953,12 +3953,12 @@ const DiscoverBanner = () => {
           y2="241.227"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1779" stop-color="#5C66D9" />
-          <stop offset="0.3876" stop-color="#6A73DF" />
-          <stop offset="0.6134" stop-color="#8289E8" />
-          <stop offset="0.849" stop-color="#A3A7F5" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1779" stopColor="#5C66D9" />
+          <stop offset="0.3876" stopColor="#6A73DF" />
+          <stop offset="0.6134" stopColor="#8289E8" />
+          <stop offset="0.849" stopColor="#A3A7F5" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint24_linear_656_9840"
@@ -3968,10 +3968,10 @@ const DiscoverBanner = () => {
           y2="234.44"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C0BFF6" />
-          <stop offset="0.2938" stop-color="#C5C4F7" />
-          <stop offset="0.6399" stop-color="#D3D2F9" />
-          <stop offset="1" stop-color="#E9E9FD" />
+          <stop stopColor="#C0BFF6" />
+          <stop offset="0.2938" stopColor="#C5C4F7" />
+          <stop offset="0.6399" stopColor="#D3D2F9" />
+          <stop offset="1" stopColor="#E9E9FD" />
         </linearGradient>
         <linearGradient
           id="paint25_linear_656_9840"
@@ -3981,12 +3981,12 @@ const DiscoverBanner = () => {
           y2="186.603"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1779" stop-color="#5C66D9" />
-          <stop offset="0.3876" stop-color="#6A73DF" />
-          <stop offset="0.6134" stop-color="#8289E8" />
-          <stop offset="0.849" stop-color="#A3A7F5" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1779" stopColor="#5C66D9" />
+          <stop offset="0.3876" stopColor="#6A73DF" />
+          <stop offset="0.6134" stopColor="#8289E8" />
+          <stop offset="0.849" stopColor="#A3A7F5" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint26_linear_656_9840"
@@ -3996,10 +3996,10 @@ const DiscoverBanner = () => {
           y2="179.815"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#C0BFF6" />
-          <stop offset="0.2938" stop-color="#C5C4F7" />
-          <stop offset="0.6399" stop-color="#D3D2F9" />
-          <stop offset="1" stop-color="#E9E9FD" />
+          <stop stopColor="#C0BFF6" />
+          <stop offset="0.2938" stopColor="#C5C4F7" />
+          <stop offset="0.6399" stopColor="#D3D2F9" />
+          <stop offset="1" stopColor="#E9E9FD" />
         </linearGradient>
         <linearGradient
           id="paint27_linear_656_9840"
@@ -4009,10 +4009,10 @@ const DiscoverBanner = () => {
           y2="130.656"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint28_linear_656_9840"
@@ -4022,10 +4022,10 @@ const DiscoverBanner = () => {
           y2="133.278"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint29_linear_656_9840"
@@ -4035,10 +4035,10 @@ const DiscoverBanner = () => {
           y2="137.869"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <radialGradient
           id="paint30_radial_656_9840"
@@ -4048,10 +4048,10 @@ const DiscoverBanner = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(102.053 47.8615) rotate(1.57587) scale(74.2313 74.2313)"
         >
-          <stop stop-color="#E9E9FD" />
-          <stop offset="0.3601" stop-color="#D3D2F9" />
-          <stop offset="0.7062" stop-color="#C5C4F7" />
-          <stop offset="1" stop-color="#C0BFF6" />
+          <stop stopColor="#E9E9FD" />
+          <stop offset="0.3601" stopColor="#D3D2F9" />
+          <stop offset="0.7062" stopColor="#C5C4F7" />
+          <stop offset="1" stopColor="#C0BFF6" />
         </radialGradient>
         <radialGradient
           id="paint31_radial_656_9840"
@@ -4061,8 +4061,8 @@ const DiscoverBanner = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(111.876 90.4491) rotate(31.576) scale(21.2604 18.4127)"
         >
-          <stop stop-color="#F9636B" />
-          <stop offset="1" stop-color="#B6246E" />
+          <stop stopColor="#F9636B" />
+          <stop offset="1" stopColor="#B6246E" />
         </radialGradient>
         <linearGradient
           id="paint32_linear_656_9840"
@@ -4072,11 +4072,11 @@ const DiscoverBanner = () => {
           y2="135.768"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.1237" stop-color="#B4B6FC" />
-          <stop offset="0.3207" stop-color="#9CA1F2" />
-          <stop offset="0.5651" stop-color="#777EE4" />
-          <stop offset="0.744" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.1237" stopColor="#B4B6FC" />
+          <stop offset="0.3207" stopColor="#9CA1F2" />
+          <stop offset="0.5651" stopColor="#777EE4" />
+          <stop offset="0.744" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint33_linear_656_9840"
@@ -4086,10 +4086,10 @@ const DiscoverBanner = () => {
           y2="160.565"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint34_linear_656_9840"
@@ -4099,10 +4099,10 @@ const DiscoverBanner = () => {
           y2="124.663"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E9E9FD" />
-          <stop offset="0.3601" stop-color="#D3D2F9" />
-          <stop offset="0.7062" stop-color="#C5C4F7" />
-          <stop offset="1" stop-color="#C0BFF6" />
+          <stop stopColor="#E9E9FD" />
+          <stop offset="0.3601" stopColor="#D3D2F9" />
+          <stop offset="0.7062" stopColor="#C5C4F7" />
+          <stop offset="1" stopColor="#C0BFF6" />
         </linearGradient>
         <radialGradient
           id="paint35_radial_656_9840"
@@ -4112,10 +4112,10 @@ const DiscoverBanner = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(63.1199 150.406) rotate(1.57587) scale(83.8008 83.8008)"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </radialGradient>
         <linearGradient
           id="paint36_linear_656_9840"
@@ -4125,10 +4125,10 @@ const DiscoverBanner = () => {
           y2="106.437"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#E9E9FD" />
-          <stop offset="0.3601" stop-color="#D3D2F9" />
-          <stop offset="0.7062" stop-color="#C5C4F7" />
-          <stop offset="1" stop-color="#C0BFF6" />
+          <stop stopColor="#E9E9FD" />
+          <stop offset="0.3601" stopColor="#D3D2F9" />
+          <stop offset="0.7062" stopColor="#C5C4F7" />
+          <stop offset="1" stopColor="#C0BFF6" />
         </linearGradient>
         <radialGradient
           id="paint37_radial_656_9840"
@@ -4138,10 +4138,10 @@ const DiscoverBanner = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(28.6164 111.289) scale(47.8213 47.8213)"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.2271" stop-color="#AAADF8" />
-          <stop offset="0.6802" stop-color="#7C83E5" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.2271" stopColor="#AAADF8" />
+          <stop offset="0.6802" stopColor="#7C83E5" />
+          <stop offset="1" stopColor="#5761D7" />
         </radialGradient>
         <linearGradient
           id="paint38_linear_656_9840"
@@ -4151,15 +4151,15 @@ const DiscoverBanner = () => {
           y2="208.641"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1055" stop-color="#37B6BF" />
-          <stop offset="0.2197" stop-color="#2C87A1" />
-          <stop offset="0.338" stop-color="#235F87" />
-          <stop offset="0.4587" stop-color="#1C3F72" />
-          <stop offset="0.5824" stop-color="#162561" />
-          <stop offset="0.7105" stop-color="#121355" />
-          <stop offset="0.8458" stop-color="#10084E" />
-          <stop offset="1" stop-color="#0F054C" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1055" stopColor="#37B6BF" />
+          <stop offset="0.2197" stopColor="#2C87A1" />
+          <stop offset="0.338" stopColor="#235F87" />
+          <stop offset="0.4587" stopColor="#1C3F72" />
+          <stop offset="0.5824" stopColor="#162561" />
+          <stop offset="0.7105" stopColor="#121355" />
+          <stop offset="0.8458" stopColor="#10084E" />
+          <stop offset="1" stopColor="#0F054C" />
         </linearGradient>
         <linearGradient
           id="paint39_linear_656_9840"
@@ -4169,15 +4169,15 @@ const DiscoverBanner = () => {
           y2="186.105"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1055" stop-color="#37B6BF" />
-          <stop offset="0.2197" stop-color="#2C87A1" />
-          <stop offset="0.338" stop-color="#235F87" />
-          <stop offset="0.4587" stop-color="#1C3F72" />
-          <stop offset="0.5824" stop-color="#162561" />
-          <stop offset="0.7105" stop-color="#121355" />
-          <stop offset="0.8458" stop-color="#10084E" />
-          <stop offset="1" stop-color="#0F054C" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1055" stopColor="#37B6BF" />
+          <stop offset="0.2197" stopColor="#2C87A1" />
+          <stop offset="0.338" stopColor="#235F87" />
+          <stop offset="0.4587" stopColor="#1C3F72" />
+          <stop offset="0.5824" stopColor="#162561" />
+          <stop offset="0.7105" stopColor="#121355" />
+          <stop offset="0.8458" stopColor="#10084E" />
+          <stop offset="1" stopColor="#0F054C" />
         </linearGradient>
         <linearGradient
           id="paint40_linear_656_9840"
@@ -4187,11 +4187,11 @@ const DiscoverBanner = () => {
           y2="24.9782"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1645" stop-color="#5E67DA" />
-          <stop offset="0.4051" stop-color="#727AE2" />
-          <stop offset="0.6924" stop-color="#9297EE" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1645" stopColor="#5E67DA" />
+          <stop offset="0.4051" stopColor="#727AE2" />
+          <stop offset="0.6924" stopColor="#9297EE" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint41_linear_656_9840"
@@ -4201,11 +4201,11 @@ const DiscoverBanner = () => {
           y2="19.2692"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1645" stop-color="#5E67DA" />
-          <stop offset="0.4051" stop-color="#727AE2" />
-          <stop offset="0.6924" stop-color="#9297EE" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1645" stopColor="#5E67DA" />
+          <stop offset="0.4051" stopColor="#727AE2" />
+          <stop offset="0.6924" stopColor="#9297EE" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint42_linear_656_9840"
@@ -4215,11 +4215,11 @@ const DiscoverBanner = () => {
           y2="13.4577"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1645" stop-color="#5E67DA" />
-          <stop offset="0.4051" stop-color="#727AE2" />
-          <stop offset="0.6924" stop-color="#9297EE" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1645" stopColor="#5E67DA" />
+          <stop offset="0.4051" stopColor="#727AE2" />
+          <stop offset="0.6924" stopColor="#9297EE" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint43_linear_656_9840"
@@ -4229,13 +4229,13 @@ const DiscoverBanner = () => {
           y2="22.9042"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1507" stop-color="#43E3E0" />
-          <stop offset="0.3285" stop-color="#45D5DF" />
-          <stop offset="0.5199" stop-color="#49BDDD" />
-          <stop offset="0.7209" stop-color="#4E9CDB" />
-          <stop offset="0.9274" stop-color="#5472D8" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1507" stopColor="#43E3E0" />
+          <stop offset="0.3285" stopColor="#45D5DF" />
+          <stop offset="0.5199" stopColor="#49BDDD" />
+          <stop offset="0.7209" stopColor="#4E9CDB" />
+          <stop offset="0.9274" stopColor="#5472D8" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint44_linear_656_9840"
@@ -4245,13 +4245,13 @@ const DiscoverBanner = () => {
           y2="17.1928"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1507" stop-color="#43E3E0" />
-          <stop offset="0.3285" stop-color="#45D5DF" />
-          <stop offset="0.5199" stop-color="#49BDDD" />
-          <stop offset="0.7209" stop-color="#4E9CDB" />
-          <stop offset="0.9274" stop-color="#5472D8" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1507" stopColor="#43E3E0" />
+          <stop offset="0.3285" stopColor="#45D5DF" />
+          <stop offset="0.5199" stopColor="#49BDDD" />
+          <stop offset="0.7209" stopColor="#4E9CDB" />
+          <stop offset="0.9274" stopColor="#5472D8" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint45_linear_656_9840"
@@ -4261,13 +4261,13 @@ const DiscoverBanner = () => {
           y2="11.3814"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1507" stop-color="#43E3E0" />
-          <stop offset="0.3285" stop-color="#45D5DF" />
-          <stop offset="0.5199" stop-color="#49BDDD" />
-          <stop offset="0.7209" stop-color="#4E9CDB" />
-          <stop offset="0.9274" stop-color="#5472D8" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1507" stopColor="#43E3E0" />
+          <stop offset="0.3285" stopColor="#45D5DF" />
+          <stop offset="0.5199" stopColor="#49BDDD" />
+          <stop offset="0.7209" stopColor="#4E9CDB" />
+          <stop offset="0.9274" stopColor="#5472D8" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint46_linear_656_9840"
@@ -4277,11 +4277,11 @@ const DiscoverBanner = () => {
           y2="45.7899"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#BCBEFF" />
-          <stop offset="0.3076" stop-color="#9297EE" />
-          <stop offset="0.5949" stop-color="#727AE2" />
-          <stop offset="0.8355" stop-color="#5E67DA" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#BCBEFF" />
+          <stop offset="0.3076" stopColor="#9297EE" />
+          <stop offset="0.5949" stopColor="#727AE2" />
+          <stop offset="0.8355" stopColor="#5E67DA" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint47_linear_656_9840"
@@ -4291,11 +4291,11 @@ const DiscoverBanner = () => {
           y2="71.3692"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5761D7" />
-          <stop offset="0.1645" stop-color="#5E67DA" />
-          <stop offset="0.4051" stop-color="#727AE2" />
-          <stop offset="0.6924" stop-color="#9297EE" />
-          <stop offset="1" stop-color="#BCBEFF" />
+          <stop stopColor="#5761D7" />
+          <stop offset="0.1645" stopColor="#5E67DA" />
+          <stop offset="0.4051" stopColor="#727AE2" />
+          <stop offset="0.6924" stopColor="#9297EE" />
+          <stop offset="1" stopColor="#BCBEFF" />
         </linearGradient>
         <linearGradient
           id="paint48_linear_656_9840"
@@ -4305,13 +4305,13 @@ const DiscoverBanner = () => {
           y2="36.765"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1507" stop-color="#43E3E0" />
-          <stop offset="0.3285" stop-color="#45D5DF" />
-          <stop offset="0.5199" stop-color="#49BDDD" />
-          <stop offset="0.7209" stop-color="#4E9CDB" />
-          <stop offset="0.9274" stop-color="#5472D8" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1507" stopColor="#43E3E0" />
+          <stop offset="0.3285" stopColor="#45D5DF" />
+          <stop offset="0.5199" stopColor="#49BDDD" />
+          <stop offset="0.7209" stopColor="#4E9CDB" />
+          <stop offset="0.9274" stopColor="#5472D8" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
         <linearGradient
           id="paint49_linear_656_9840"
@@ -4321,13 +4321,13 @@ const DiscoverBanner = () => {
           y2="39.4324"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#42E8E0" />
-          <stop offset="0.1507" stop-color="#43E3E0" />
-          <stop offset="0.3285" stop-color="#45D5DF" />
-          <stop offset="0.5199" stop-color="#49BDDD" />
-          <stop offset="0.7209" stop-color="#4E9CDB" />
-          <stop offset="0.9274" stop-color="#5472D8" />
-          <stop offset="1" stop-color="#5761D7" />
+          <stop stopColor="#42E8E0" />
+          <stop offset="0.1507" stopColor="#43E3E0" />
+          <stop offset="0.3285" stopColor="#45D5DF" />
+          <stop offset="0.5199" stopColor="#49BDDD" />
+          <stop offset="0.7209" stopColor="#4E9CDB" />
+          <stop offset="0.9274" stopColor="#5472D8" />
+          <stop offset="1" stopColor="#5761D7" />
         </linearGradient>
       </defs>
     </svg>

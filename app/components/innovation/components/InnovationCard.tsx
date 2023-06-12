@@ -7,7 +7,6 @@ import {
   Efficient,
   Transparency,
   HighResistance,
-  ZeroTradingFee,
   RealYield,
   NoLiquidition,
   InfiniteLiquidity,
@@ -22,8 +21,6 @@ const checkIcon = (icon) => {
       return <Transparency />;
     case "HighResistance":
       return <HighResistance />;
-    case "ZeroTradingFee":
-      return <ZeroTradingFee />;
     case "RealYield":
       return <RealYield />;
     case "NoLiquidation":
