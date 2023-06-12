@@ -3,12 +3,20 @@ import React, { useState, useEffect } from "react";
 import InnovationCard from "./components/InnovationCard";
 import config from "../../config/index.json";
 import { Carousel } from "@trendyol-js/react-carousel";
-import { ArrowRightIcon, EllipseSlider } from "@/app/icons";
+import EllipseSlider from "./components/EllipseSlider";
 import useMediaQuery from "../hooks/useMedia";
 
 const Innovation = () => {
   const { innovation } = config;
+  const [page, setPage] = useState(0);
   const matches = useMediaQuery(768);
+
+  const pageIndicater = () => {
+    if (page >= 0 && page < 4) {
+      setPage((prevState) => ++prevState);
+    } else setPage(0);
+  };
+
   return (
     <>
       <div
@@ -41,7 +49,10 @@ const Innovation = () => {
                 swiping={true}
                 useArrowKeys
                 rightArrow={
-                  <div className="absolute w-[55.2px] h-full opacity-0 bg-transparent right-0"></div>
+                  <div
+                    className="absolute w-[55.2px] h-full opacity-0 bg-transparent right-0"
+                    onClick={() => pageIndicater()}
+                  ></div>
                 }
               >
                 {innovation.map((item, idx) => (
@@ -49,7 +60,7 @@ const Innovation = () => {
                 ))}
               </Carousel>
             </div>
-            <EllipseSlider />
+            <EllipseSlider currentPage={page} setPage={setPage} />
           </div>
         )}
       </div>
