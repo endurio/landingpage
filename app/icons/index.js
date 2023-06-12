@@ -176,11 +176,11 @@ const ScrollSVG = () => {
   );
 };
 
-const FunctionPilotTemplate = () => {
+const FunctionPilotTemplate = (width, height) => {
   return (
     <svg
-      width="692"
-      height="525"
+      width={width ? width : "692"}
+      height={height ? height : "525"}
       viewBox="0 0 692 525"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
