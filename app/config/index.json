@@ -55,16 +55,16 @@
     }
   ],
   "about": {
-    "heading": "Derivable was born out of a shared vision among a group of passionate individuals who recognized the challenges faced by perpetual and futures exchanges.",
-    "explain": "Fueled by a desire to revolutionize the leveraged derivatives market, we embarked on a mission to introduce a novel approach. Leveraging the power of blockchain technology, we created an innovative AMM that eliminates the risks of liquidation and under-collateralization. "
+    "heading": "Derivable is the first Perpetuals Automated Market Maker (AMM) Protocol with infinite liquidity and no liquidation.",
+    "explain": "Derivable's innovative pricing mechanism utilizes a novel Asymptotic Power Curve to ensure that liquidity is always available, even during periods of extreme market volatility, and eliminates the risk of liquidation."
   },
   "vision": {
-    "text-1": "We envision a future of leveraged derivatives market that open to any token by the community. We believe in the democratization of access and opportunities, allowing individuals from all walks of life to actively engage in decentralized trading. ",
-    "text-2": "As part of our vision, we are committed to building an academic community that fosters knowledge sharing, collaboration, and innovative ideas in the leveraged derivatives space."
+    "text-1": "We envision a DeFi ecosystems where any token or value can be traded with leverage, long and short, by anyone, from any sides of the market.",
+    "text-2": "Leverage positions can be HOLD'ed with no risk of liquidation, and the market liquidity is always available."
   },
   "mission": {
-    "text-1": "At Derivable Labs, our mission is to create a fair, transparent, and community-driven leveraged derivatives market. We are dedicated to building innovative tools, seamless trading experiences, and robust risk management solutions. We strive to empower our community members with the knowledge and resources they need to navigate the world of leveraged derivatives confidently.",
-    "text-2": "Through our platform and academic community, we aim to cultivate a collaborative environment where experts, researchers, and enthusiasts can come together to shape the future of leveraged trading."
+    "text-1": "Just as Uniswap has solved the spot DEX problems. We aim to solve the perpetual futures DEX problems with our novel derivatives pricing curve.",
+    "text-2": "With our AMM, users can create perpetual markets for any token with their preferred leverage, interest rate, premium, and fee, providing the DeFi community with an unprecedented tool for derivatives trading, asset hedging, and market making."
   },
   "topic": {
     "topic-1": "TOPIC 1",
