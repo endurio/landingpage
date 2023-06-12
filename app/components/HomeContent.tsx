@@ -45,16 +45,16 @@ const HomeContent = (props) => {
                   </span>
                 </div>
                 <div className="flex flex-row items-start gap-16 max-w-[384px]">
-                  <Link href={"https://app.derivable.org"} target="_blank">
+                  <Link href={"forum"} target="_blank">
                     <GroupSocial height={48} width={48} />
                   </Link>
-                  <Link href={"https://app.derivable.org"} target="_blank">
+                  <Link href={"https://twitter.com/DerivableLabs"} target="_blank">
                     <Twitter height={48} width={48} />
                   </Link>
-                  <Link href={"https://app.derivable.org"} target="_blank">
+                  <Link href={"https://discord.gg/kAcCdEghte"} target="_blank">
                     <Discord height={48} width={48} />
                   </Link>
-                  <Link href={"https://app.derivable.org"} target="_blank">
+                  <Link href={"https://github.com/derivable-labs"} target="_blank">
                     <Github height={48} width={48} />
                   </Link>
                 </div>
@@ -69,16 +69,16 @@ const HomeContent = (props) => {
                   </span>
                 </div>
                 <div className="flex flex-row items-start gap-16 max-w-[384px]">
-                  <Link href={"https://app.derivable.org"} target="_blank">
+                  <Link href={"forum"} target="_blank">
                     <GroupSocial height={48} width={48} />
                   </Link>
-                  <Link href={"https://app.derivable.org"} target="_blank">
+                  <Link href={"https://twitter.com/DerivableLabs"} target="_blank">
                     <Twitter height={48} width={48} />
                   </Link>
-                  <Link href={"https://app.derivable.org"} target="_blank">
+                  <Link href={"https://discord.gg/kAcCdEghte"} target="_blank">
                     <Discord height={48} width={48} />
                   </Link>
-                  <Link href={"https://app.derivable.org"} target="_blank">
+                  <Link href={"https://github.com/derivable-labs"} target="_blank">
                     <Github height={48} width={48} />
                   </Link>
                 </div>
