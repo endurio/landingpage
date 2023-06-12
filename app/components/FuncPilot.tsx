@@ -28,7 +28,7 @@ const FunctionPilot = () => {
               under-collateralization
             </p>
           </div>
-          <FunctionPilotTemplate width={"343"} height={"368"} />
+          <FunctionPilotMobile />
         </div>
       )}
     </>

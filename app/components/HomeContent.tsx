@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import {
   HomeContentHeader,
   HomeContentHeaderMobile,
@@ -26,7 +26,7 @@ const HomeContent = (props) => {
         {(props.url === "#home" || props.url === "") && (
           <>
             {matches ? (
-              <div className="flex flex-col gap-[40px] items-center pb-[300px]">
+              <div className="flex flex-col gap-[40px] items-center pb-[180px]">
                 <div id="home" className="flex flex-col items-center gap-6">
                   <div className="flex flex-col items-start gap-3">
                     <div className="relative">
@@ -48,19 +48,28 @@ const HomeContent = (props) => {
                   <Link href={"forum"} target="_blank">
                     <GroupSocial height={48} width={48} />
                   </Link>
-                  <Link href={"https://twitter.com/DerivableLabs"} target="_blank">
+                  <Link
+                    href={"https://twitter.com/DerivableLabs"}
+                    target="_blank"
+                  >
                     <Twitter height={48} width={48} />
                   </Link>
                   <Link href={"https://discord.gg/kAcCdEghte"} target="_blank">
                     <Discord height={48} width={48} />
                   </Link>
-                  <Link href={"https://github.com/derivable-labs"} target="_blank">
+                  <Link
+                    href={"https://github.com/derivable-labs"}
+                    target="_blank"
+                  >
                     <Github height={48} width={48} />
                   </Link>
                 </div>
+                <div className="flex flex-col justify-center items-center gap-4 max-w-[46px] mt-[100px]">
+                  <ScrollSVG />
+                </div>
               </div>
             ) : (
-              <div className="flex flex-col gap-[40px] mt-[160px] pb-[300px]">
+              <div className="flex flex-col gap-[40px] mt-[160px] pb-[150px] max-w-[343px]">
                 <div id="home" className="flex flex-col items-center gap-6">
                   <HomeContentHeaderMobile />
                   <span className="text-normal text-xl text-center self-stretch leading-[30px]">
@@ -68,25 +77,31 @@ const HomeContent = (props) => {
                     leverage. By anyone.
                   </span>
                 </div>
-                <div className="flex flex-row items-start gap-16 max-w-[384px]">
+                <div className="flex flex-row items-start justify-between max-w-[384px]">
                   <Link href={"forum"} target="_blank">
                     <GroupSocial height={48} width={48} />
                   </Link>
-                  <Link href={"https://twitter.com/DerivableLabs"} target="_blank">
+                  <Link
+                    href={"https://twitter.com/DerivableLabs"}
+                    target="_blank"
+                  >
                     <Twitter height={48} width={48} />
                   </Link>
                   <Link href={"https://discord.gg/kAcCdEghte"} target="_blank">
                     <Discord height={48} width={48} />
                   </Link>
-                  <Link href={"https://github.com/derivable-labs"} target="_blank">
+                  <Link
+                    href={"https://github.com/derivable-labs"}
+                    target="_blank"
+                  >
                     <Github height={48} width={48} />
                   </Link>
                 </div>
+                <div className="flex flex-col justify-center items-center gap-4 w-full mt-[100px]">
+                  <ScrollSVG />
+                </div>
               </div>
             )}
-            {/* <div className="flex flex-col items-center gap-4 max-w-[46px] mt-[130px] md:mt-[180px]">
-              <ScrollSVG />
-            </div> */}
             <FunctionPilot />
             <Innovation />
             <Avaiable />
