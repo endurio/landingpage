@@ -23,9 +23,7 @@ const FunctionPilot = () => {
           <div className="flex flex-col items-center justify-center text-center gap-6">
             <p className="text-heading text-[34px]">ASYMPTOTIC POWER CURVES</p>
             <p className="text-normal text-base">
-              Allows the creation of an AMM for leveraged perpetual and future
-              derivatives of any index value without the risks of liquidation or
-              under-collateralization
+              No Liquidation. Infinite Liquidity.
             </p>
           </div>
           <FunctionPilotMobile />
