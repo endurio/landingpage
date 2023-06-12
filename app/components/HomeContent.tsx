@@ -26,7 +26,7 @@ const HomeContent = (props) => {
         {(props.url === "#home" || props.url === "") && (
           <>
             {matches ? (
-              <div className="flex flex-col gap-[40px] items-center pb-[180px]">
+              <div className="flex flex-col gap-[40px] items-center pb-[300px]">
                 <div id="home" className="flex flex-col items-center gap-6">
                   <div className="flex flex-col items-start gap-3">
                     <div className="relative">
@@ -64,12 +64,9 @@ const HomeContent = (props) => {
                     <Github height={48} width={48} />
                   </Link>
                 </div>
-                <div className="flex flex-col justify-center items-center gap-4 max-w-[46px] mt-[100px]">
-                  <ScrollSVG />
-                </div>
               </div>
             ) : (
-              <div className="flex flex-col gap-[40px] mt-[160px] pb-[150px] max-w-[343px]">
+              <div className="flex flex-col gap-[40px] mt-[160px] pb-[250px] max-w-[343px]">
                 <div id="home" className="flex flex-col items-center gap-6">
                   <HomeContentHeaderMobile />
                   <span className="text-normal text-xl text-center self-stretch leading-[30px]">
@@ -77,7 +74,7 @@ const HomeContent = (props) => {
                     leverage. By anyone.
                   </span>
                 </div>
-                <div className="flex flex-row items-start justify-between max-w-[384px]">
+                <div className="flex flex-row items-start justify-center max-w-[384px] gap-6">
                   <Link href={"forum"} target="_blank">
                     <GroupSocial height={48} width={48} />
                   </Link>
@@ -96,9 +93,6 @@ const HomeContent = (props) => {
                   >
                     <Github height={48} width={48} />
                   </Link>
-                </div>
-                <div className="flex flex-col justify-center items-center gap-4 w-full mt-[100px]">
-                  <ScrollSVG />
                 </div>
               </div>
             )}

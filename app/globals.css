@@ -137,6 +137,11 @@ body {
   );
   transition: transform 0.5s ease;
 }
+
+.carousel-list {
+  width: 99% !important;
+}
+
 /* .button-read:hover {
   color: ;
 } */

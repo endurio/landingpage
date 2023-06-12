@@ -97,6 +97,7 @@ const Menu = (props) => {
                         duration={1000}
                         key={item.name}
                         to={item.href}
+                        target={item.target}
                         onClick={() => props.setUrl(item.href)}
                         className="block px-3 py-2 text-heading text-2xl text-grey-1 border-l-[3px] border-transparent button-link-mobile"
                       >

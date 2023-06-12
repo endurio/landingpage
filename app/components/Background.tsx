@@ -1,9 +1,12 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import CELLS from "vanta/dist/vanta.cells.min";
 import * as THREE from "three";
+import { ScrollSVG } from "../icons";
+import { clearInterval } from "timers";
 const UniverBackground = () => {
   const [vantaEffect, setVantaEffect] = useState(0);
   const [scrollY, setScrollY] = useState(0);
+  const [opacity, setOpacity] = useState(30);
 
   const vantaRef = useRef(null);
 
@@ -11,6 +14,14 @@ const UniverBackground = () => {
     const { pageYOffset, scrollY } = window;
     setScrollY(scrollY);
   }, []);
+
+  // useEffect(() => {
+  //   var timer = setInterval(() => {
+  //     setOpacity(100);
+  //   }, 1000);
+  // }, []);
+
+  // useEffect(() => fadeIn);
 
   useEffect(() => {
     //add eventlistener to window
@@ -47,8 +58,14 @@ const UniverBackground = () => {
     <>
       <div
         ref={vantaRef}
-        className="fixed flex justify-center items-center w-full h-full -z-10"
-      ></div>
+        className={`fixed flex justify-center items-center w-full h-full -z-10 opacity-${opacity}`}
+      >
+        {scrollY < 30 && (
+          <div className="absolute flex flex-col justify-center items-center gap-4 w-full bottom-0">
+            <ScrollSVG />
+          </div>
+        )}
+      </div>
     </>
   );
 };

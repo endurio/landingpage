@@ -42,9 +42,9 @@ const Innovation = () => {
           </div>
         ) : (
           <div className="relative flex flex-col items-center gap-8">
-            <div className="flex flex-row justify-center max-w-[343px] items-start gap-8">
+            <div className="flex flex-row justify-center max-w-[345px] items-start gap-8">
               <Carousel
-                show={1.2}
+                show={1.1}
                 slide={1}
                 swiping={true}
                 useArrowKeys
@@ -54,6 +54,7 @@ const Innovation = () => {
                     onClick={() => pageIndicater()}
                   ></div>
                 }
+                className="carousel-list"
               >
                 {innovation.map((item, idx) => (
                   <InnovationCard key={idx} item={item} />

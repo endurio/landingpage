@@ -8,6 +8,7 @@ import useMediaQuery from "../hooks/useMedia";
 const AboutUs = () => {
   const { about } = config;
   const matches = useMediaQuery(768);
+  console.log(matches);
   return (
     <>
       <div className="flex flex-col justify-between items-center px-4 md:px-0 gap-[56px]">
