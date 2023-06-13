@@ -17,15 +17,39 @@ import BlogDetail from "./blog/BlogDetail";
 import useMediaQuery from "./hooks/useMedia";
 import Link from "next/link";
 
+function checkInnerWidth() {
+  return typeof window !== "undefined" && window.innerWidth >= 768;
+}
+
 const HomeContent = (props) => {
-  const matches = useMediaQuery(768);
+  // const matches = useMediaQuery(768);
+  const [targetReached, setTargetReached] = useState(checkInnerWidth());
+
+  const updateTarget = useCallback((e) => {
+    if (e.matches) {
+      setTargetReached(true);
+    } else {
+      setTargetReached(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    const media = window.matchMedia(`(min-width:768px)`);
+    media.addEventListener("change", updateTarget);
+
+    if (media.matches) {
+      setTargetReached(true);
+    }
+
+    return () => media.removeEventListener("change", updateTarget);
+  }, [updateTarget]);
 
   return (
     <>
       <div className="absolute flex flex-col justify-center inset-x-0 items-center py-0 px-4 w-full top-[104px] md:top-[277px]">
         {(props.url === "#home" || props.url === "") && (
           <>
-            {matches ? (
+            {targetReached ? (
               <div className="flex flex-col gap-[40px] items-center pb-[300px]">
                 <div id="home" className="flex flex-col items-center gap-6">
                   <div className="flex flex-col items-start gap-3">
@@ -68,7 +92,20 @@ const HomeContent = (props) => {
             ) : (
               <div className="flex flex-col gap-[40px] mt-[160px] pb-[250px] max-w-[343px]">
                 <div id="home" className="flex flex-col items-center gap-6">
-                  <HomeContentHeaderMobile />
+                  <div className="flex flex-col items-start">
+                    <div className="relative">
+                      <span className="text-heading text-base">
+                        The 1
+                        <sup className="text-heading text-[12.4648px] absolute top-[4px]">
+                          st
+                        </sup>
+                      </span>
+                    </div>
+                    <HomeContentHeaderMobile />
+                    <div className="text-heading text-base text-right w-full">
+                      Ever.
+                    </div>
+                  </div>
                   <span className="text-normal text-xl text-center self-stretch leading-[30px]">
                     Perpetuals trading and liquidity for any token, with any
                     leverage. By anyone.
@@ -96,13 +133,13 @@ const HomeContent = (props) => {
                 </div>
               </div>
             )}
-            <FunctionPilot />
-            <Innovation />
-            <Avaiable />
-            <Discover />
+            <FunctionPilot matches={targetReached} />
+            <Innovation matches={targetReached} />
+            <Avaiable matches={targetReached} />
+            <Discover matches={targetReached} />
           </>
         )}
-        {props.url === "#about" && <AboutUs />}
+        {props.url === "#about" && <AboutUs matches={targetReached} />}
         {props.url === "#blog" && <Blog setUrl={props.setUrl} />}
         {props.url === "#blog-detail" && <BlogDetail setUrl={props.setUrl} />}
         <Footer />

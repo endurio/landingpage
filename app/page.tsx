@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import Header from "./components/Header";
 import UniverBackground from "./components/Background";
 import HomeContent from "./components/HomeContent";

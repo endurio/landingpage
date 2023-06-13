@@ -1,7 +1,11 @@
 import { useState, useCallback, useEffect } from "react";
 
+// function checkInnerWidth() {
+//   return typeof window !== undefined && window.innerWidth >= 768;
+// }
+
 const useMediaQuery = (width) => {
-  const [targetReached, setTargetReached] = useState(false);
+  const [targetReached, setTargetReached] = useState(true);
 
   const updateTarget = useCallback((e) => {
     if (e.matches) {

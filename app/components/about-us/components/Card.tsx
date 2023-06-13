@@ -7,16 +7,13 @@ import {
   OurMissionIcon,
 } from "@/app/icons/about-us";
 import config from "../../../config/index.json";
-import useMediaQuery from "../../hooks/useMedia";
-const Card = () => {
+const Card = (props) => {
   const { vision, mission } = config;
-  const matches = useMediaQuery(768);
-
   return (
     <>
       <div className="flex flex-col md:flex-row gap-4 md:gap-[40px]">
         <div className="relative">
-          {matches ? <CardBorder /> : <CardBorderMobile />}
+          {props.matches ? <CardBorder /> : <CardBorderMobile />}
           <div className="absolute flex flex-col justify-between h-full items-start p-6 gap-6 top-0">
             <div className="flex flex-col items-start max-w-[295px] md:max-w-[500px] gap-4 md:gap-6">
               <OurVisionIcon />
@@ -34,7 +31,7 @@ const Card = () => {
           </div>
         </div>
         <div className="relative">
-          {matches ? <CardBorder /> : <CardBorderMobile />}
+          {props.matches ? <CardBorder /> : <CardBorderMobile />}
           <div className="absolute flex flex-col justify-between h-full items-start p-6 gap-6 top-0">
             <div className="flex flex-col items-start max-w-[295px] md:max-w-[500px] gap-4 md:gap-6">
               {/* <OurVisionIcon /> */}

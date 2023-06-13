@@ -6,10 +6,10 @@ import { Carousel } from "@trendyol-js/react-carousel";
 import EllipseSlider from "./components/EllipseSlider";
 import useMediaQuery from "../hooks/useMedia";
 
-const Innovation = () => {
+const Innovation = (props) => {
   const { innovation } = config;
   const [page, setPage] = useState(0);
-  const matches = useMediaQuery(768);
+  // const matches = useMediaQuery(768);
 
   const pageIndicater = () => {
     if (page >= 0 && page < 4) {
@@ -32,7 +32,7 @@ const Innovation = () => {
             perpetual futures DEX problems
           </p>
         </div>
-        {matches ? (
+        {props.matches ? (
           <div className="flex flex-col items-center gap-8">
             <div className="flex flex-row justify-center max-w-[900px] flex-wrap items-start gap-8">
               {innovation.map((item, idx) => (
