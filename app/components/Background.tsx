@@ -2,16 +2,14 @@ import React, { useState, useEffect, useRef, useCallback } from "react";
 import CELLS from "vanta/dist/vanta.cells.min";
 import * as THREE from "three";
 import { ScrollSVG } from "../icons";
-import { clearInterval } from "timers";
 
 function shouldShowScroll() {
-  return window.innerHeight <= 1024 && window.scrollY <= 30
+  return typeof window !== 'undefined' && window.innerHeight <= 1024 && window.scrollY <= 150
 }
 
 const UniverBackground = () => {
-  const [vantaEffect, setVantaEffect] = useState(0);
+  const [vantaEffect, setVantaEffect] = useState(null);
   const [showScroll, setShowScroll] = useState(shouldShowScroll());
-  const [opacity, setOpacity] = useState(30);
 
   const vantaRef = useRef(null);
 
@@ -19,22 +17,16 @@ const UniverBackground = () => {
     setShowScroll(shouldShowScroll());
   }, []);
 
-  // useEffect(() => {
-  //   var timer = setInterval(() => {
-  //     setOpacity(100);
-  //   }, 1000);
-  // }, []);
-
-  // useEffect(() => fadeIn);
-
   useEffect(() => {
     //add eventlistener to window
-    window.addEventListener("scroll", onScroll, { passive: true });
+    if (typeof window !== 'undefined') {
+      window.addEventListener("scroll", onScroll);
+    }
     // remove event on unmount to prevent a memory leak with the cleanup
-    // return () => {
-    //   window.removeEventListener("scroll", onScroll, { passive: true });
-    // };
-  }, []);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+    };
+  }, [onScroll]);
 
   useEffect(() => {
     if (!vantaEffect) {
@@ -51,6 +43,7 @@ const UniverBackground = () => {
           scaleMobile: 3.0,
           color1: "#2c0c30",
           color2: "#0c1857",
+          backgroundColor: "#0c1857",
         })
       );
     }
@@ -62,7 +55,7 @@ const UniverBackground = () => {
     <>
       <div
         ref={vantaRef}
-        className={`fixed flex justify-center items-center w-full h-full -z-10 opacity-${opacity}`}
+        className={`fixed flex justify-center items-center w-full h-full -z-10`}
       >
         {showScroll && (
           <div className="absolute flex flex-col justify-center items-center gap-4 w-full bottom-4">
