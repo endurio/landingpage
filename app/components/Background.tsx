@@ -3,16 +3,20 @@ import CELLS from "vanta/dist/vanta.cells.min";
 import * as THREE from "three";
 import { ScrollSVG } from "../icons";
 import { clearInterval } from "timers";
+
+function shouldShowScroll() {
+  return window.innerHeight <= 1024 && window.scrollY <= 30
+}
+
 const UniverBackground = () => {
   const [vantaEffect, setVantaEffect] = useState(0);
-  const [scrollY, setScrollY] = useState(0);
+  const [showScroll, setShowScroll] = useState(shouldShowScroll());
   const [opacity, setOpacity] = useState(30);
 
   const vantaRef = useRef(null);
 
   const onScroll = useCallback((event) => {
-    const { pageYOffset, scrollY } = window;
-    setScrollY(scrollY);
+    setShowScroll(shouldShowScroll());
   }, []);
 
   // useEffect(() => {
@@ -60,8 +64,8 @@ const UniverBackground = () => {
         ref={vantaRef}
         className={`fixed flex justify-center items-center w-full h-full -z-10 opacity-${opacity}`}
       >
-        {scrollY < 30 && (
-          <div className="absolute flex flex-col justify-center items-center gap-4 w-full bottom-0">
+        {showScroll && (
+          <div className="absolute flex flex-col justify-center items-center gap-4 w-full bottom-4">
             <ScrollSVG />
           </div>
         )}
