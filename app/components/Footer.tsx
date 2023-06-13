@@ -14,27 +14,27 @@ const Footer = () => {
   const iconsArr = [
     {
       icon: <TwitterMini />,
-      link: "a",
+      link: "https://twitter.com/DerivableLabs",
     },
     {
       icon: <DiscordMini />,
-      link: "b",
+      link: "https://discord.gg/kAcCdEghte",
     },
     {
       icon: <Reddit />,
-      link: "c",
+      link: "forum",
     },
     {
       icon: <Medium />,
-      link: "d",
+      link: "https://medium.com/@Derivable.Fi",
     },
     {
       icon: <Linkedin />,
-      link: "e",
+      link: "https://www.linkedin.com/company/derivable-finance/",
     },
     {
       icon: <Youtube />,
-      link: "f",
+      link: "forum",
     },
   ];
   return (

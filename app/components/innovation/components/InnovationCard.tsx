@@ -12,6 +12,7 @@ import {
   InfiniteLiquidity,
   ArrowIcon,
 } from "../../../icons";
+import useMediaQuery from "../../hooks/useMedia";
 
 const checkIcon = (icon) => {
   switch (icon) {
@@ -34,14 +35,15 @@ const checkIcon = (icon) => {
 
 const InnovationCard = (item: any) => {
   const [over, setOver] = useState(false);
+  const matches = useMediaQuery(768);
 
   return (
     <div
-      className="relative max-w-[276px] h-[336px]"
+      className="relative max-w-[277px] h-[336px]"
       onMouseOver={() => setOver(true)}
       onMouseOut={() => setOver(false)}
     >
-      {over ? <CardBorderHover /> : <CardBorder />}
+      {over && matches ? <CardBorderHover /> : <CardBorder />}
       <div className="absolute flex flex-col justify-between h-full items-start p-6 gap-6 top-0">
         <div className="flex flex-col gap-6">
           {checkIcon(item.item.icon)}

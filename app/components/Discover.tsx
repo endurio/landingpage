@@ -8,11 +8,11 @@ import {
 } from "../icons";
 import useMediaQuery from "./hooks/useMedia";
 
-const Discover = () => {
-  const matches = useMediaQuery(768);
+const Discover = (props) => {
+  // const matches = useMediaQuery(768);
   return (
     <>
-      {!!matches ? (
+      {props.matches ? (
         <div className="flex flex-col items-center pb-[120px] gap-[10px]">
           <div className="relative flex flex-row max-h-[328px] max-w-[996px] rounded-3xl">
             <RectangleGradient />

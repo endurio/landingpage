@@ -7,7 +7,7 @@ import EthereumIcon from "../icons/EthereumIcon.png";
 import Image from "next/image";
 import Link from "next/link";
 
-const Avaiable = () => {
+const Avaiable = (props) => {
   return (
     <>
       <div className="flex flex-col justify-center items-center pb-[120px] gap-[56px]">
