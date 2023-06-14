@@ -19,7 +19,7 @@ const Avaiable = (props) => {
               <Image src={EthereumIcon} alt="" />
               <p className="text-heading text-xl">Ethereum</p>
             </div>
-            <Link href={"https://app.derivable.org"} target="_blank">
+            <Link href={"https://app.derivable.org/#/trade"} target="_blank">
               <div className="flex justify-center items-center">
                 <div className="box-border flex flex-row justify-center items-center py-[14px] px-5 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
                   <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
@@ -37,7 +37,7 @@ const Avaiable = (props) => {
               <Image src={ArbitrumIcon} alt="" />
               <p className="text-heading text-xl">Arbitrum</p>
             </div>
-            <Link href={"https://app.derivable.org"} target="_blank">
+            <Link href={"https://app.derivable.org/#/trade"} target="_blank">
               <div className="flex justify-center items-center">
                 <div className="box-border flex flex-row justify-center items-center py-[14px] px-5 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
                   <div className="border-gradient p-[2px] h-12 w-full rounded-lg">

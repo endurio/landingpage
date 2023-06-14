@@ -50,7 +50,7 @@ const Menu = (props) => {
               ))}
             </div>
             <div className="hidden md:flex h-full justify-center items-center">
-              <NextLink href={"https://app.derivable.org"} target="_blank">
+              <NextLink href={"https://app.derivable.org/#/trade"} target="_blank">
                 <div className="box-border flex flex-row justify-center items-center py-[14px] px-5 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
                   <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
                     <div className="h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	flex flex-row justify-center items-center">
@@ -127,7 +127,7 @@ const Menu = (props) => {
                     </div>
                     <div className="flex h-full justify-start">
                       <NextLink
-                        href={"https://app.derivable.org"}
+                        href={"https://app.derivable.org/#/trade"}
                         target="_blank"
                       >
                         <div className="box-border flex flex-row justify-center items-center px-3 py-2 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">

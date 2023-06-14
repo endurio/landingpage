@@ -18,7 +18,7 @@ const Footer = () => {
     },
     {
       icon: <DiscordMini />,
-      link: "https://discord.gg/kAcCdEghte",
+      link: "https://discord.gg/BAuKQyVjJq",
     },
     {
       icon: <Reddit />,
@@ -30,11 +30,11 @@ const Footer = () => {
     },
     {
       icon: <Linkedin />,
-      link: "https://www.linkedin.com/company/derivable-finance/",
+      link: "https://linkedin.com/company/derivablelabs/",
     },
     {
       icon: <Youtube />,
-      link: "forum",
+      link: "https://youtube.com/@DerivableLabs",
     },
   ];
   return (
