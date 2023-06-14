@@ -1,6 +1,14 @@
+require("dotenv").config({ path: `./env.${process.env.NODE_ENV}` });
+
+const nextConfigDev = {};
+
+const nextConfigProd = {
+  output: "export",
+};
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
-}
+  ...(process.env.NODE_ENV === "production" ? nextConfigProd : nextConfigDev),
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
