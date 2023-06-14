@@ -8,7 +8,7 @@ import {
 import { GroupSocial, Twitter, Discord, Github } from "../icons/socials";
 import FunctionPilot from "./FuncPilot";
 import Innovation from "./innovation/Innovation";
-import Avaiable from "./Avaiable";
+import Available from "./Available";
 import Discover from "./Discover";
 import Footer from "./Footer";
 import AboutUs from "./about-us/AboutUs";
@@ -46,7 +46,7 @@ const HomeContent = (props) => {
 
   return (
     <>
-      <div className="absolute flex flex-col justify-center inset-x-0 items-center py-0 px-4 w-full top-[104px] md:top-[277px]">
+      <div className="absolute flex flex-col justify-center inset-x-0 items-center py-0 px-4 w-full top-[104px] md:top-[220px]">
         {(props.url === "#home" || props.url === "") && (
           <>
             {targetReached ? (
@@ -90,7 +90,7 @@ const HomeContent = (props) => {
                 </div>
               </div>
             ) : (
-              <div className="flex flex-col gap-[40px] mt-[160px] pb-[250px] max-w-[343px]">
+              <div className="flex flex-col gap-[40px] mt-[100px] pb-[250px] max-w-[343px]">
                 <div id="home" className="flex flex-col items-center gap-6">
                   <div className="flex flex-col items-start">
                     <div className="relative">
@@ -135,7 +135,7 @@ const HomeContent = (props) => {
             )}
             <FunctionPilot matches={targetReached} />
             <Innovation matches={targetReached} />
-            <Avaiable matches={targetReached} />
+            <Available matches={targetReached} />
             <Discover matches={targetReached} />
           </>
         )}

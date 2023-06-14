@@ -21,7 +21,7 @@ const Innovation = (props) => {
     <>
       <div
         id="innovation"
-        className="flex flex-col items-center gap-6 pb-[120px] md:gap-[56px]"
+        className="flex flex-col items-center gap-6 pt-[120px] pb-[120px] md:gap-[56px]"
       >
         <div className="flex flex-col justify-center items-center gap-6">
           <p className="text-heading text-[34px] md:text-5xl">

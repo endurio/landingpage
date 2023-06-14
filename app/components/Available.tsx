@@ -7,11 +7,11 @@ import EthereumIcon from "../icons/EthereumIcon.png";
 import Image from "next/image";
 import Link from "next/link";
 
-const Avaiable = (props) => {
+const Available = (props) => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center pb-[120px] gap-[56px]">
-        <p className="text-heading text-[34px]">Avaiable on</p>
+      <div className="flex flex-col justify-center items-center pt-[120px] pb-[120px] gap-[56px]">
+        <p className="text-heading text-[34px]">Available on</p>
         <div className="flex flex-wrap flex-row justify-center md:justify-between items-start gap-8 max-w-[584px]">
           <div className="relative background-gray box-border flex flex-col items-center justify-center rounded-3xl gap-[26px] w-[276px] h-[292px]">
             <Image src={Ethereum} alt="" className="absolute -z-[2] top-0" />
@@ -55,4 +55,4 @@ const Avaiable = (props) => {
   );
 };
 
-export default Avaiable;
+export default Available;
