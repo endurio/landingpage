@@ -6,6 +6,7 @@ import {
   DiscoverBanner,
   DiscoverBannerMobile,
 } from "../icons";
+import Link from "next/link";
 import useMediaQuery from "./hooks/useMedia";
 
 const Discover = (props) => {
@@ -25,16 +26,18 @@ const Discover = (props) => {
                   contribute to the advancement of Derivable and the broader
                   DeFi ecosystem
                 </p>
-                <div className="flex flex-row items-start">
-                  <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
-                    <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
-                      <div className=" h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	gap-[6px] flex flex-row justify-center items-center">
-                        Discover
-                        <ArrowRightIcon />
+                <Link href="forum" target="_blank">
+                  <div className="flex flex-row items-start">
+                    <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
+                      <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
+                        <div className=" h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	gap-[6px] flex flex-row justify-center items-center">
+                          Discover
+                          <ArrowRightIcon />
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                </Link>
               </div>
               <div>
                 <DiscoverBanner />
@@ -55,16 +58,18 @@ const Discover = (props) => {
                   contribute to the advancement of Derivable and the broader
                   DeFi ecosystem
                 </span>
-                <div className="flex flex-row items-start">
-                  <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
-                    <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
-                      <div className=" h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	gap-[6px] flex flex-row justify-center items-center">
-                        Discover
-                        <ArrowRightIcon />
+                <Link href="forum" target="_blank">
+                  <div className="flex flex-row items-start">
+                    <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
+                      <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
+                        <div className=" h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	gap-[6px] flex flex-row justify-center items-center">
+                          Discover
+                          <ArrowRightIcon />
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                </Link>
               </div>
             </div>
           </div>
