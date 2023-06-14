@@ -4,10 +4,14 @@ import * as THREE from "three";
 import { ScrollSVG } from "../icons";
 
 function shouldShowScroll() {
-  return typeof window !== 'undefined' && window.innerHeight <= 1024 && window.scrollY <= 150
+  return (
+    typeof window !== "undefined" &&
+    window.innerHeight <= 1024 &&
+    window.scrollY <= 150
+  );
 }
 
-const UniverBackground = () => {
+const UniverBackground = (props) => {
   const [vantaEffect, setVantaEffect] = useState(null);
   const [showScroll, setShowScroll] = useState(shouldShowScroll());
 
@@ -19,7 +23,7 @@ const UniverBackground = () => {
 
   useEffect(() => {
     //add eventlistener to window
-    if (typeof window !== 'undefined') {
+    if (typeof window !== "undefined") {
       window.addEventListener("scroll", onScroll);
     }
     // remove event on unmount to prevent a memory leak with the cleanup
@@ -57,7 +61,7 @@ const UniverBackground = () => {
         ref={vantaRef}
         className={`fixed flex justify-center items-center w-full h-full -z-10`}
       >
-        {showScroll && (
+        {showScroll && ["", "#", "#home"].includes(props.url) && (
           <div className="absolute flex flex-col justify-center items-center gap-4 w-full bottom-4">
             <ScrollSVG />
           </div>
