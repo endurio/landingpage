@@ -2,7 +2,7 @@
   "navigation": [
     {
       "name": "HOME",
-      "href": "#home",
+      "href": "/",
       "target": "_self"
     },
     {
@@ -13,7 +13,7 @@
 
     {
       "name": "FORUM",
-      "href": "forum",
+      "href": "https://derivable.org/forum/",
       "target": "_blank"
     },
     {
@@ -23,7 +23,7 @@
     },
     {
       "name": "BLOG",
-      "href": "blog",
+      "href": "https://derivable.org/blog/",
       "target": "_self"
     }
   ],
