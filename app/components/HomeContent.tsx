@@ -47,7 +47,7 @@ const HomeContent = (props) => {
   return (
     <>
       <div className="absolute flex flex-col justify-center inset-x-0 items-center py-0 px-4 w-full top-[104px] md:top-[220px]">
-        {(props.url === "#home" || props.url === "") && (
+        {typeof window !== "undefined" && (props.url === "#home" || props.url === "") && (
           <>
             {targetReached ? (
               <div className="flex flex-col gap-[40px] items-center pb-[300px]">
