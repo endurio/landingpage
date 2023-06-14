@@ -1,8 +1,8 @@
 import React from "react";
-import Arbitrum from "../icons/Arbitrum.png";
-import ArbitrumIcon from "../icons/ArtribumIcon.png";
-import Ethereum from "../icons/Ethereum.png";
-import EthereumIcon from "../icons/EthereumIcon.png";
+import Arbitrum from "../../public/icons/Arbitrum.png";
+import ArbitrumIcon from "../../public/icons/ArtribumIcon.png";
+import Ethereum from "../../public/icons/Ethereum.png";
+import EthereumIcon from "../../public/icons/EthereumIcon.png";
 
 import Image from "next/image";
 import Link from "next/link";
