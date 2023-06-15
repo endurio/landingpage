@@ -137,8 +137,10 @@ const Menu = (props) => {
                               item.name === "BLOG"
                             ) {
                               props.setUrl("#home");
+                              handleClose();
                             } else {
                               props.setUrl(item.href);
+                              handleClose();
                             }
                           }}
                           className="block px-3 py-2 text-heading text-2xl text-grey-1 border-l-[3px] border-transparent button-link-mobile"
