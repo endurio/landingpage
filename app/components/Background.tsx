@@ -84,8 +84,11 @@ const UniverBackground = (props) => {
   return (
     <div
       id="particle-background"
-      className={`fixed flex justify-center items-center w-full h-full -z-10`}
+      className={`background-univer fixed flex justify-center items-center w-full h-full -z-10`}
     >
+      {/* <div className="absolute flex justify-center items-center w-full h-full">
+        <img src="/bg-univer.png" alt="bg" className="w-full h-full" />
+      </div> */}
       <Particles
         id="tsparticles"
         init={particlesInit}
