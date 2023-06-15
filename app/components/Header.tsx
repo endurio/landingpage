@@ -34,9 +34,17 @@ const Menu = (props) => {
                   key={index}
                   href={item.href}
                   target={item.target}
-                  onClick={() =>
-                    item.href !== "DOCS" && props.setUrl(item.href)
-                  }
+                  onClick={() => {
+                    if (
+                      item.name === "DOCS" ||
+                      item.name === "FORUM" ||
+                      item.name === "BLOG"
+                    ) {
+                      props.setUrl("#home");
+                    } else {
+                      props.setUrl(item.href);
+                    }
+                  }}
                   className="h-full"
                 >
                   <div
@@ -50,15 +58,22 @@ const Menu = (props) => {
               ))}
             </div>
             <div className="hidden md:flex h-full justify-center items-center">
-              <NextLink href={"https://app.derivable.org/#/trade"} target="_blank">
-                <div className="box-border flex flex-row justify-center items-center py-[14px] px-5 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
-                  <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
-                    <div className="h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	flex flex-row justify-center items-center">
-                      Launch app
+              {/* <NextLink
+                href={"https://app.derivable.org/#/trade"}
+                target="_blank"
+              > */}
+              <div className="box-border flex flex-row justify-center items-center py-[14px] px-5 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
+                <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
+                  <div className="group relative h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	flex flex-row justify-center items-center">
+                    launch app
+                    <div className="border-light absolute top-full text-normal !text-black left-1/2 z-20 mt-3 -translate-x-1/2 whitespace-nowrap rounded border bg-white py-[6px] px-4 text-sm font-semibold opacity-0 group-hover:opacity-100">
+                      <span className="border-light absolute -top-1 left-1/2 -z-10 h-2 w-2 -translate-x-1/2 rotate-45 rounded-sm border-t border-l bg-white"></span>
+                      Comming Soon
                     </div>
                   </div>
                 </div>
-              </NextLink>
+              </div>
+              {/* </NextLink> */}
             </div>
             <div className="flex items-center md:hidden">
               <Popover.Button
@@ -116,8 +131,17 @@ const Menu = (props) => {
                           to={item.href}
                           target={item.target}
                           onClick={() => {
-                            props.setUrl(item.href);
-                            handleClose();
+                            if (
+                              item.name === "DOCS" ||
+                              item.name === "FORUM" ||
+                              item.name === "BLOG"
+                            ) {
+                              props.setUrl("#home");
+                              handleClose();
+                            } else {
+                              props.setUrl(item.href);
+                              handleClose();
+                            }
                           }}
                           className="block px-3 py-2 text-heading text-2xl text-grey-1 border-l-[3px] border-transparent button-link-mobile"
                         >
@@ -126,18 +150,22 @@ const Menu = (props) => {
                       ))}
                     </div>
                     <div className="flex h-full justify-start">
-                      <NextLink
+                      {/* <NextLink
                         href={"https://app.derivable.org/#/trade"}
                         target="_blank"
-                      >
-                        <div className="box-border flex flex-row justify-center items-center px-3 py-2 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
-                          <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
-                            <div className=" h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	flex flex-row justify-center items-center">
-                              Launch app
+                      > */}
+                      <div className="box-border flex flex-row justify-center items-center px-3 py-2 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
+                        <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
+                          <div className="group relative h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	flex flex-row justify-center items-center">
+                            Launch app
+                            <div className="border-light text-normal text-base !text-black text-body-color absolute left-full top-1/2 z-20 ml-3 -translate-y-1/2 whitespace-nowrap rounded border bg-white py-[6px] px-4 text-sm font-semibold opacity-0 group-hover:opacity-100">
+                              <span className="border-light absolute -left-1 top-1/2 -z-10 h-2 w-2 -translate-y-1/2 rotate-45 rounded-r-sm border-b border-l bg-white"></span>
+                              Comming Soon
                             </div>
                           </div>
                         </div>
-                      </NextLink>
+                      </div>
+                      {/* </NextLink> */}
                     </div>
                   </div>
                 </Popover.Panel>

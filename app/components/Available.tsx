@@ -23,17 +23,19 @@ const Available = (props) => {
               <img src="/ethereum-icon.png" alt="logo" />
               <p className="text-heading text-xl">Ethereum</p>
             </div>
-            <Link href={"https://app.derivable.org/#/trade"} target="_blank">
-              <div className="flex justify-center items-center">
-                <div className="box-border flex flex-row justify-center items-center py-[14px] px-5 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
-                  <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
-                    <div className="h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer flex flex-row justify-center items-center">
-                      Launch app
+            <div className="flex justify-center items-center">
+              <div className="box-border flex flex-row justify-center items-center py-[14px] px-5 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
+                <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
+                  <div className="group relative h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	flex flex-row justify-center items-center">
+                    launch app
+                    <div className="border-light absolute top-full text-normal !text-black left-1/2 z-20 mt-3 -translate-x-1/2 whitespace-nowrap rounded border bg-white py-[6px] px-4 text-sm font-semibold opacity-0 group-hover:opacity-100">
+                      <span className="border-light absolute -top-1 left-1/2 -z-10 h-2 w-2 -translate-x-1/2 rotate-45 rounded-sm border-t border-l bg-white"></span>
+                      Comming Soon
                     </div>
                   </div>
                 </div>
               </div>
-            </Link>
+            </div>
           </div>
           <div className="relative background-gray box-border flex flex-col items-center justify-center rounded-3xl gap-[26px] w-[276px] h-[292px]">
             <img
@@ -45,17 +47,19 @@ const Available = (props) => {
               <img src="/arbitrum-icon.png" alt="logo" />
               <p className="text-heading text-xl">Arbitrum</p>
             </div>
-            <Link href={"https://app.derivable.org/#/trade"} target="_blank">
-              <div className="flex justify-center items-center">
-                <div className="box-border flex flex-row justify-center items-center py-[14px] px-5 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
-                  <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
-                    <div className=" h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	flex flex-row justify-center items-center">
-                      launch app
+            <div className="flex justify-center items-center">
+              <div className="box-border flex flex-row justify-center items-center py-[14px] px-5 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
+                <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
+                  <div className="group relative h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	flex flex-row justify-center items-center">
+                    launch app
+                    <div className="border-light absolute top-full text-normal !text-black left-1/2 z-20 mt-3 -translate-x-1/2 whitespace-nowrap rounded border bg-white py-[6px] px-4 text-sm font-semibold opacity-0 group-hover:opacity-100">
+                      <span className="border-light absolute -top-1 left-1/2 -z-10 h-2 w-2 -translate-x-1/2 rotate-45 rounded-sm border-t border-l bg-white"></span>
+                      Comming Soon
                     </div>
                   </div>
                 </div>
               </div>
-            </Link>
+            </div>
           </div>
         </div>
       </div>
