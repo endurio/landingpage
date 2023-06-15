@@ -116,15 +116,15 @@ const UniverBackground = (props) => {
             },
           },
           interactivity: {
-            detect_on: "canvas",
+            detect_on: "window",
             events: {
               onhover: {
                 enable: true,
-                mode: "repulse",
+                mode: "bubble",
               },
               onclick: {
                 enable: true,
-                mode: "push",
+                mode: "repulse",
               },
               resize: true,
             },
@@ -136,15 +136,15 @@ const UniverBackground = (props) => {
                 },
               },
               bubble: {
-                distance: 400,
-                size: 40,
-                duration: 2,
+                distance: 200,
+                size: 3,
+                duration: 4,
                 opacity: 8,
-                speed: 3,
+                speed: 1,
               },
               repulse: {
                 distance: 200,
-                duration: 0.4,
+                duration: 1,
               },
               push: {
                 particles_nb: 4,
