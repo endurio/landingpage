@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "NODE_ENV=production next build",
+    "clean": "rimraf out",
     "lint": "next lint"
   },
   "dependencies": {
@@ -29,6 +31,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.24",
+    "rimraf": "^5.0.1",
     "tailwindcss": "^3.3.2"
   }
 }
