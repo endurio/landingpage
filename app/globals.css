@@ -91,9 +91,10 @@ body {
 }
 
 .background-univer {
-  background: linear-gradient(60deg, #060113, transparent),
-    linear-gradient(120deg, #2d0d69, transparent),
-    linear-gradient(90deg, #210321, transparent);
+  background:
+    linear-gradient(to top, black, transparent),
+    linear-gradient(to top left, #511cb5, transparent),
+    linear-gradient(to top right, #1F0320, transparent);
 }
 
 .background-gray {
