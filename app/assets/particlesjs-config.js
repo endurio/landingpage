@@ -1,7 +1,7 @@
 const particleConfig = {
   particles: {
     number: {
-      value: 80,
+      value: 160,
       density: {
         enable: true,
         value_area: 800,
@@ -36,7 +36,7 @@ const particleConfig = {
       },
     },
     size: {
-      value: 3,
+      value: 1.5,
       random: true,
       anim: {
         enable: false,
@@ -46,7 +46,7 @@ const particleConfig = {
       },
     },
     line_linked: {
-      enable: true,
+      enable: false,
       distance: 150,
       color: "#ffffff",
       opacity: 0.4,
@@ -54,8 +54,8 @@ const particleConfig = {
     },
     move: {
       enable: true,
-      speed: 6,
-      direction: "none",
+      speed: 2,
+      direction: "top",
       random: false,
       straight: false,
       out_mode: "out",
