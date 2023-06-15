@@ -1,8 +1,8 @@
 import React from "react";
-import Arbitrum from "../icons/Arbitrum.png";
-import ArbitrumIcon from "../icons/ArtribumIcon.png";
-import Ethereum from "../icons/Ethereum.png";
-import EthereumIcon from "../icons/EthereumIcon.png";
+import Arbitrum from "../../public/icons/Arbitrum.png";
+import ArbitrumIcon from "../../public/icons/ArtribumIcon.png";
+import Ethereum from "../../public/icons/Ethereum.png";
+import EthereumIcon from "../../public/icons/EthereumIcon.png";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -14,9 +14,13 @@ const Available = (props) => {
         <p className="text-heading text-[34px]">Available on</p>
         <div className="flex flex-wrap flex-row justify-center md:justify-between items-start gap-8 max-w-[584px]">
           <div className="relative background-gray box-border flex flex-col items-center justify-center rounded-3xl gap-[26px] w-[276px] h-[292px]">
-            <Image src={Ethereum} alt="" className="absolute -z-[2] top-0" />
+            <img
+              src="/ethereum.png"
+              alt="logo"
+              className="absolute -z-[2] top-0"
+            />
             <div className="flex flex-col items-center gap-4 max-w-[100px] max-h-[146px]">
-              <Image src={EthereumIcon} alt="" />
+              <img src="/ethereum-icon.png" alt="logo" />
               <p className="text-heading text-xl">Ethereum</p>
             </div>
             <Link href={"https://app.derivable.org/#/trade"} target="_blank">
@@ -32,9 +36,13 @@ const Available = (props) => {
             </Link>
           </div>
           <div className="relative background-gray box-border flex flex-col items-center justify-center rounded-3xl gap-[26px] w-[276px] h-[292px]">
-            <Image src={Arbitrum} alt="" className="absolute -z-[2] top-0" />
+            <img
+              src="/arbitrum.png"
+              alt="logo"
+              className="absolute -z-[2] top-0"
+            />
             <div className="flex flex-col items-center gap-4 max-w-[100px] max-h-[146px]">
-              <Image src={ArbitrumIcon} alt="" />
+              <img src="/arbitrum-icon.png" alt="logo" />
               <p className="text-heading text-xl">Arbitrum</p>
             </div>
             <Link href={"https://app.derivable.org/#/trade"} target="_blank">
