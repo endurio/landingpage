@@ -14,7 +14,7 @@ const Card = (props) => {
       <div className="flex flex-col md:flex-row gap-4 md:gap-[40px]">
         <div className="relative">
           {props.matches ? <CardBorder /> : <CardBorderMobile />}
-          <div className="absolute flex flex-col justify-between h-full items-start p-6 gap-6 top-0">
+          <div className="absolute flex flex-col justify-between h-full items-start p-[40px] gap-6 top-0">
             <div className="flex flex-col items-start max-w-[295px] md:max-w-[500px] gap-4 md:gap-6">
               <OurVisionIcon />
               {/* <OurMissionIcon /> */}
@@ -32,7 +32,7 @@ const Card = (props) => {
         </div>
         <div className="relative">
           {props.matches ? <CardBorder /> : <CardBorderMobile />}
-          <div className="absolute flex flex-col justify-between h-full items-start p-6 gap-6 top-0">
+          <div className="absolute flex flex-col justify-between h-full items-start p-[40px] gap-6 top-0">
             <div className="flex flex-col items-start max-w-[295px] md:max-w-[500px] gap-4 md:gap-6">
               {/* <OurVisionIcon /> */}
               <OurMissionIcon />
