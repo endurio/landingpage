@@ -61,7 +61,7 @@
   ],
   "about": {
     "heading": "Derivable is the first Perpetuals Automated Market Maker (AMM) Protocol with infinite liquidity and no liquidation.",
-    "explain": "Derivable's innovative pricing mechanism utilizes a novel Asymptotic Power Curve to ensure that liquidity is always available, even during periods of extreme market volatility, and eliminates the risk of liquidation."
+    "explain": "Our innovative pricing mechanism utilizes a novel Asymptotic Power Curve to ensure that positions are never liquidated and liquidity is always available, even during periods of extreme market volatility."
   },
   "vision": {
     "text-1": "We envision a DeFi ecosystems where any token or value can be traded with leverage, long and short, by anyone, from any sides of the market.",
