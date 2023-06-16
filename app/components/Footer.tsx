@@ -26,7 +26,7 @@ const Footer = () => {
     },
     {
       icon: <Medium />,
-      link: "https://medium.com/@Derivable.Fi",
+      link: "https://medium.com/@DerivableLabs",
     },
     {
       icon: <Linkedin />,
