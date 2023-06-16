@@ -142,26 +142,26 @@ const CardBorder = () => {
   return (
     <svg
       width="580"
-      height="568"
-      viewBox="0 0 580 568"
+      height="439"
+      viewBox="0 0 580 439"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <g filter="url(#filter0_b_656_9830)">
         <path
-          d="M0 24C0 10.7452 10.7452 0 24 0H411.015C417.406 0 423.533 2.54926 428.038 7.08272L500.5 80L572.917 151.961C577.451 156.467 580 162.594 580 168.986V544C580 557.255 569.255 568 556 568H24C10.7452 568 0 557.255 0 544V24Z"
+          d="M0 24C0 10.7452 10.7452 0 24 0H412.766C418.103 0 423.287 1.77883 427.5 5.05528L500.5 61.831L570.619 115.684C576.533 120.226 580 127.26 580 134.718V415C580 428.255 569.255 439 556 439H24C10.7452 439 0 428.255 0 415V24Z"
           fill="black"
-          fillOpacity="0.1"
+          fill-opacity="0.1"
         />
         <path
-          d="M500.145 80.3524L500.148 80.3547L572.565 152.316C577.004 156.727 579.5 162.727 579.5 168.986V544C579.5 556.979 568.979 567.5 556 567.5H24C11.0213 567.5 0.5 556.979 0.5 544V24C0.5 11.0213 11.0213 0.5 24 0.5H411.015C417.273 0.5 423.273 2.99616 427.684 7.43516L500.145 80.3524Z"
+          d="M500.193 62.2257L500.195 62.2275L570.314 116.081C576.105 120.528 579.5 127.416 579.5 134.718V415C579.5 427.979 568.979 438.5 556 438.5H24C11.0213 438.5 0.5 427.979 0.5 415V24C0.5 11.0213 11.0213 0.5 24 0.5H412.766C417.991 0.5 423.068 2.24177 427.193 5.44996L500.193 62.2257Z"
           stroke="white"
-          strokeOpacity="0.15"
+          stroke-opacity="0.15"
         />
         <path
-          d="M500.145 80.3524L500.148 80.3547L572.565 152.316C577.004 156.727 579.5 162.727 579.5 168.986V544C579.5 556.979 568.979 567.5 556 567.5H24C11.0213 567.5 0.5 556.979 0.5 544V24C0.5 11.0213 11.0213 0.5 24 0.5H411.015C417.273 0.5 423.273 2.99616 427.684 7.43516L500.145 80.3524Z"
+          d="M500.193 62.2257L500.195 62.2275L570.314 116.081C576.105 120.528 579.5 127.416 579.5 134.718V415C579.5 427.979 568.979 438.5 556 438.5H24C11.0213 438.5 0.5 427.979 0.5 415V24C0.5 11.0213 11.0213 0.5 24 0.5H412.766C417.991 0.5 423.068 2.24177 427.193 5.44996L500.193 62.2257Z"
           stroke="url(#paint0_linear_656_9830)"
-          strokeOpacity="0.85"
+          stroke-opacity="0.85"
         />
       </g>
       <defs>
@@ -170,11 +170,11 @@ const CardBorder = () => {
           x="-64"
           y="-64"
           width="708"
-          height="696"
+          height="567"
           filterUnits="userSpaceOnUse"
-          colorInterpolationFilters="sRGB"
+          color-interpolation-filters="sRGB"
         >
-          <feFlood floodOpacity="0" result="BackgroundImageFix" />
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="32" />
           <feComposite
             in2="SourceAlpha"
@@ -193,11 +193,11 @@ const CardBorder = () => {
           x1="290"
           y1="0"
           x2="290"
-          y2="568"
+          y2="439"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#33CEFF" />
-          <stop offset="0.562842" stopColor="#D633FF" stopOpacity="0" />
+          <stop stop-color="#33CEFF" />
+          <stop offset="0.562842" stop-color="#D633FF" stop-opacity="0" />
         </linearGradient>
       </defs>
     </svg>
