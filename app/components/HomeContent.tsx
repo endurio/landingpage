@@ -53,14 +53,14 @@ const HomeContent = (props) => {
               {targetReached ? (
                 <div className="flex flex-col gap-[40px] items-center pb-[300px]">
                   <div id="home" className="flex flex-col items-center gap-6">
-                    <div className="flex flex-col items-start gap-3">
+                    <div className="flex flex-col items-start gap-6">
                       <div className="relative">
-                        <span className="text-heading text-[40px]">
-                          The 1<sup className="text-3xl absolute top-0">st</sup>
+                        <span className="text-heading text-[30px]">
+                          The 1<sup>st</sup>
                         </span>
                       </div>
                       <HomeContentHeader />
-                      <div className="text-heading text-[40px] text-right w-full">
+                      <div className="text-heading text-[30px] text-right w-full">
                         Ever.
                       </div>
                     </div>

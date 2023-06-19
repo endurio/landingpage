@@ -31,32 +31,37 @@
     {
       "title": "No Liquidation",
       "content": "With continuous compounding leverage, positions can be HODL'ed with no risk of liquidation or any hassle of re-compounding to retain maximum capital efficiency.",
+      "path": "intro/power-perpetuals",
       "icon": "NoLiquidation"
     },
     {
       "title": "Infinite Liquidity",
       "content": "Liquidity is always available, regardless of the index price. Providers are protected from market volatility and incentivized with interest, fees, and premiums.",
+      "path": "protocol/liquidity-provider",
       "icon": "InfiniteLiquidity"
     },
     {
       "title": "Fully On-Chain",
       "content": "Efficiently run on Ethereum mainnet with non-custodial smart-contracts, no backend service nor off-chain data. Opening and closing position costs no more than a token swap.",
+      "path": "protocol/state-transition",
       "icon": "Effcient"
     },
     {
-      "title": "Hight Resistance",
+      "title": "High Resistance",
       "content": "Perpetual pools are protected against manipulations and extractions with the double prices system, maturity, and premiums.",
+      "path": "protocol/premium",
       "icon": "HighResistance"
     },
     {
       "title": "Open & Inclusive",
       "content": "Markets can be constructed for any token and leverage. Anyone can take sides, either as liquidity providers or long-short traders.",
+      "path": "protocol/pricing",
       "icon": "RealYield"
     }
   ],
   "about": {
     "heading": "Derivable is the first Perpetuals Automated Market Maker (AMM) Protocol with infinite liquidity and no liquidation.",
-    "explain": "Derivable's innovative pricing mechanism utilizes a novel Asymptotic Power Curve to ensure that liquidity is always available, even during periods of extreme market volatility, and eliminates the risk of liquidation."
+    "explain": "Our innovative pricing mechanism utilizes a novel Asymptotic Power Curve to ensure that positions are never liquidated and liquidity is always available, even during periods of extreme market volatility."
   },
   "vision": {
     "text-1": "We envision a DeFi ecosystems where any token or value can be traded with leverage, long and short, by anyone, from any sides of the market.",
