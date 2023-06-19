@@ -122,13 +122,9 @@ const Menu = (props) => {
                     </div>
                     <div className="px-2 pt-2 pb-3 space-y-1">
                       {navigation.map((item) => (
-                        <Link
-                          spy={true}
-                          active="active"
-                          smooth={true}
-                          duration={1000}
+                        <a
                           key={item.name}
-                          to={item.href}
+                          href={item.href}
                           target={item.target}
                           onClick={() => {
                             if (
@@ -146,7 +142,7 @@ const Menu = (props) => {
                           className="block px-3 py-2 text-heading text-2xl text-grey-1 border-l-[3px] border-transparent button-link-mobile"
                         >
                           {item.name}
-                        </Link>
+                        </a>
                       ))}
                     </div>
                     <div className="flex h-full justify-start">
