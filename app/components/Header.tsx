@@ -4,8 +4,6 @@ import { DerivableLogo, DerivableLogoMini } from "../icons/index";
 import config from "../config/index.json";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import { Link } from "react-scroll";
-import NextLink from "next/link";
 
 const Menu = (props) => {
   const { navigation } = config;
