@@ -8,6 +8,15 @@ import {
 } from "desmos-react";
 
 const FunctionPlot = (props) => {
+  const calc = React.useRef() as React.MutableRefObject<Desmos.Calculator>;
+  React.useEffect(() => {
+    calc.current.setMathBounds({
+      bottom: -0.25,
+      left: -0.25,
+      top: 3.25,
+      right: 4.25,
+    });
+  }, [calc]);
   return (
     <>
       {props.matches ? (
@@ -34,6 +43,7 @@ const FunctionPlot = (props) => {
             showGrid={false}
             xAxisNumbers={false}
             yAxisNumbers={false}
+            ref={calc}
           >
             <Expression id="slider" latex="x^2" color="ORANGE"/>
             <Expression id="fn" latex="a=3"/>
