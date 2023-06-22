@@ -24,6 +24,16 @@ body {
   color: #fff;
 }
 
+.calculator {
+  height: 525px;
+  width: 692px;
+  .dcg-calculator-api-container {
+    .dcg-container {
+      background: none !important;
+    }
+  }
+}
+
 .vanta {
   min-height: 300px;
   color: #0c1857;

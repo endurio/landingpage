@@ -16,6 +16,8 @@
     "@types/react": "18.0.8",
     "@types/react-dom": "18.0.3",
     "@types/react-router-dom": "^5.3.3",
+    "@types/desmos": "1.6.0",
+    "desmos-react": "^1.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-particles": "^2.10.1",

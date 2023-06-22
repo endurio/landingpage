@@ -1958,6 +1958,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/desmos@1.6.0", "@types/desmos@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@types/desmos/-/desmos-1.6.0.tgz#49fb86f87cd3a61434a04b4d9765aa78cc6e5b99"
+  integrity sha512-g+U7FVw3/iu88uzaJ/RT+coKxKiCxOWx6ue1hQTLsTPN7jidJw2RMbB+UviSImAUm0TkdkRV0nE9hLSvNX45zQ==
+
 "@types/eslint-scope@^3.7.3":
   version "3.7.4"
   resolved "https://registry.yarnpkg.com/@types/eslint-scope/-/eslint-scope-3.7.4.tgz#37fc1223f0786c39627068a12e94d6e6fc61de16"
@@ -3763,6 +3768,13 @@ dequal@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/dequal/-/dequal-2.0.3.tgz#2644214f1997d39ed0ee0ece72335490a7ac67be"
   integrity sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==
+
+desmos-react@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/desmos-react/-/desmos-react-1.2.0.tgz#f45bbf3649be087687fdfa0c780687f6379241ef"
+  integrity sha512-EoLW2/kfBnGTY1l1ZTgnDUwJQCqgrYupwa56hrwYYBNn0m/7cSXzxB7ljBhg6NIwFR9QFGzAlYy7T/LsyVupuA==
+  dependencies:
+    "@types/desmos" "^1.6.0"
 
 destroy@1.2.0:
   version "1.2.0"
