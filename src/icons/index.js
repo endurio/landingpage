@@ -176,7 +176,7 @@ const ScrollSVG = () => {
   );
 };
 
-const FunctionPilotTemplate = (width, height) => {
+const FunctionPlotTemplate = (width, height) => {
   return (
     <svg
       width="692"
@@ -305,7 +305,7 @@ const FunctionPilotTemplate = (width, height) => {
   );
 };
 
-const FunctionPilotMobile = () => {
+const FunctionPlotMobile = () => {
   return (
     <svg
       width="343"
@@ -4312,8 +4312,8 @@ export {
   HomeContentHeader,
   HomeContentHeaderMobile,
   ScrollSVG,
-  FunctionPilotTemplate,
-  FunctionPilotMobile,
+  FunctionPlotTemplate,
+  FunctionPlotMobile,
   CardBorder,
   CardBorderHover,
   Efficient,

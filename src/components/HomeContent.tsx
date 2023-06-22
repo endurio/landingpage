@@ -6,7 +6,7 @@ import {
   ScrollSVG,
 } from "../icons";
 import { GroupSocial, Twitter, Discord, Github } from "../icons/socials";
-import FunctionPilot from "./FuncPilot";
+import FunctionPlot from "./FuncPlot";
 import Innovation from "./innovation/Innovation";
 import Available from "./Available";
 import Discover from "./Discover";
@@ -138,7 +138,7 @@ const HomeContent = (props) => {
                   </div>
                 </div>
               )}
-              <FunctionPilot matches={targetReached} />
+              <FunctionPlot matches={targetReached} />
               <Innovation matches={targetReached} />
               <Available matches={targetReached} />
               <Discover matches={targetReached} />

@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
-import { FunctionPilotMobile, FunctionPilotTemplate } from "../icons";
+import { FunctionPlotMobile, FunctionPlotTemplate } from "../icons";
 import {
   Expression,
   GraphingCalculator,
   useHelperExpression,
 } from "desmos-react";
 
-const FunctionPilot = (props) => {
+const FunctionPlot = (props) => {
   return (
     <>
       {props.matches ? (
@@ -18,7 +18,7 @@ const FunctionPilot = (props) => {
               No Liquidation. Infinite Liquidity.
             </p>
           </div>
-          {/* <FunctionPilotTemplate /> */}
+          {/* <FunctionPlotTemplate /> */}
           <GraphingCalculator
             attributes={{ className: "calculator" }}
             fontSize={18}
@@ -48,7 +48,7 @@ const FunctionPilot = (props) => {
               No Liquidation. Infinite Liquidity.
             </p>
           </div>
-          <FunctionPilotMobile />
+          <FunctionPlotMobile />
         </div>
       )}
     </>
@@ -66,4 +66,4 @@ const Point = () => {
   return <Expression id="point" latex="(a,0)" label={label} showLabel />;
 };
 
-export default FunctionPilot;
+export default FunctionPlot;
