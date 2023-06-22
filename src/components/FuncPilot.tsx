@@ -26,6 +26,14 @@ const FunctionPilot = (props) => {
             projectorMode
             settingsMenu={false}
             expressionsCollapsed={true}
+            expressions={false}
+            zoomButtons={false}
+            lockViewport
+            invertedColors
+            border={false}
+            showGrid={false}
+            xAxisNumbers={false}
+            yAxisNumbers={false}
           >
             <Expression id="slider" latex="x^2" color="ORANGE"/>
             <Expression id="fn" latex="a=3"/>
