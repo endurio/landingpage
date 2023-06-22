@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { FunctionPlotMobile, FunctionPlotTemplate } from "../icons";
+import { FunctionPlotMobile } from "../icons";
 import {
   Expression,
   GraphingCalculator,
@@ -37,17 +37,35 @@ const FunctionPlot = (props) => {
             expressionsCollapsed={true}
             expressions={false}
             zoomButtons={false}
-            lockViewport
+            lockViewport={true}
             invertedColors
             border={false}
             showGrid={false}
             xAxisNumbers={false}
             yAxisNumbers={false}
             ref={calc}
+            xAxisArrowMode="POSITIVE"
+            yAxisArrowMode="POSITIVE"
+            xAxisLabel="Price"
+            yAxisLabel="Value"
           >
-            <Expression id="slider" latex="x^2" color="ORANGE"/>
-            <Expression id="fn" latex="a=3"/>
-            <Point />
+            <Expression id="f" latex={process.env.REACT_APP_FX} hidden/>
+            <Expression id="g" latex={process.env.REACT_APP_GX} hidden/>
+            <Expression id="lR" latex="(0.45,3.1)" color="RED" hidden showLabel label="Pool Reserve" labelOrientation="RIGHT"/>
+            <Expression id="R" latex="y=3\{0.02<x\}" color="RED" lineWidth={1.5}/>
+            <Expression id="rC" latex="x=X\{f(X)<y<g(X)\}" color="ORANGE" lineStyle="DASHED" lineWidth={1.5}/>
+            <Expression id="short" latex="g(x)\{0.02<x\}" color="GREEN"/>
+            <Expression id="long" latex="f(x)\{0.02<x\}" color="PURPLE"/>
+            <Expression id="X" latex="X=1" sliderBounds={{ min: 0.02, max: "", step: "" } }/>
+            <Expression id="p" latex="p=\operatorname{round}\left(X\cdot2000\right)" hidden/>
+            <Expression id="Price" latex="(X,-0.1)" color="BLACK" hidden showLabel label="$${p}" labelOrientation="BELOW"/>
+            <Expression id="S" latex="(X,g(X))" color="GREEN"/>
+            <Expression id="L" latex="(X,f(X))" color="PURPLE"/>
+            <Expression id="rB" latex="x=X\{g(X)<y<3\}" color="GREEN" lineStyle="DASHED" lineWidth={1.5}/>
+            <Expression id="rA" latex="x=X\{0<y<f(X)\}" color="PURPLE" lineStyle="DASHED" lineWidth={1.5}/>
+            <Expression id="lC" latex="(X+0.15,(1.1g(X)+f(X))/2.1)" color="ORANGE" hidden showLabel label="LP" labelOrientation="RIGHT"/>
+            <Expression id="lB" latex="(X-0.3,(g(X)+3)/2)" color="GREEN" hidden showLabel label="Short" labelOrientation="LEFT"/>
+            <Expression id="lA" latex="(X+0.25,0.55f(X))" color="PURPLE" hidden showLabel label="Long" labelOrientation="RIGHT"/>
           </GraphingCalculator>
         </div>
       ) : (
@@ -63,17 +81,6 @@ const FunctionPlot = (props) => {
       )}
     </>
   );
-};
-
-const Point = () => {
-  const a = useHelperExpression({ latex: "a" });
-
-  let label: string;
-  if (a > 0) label = "positive x-axis";
-  else if (a < 0) label = "negative x-axis";
-  else label = "origin";
-
-  return <Expression id="point" latex="(a,0)" label={label} showLabel />;
 };
 
 export default FunctionPlot;
