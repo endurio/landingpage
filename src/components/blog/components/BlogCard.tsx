@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
 import useMediaQuery from "../../hooks/useMedia";
 
 const BlogCard = (props) => {
@@ -14,7 +13,7 @@ const BlogCard = (props) => {
           onClick={() => props.setUrl("#blog-detail")}
         >
           <div className="flex flex-col md:flex-row md:w-[1062px] items-start gap-6">
-            <Image src={props.src} alt="blog-1" className="md:w-[519px]" />
+            <img src={props.src} alt="blog-1" className="md:w-[519px]" />
             <div className="flex flex-col items-start gap-6 md:max-w-[519px] md:h-full">
               <div className="flex flex-col items-start gap-3">
                 <span className="text-normal !text-[#4185EC] text-[11px]">
@@ -49,7 +48,7 @@ const BlogCard = (props) => {
           className="flex flex-col items-start gap-6 cursor-pointer"
           onClick={() => props.setUrl("#blog-detail")}
         >
-          <Image src={props.src} alt="blog-1" className="md:w-[394px]" />
+          <img src={props.src} alt="blog-1" className="md:w-[394px]" />
           <div className="flex flex-col items-start gap-6 md:max-w-[394px]">
             <div className="flex flex-col items-start gap-3">
               <span className="text-normal !text-[#4185EC] text-[11px]">

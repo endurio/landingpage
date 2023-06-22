@@ -5,7 +5,7 @@ import {
   CardBorder,
   OurVisionIcon,
   OurMissionIcon,
-} from "@/app/icons/about-us";
+} from "../../../icons/about-us";
 import config from "../../../config/index.json";
 const Card = (props) => {
   const { vision, mission } = config;
