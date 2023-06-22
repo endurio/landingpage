@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowRotate, SearchIcon } from "@/app/icons/blog";
+import { ArrowRotate, SearchIcon } from "../../../icons/blog";
 const FilterCard = () => {
   return (
     <>

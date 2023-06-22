@@ -111,17 +111,17 @@ const CardBorder = () => {
         <path
           d="M0 24C0 10.7452 10.7452 0 24 0H412.766C418.103 0 423.287 1.77883 427.5 5.05528L500.5 61.831L570.619 115.684C576.533 120.226 580 127.26 580 134.718V415C580 428.255 569.255 439 556 439H24C10.7452 439 0 428.255 0 415V24Z"
           fill="black"
-          fill-opacity="0.1"
+          fillOpacity="0.1"
         />
         <path
           d="M500.193 62.2257L500.195 62.2275L570.314 116.081C576.105 120.528 579.5 127.416 579.5 134.718V415C579.5 427.979 568.979 438.5 556 438.5H24C11.0213 438.5 0.5 427.979 0.5 415V24C0.5 11.0213 11.0213 0.5 24 0.5H412.766C417.991 0.5 423.068 2.24177 427.193 5.44996L500.193 62.2257Z"
           stroke="white"
-          stroke-opacity="0.15"
+          strokeOpacity="0.15"
         />
         <path
           d="M500.193 62.2257L500.195 62.2275L570.314 116.081C576.105 120.528 579.5 127.416 579.5 134.718V415C579.5 427.979 568.979 438.5 556 438.5H24C11.0213 438.5 0.5 427.979 0.5 415V24C0.5 11.0213 11.0213 0.5 24 0.5H412.766C417.991 0.5 423.068 2.24177 427.193 5.44996L500.193 62.2257Z"
           stroke="url(#paint0_linear_656_9830)"
-          stroke-opacity="0.85"
+          strokeOpacity="0.85"
         />
       </g>
       <defs>
@@ -132,9 +132,9 @@ const CardBorder = () => {
           width="708"
           height="567"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="32" />
           <feComposite
             in2="SourceAlpha"
@@ -156,8 +156,8 @@ const CardBorder = () => {
           y2="439"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#33CEFF" />
-          <stop offset="0.562842" stop-color="#D633FF" stop-opacity="0" />
+          <stop stopColor="#33CEFF" />
+          <stop offset="0.562842" stopColor="#D633FF" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>

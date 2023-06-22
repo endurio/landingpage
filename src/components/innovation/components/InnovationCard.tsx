@@ -13,7 +13,7 @@ import {
   ArrowIcon,
 } from "../../../icons";
 import useMediaQuery from "../../hooks/useMedia";
-import Link from "next/link";
+import { Link } from "react-router-dom";
 
 const checkIcon = (icon) => {
   switch (icon) {
@@ -53,7 +53,7 @@ const InnovationCard = (item: any) => {
             <span className="text-normal text-sm">{item.item.content}</span>
           </div>
         </div>
-        <Link href={`https://docs.derivable.org/${item.item.path ?? ''}`} target="_blank">
+        <Link to={`https://docs.derivable.org/${item.item.path ?? ''}`} target="_blank">
           <div className="flex flex-row items-center gap-2 cursor-pointer">
             <span className="text-heading text-sm text-[#CAC6DD]">READ MORE</span>
             <ArrowIcon />

@@ -2,15 +2,16 @@ import React from "react";
 import { TwitterLogo } from "../../icons/blog/index";
 import BlogCard from "./components/BlogCard";
 import FilterCard from "./components/Filter";
-import blog1 from "../../icons/blog/blog-1.png";
-import blog2 from "../../icons/blog/blog-2.png";
-import blog3 from "../../icons/blog/blog-3.png";
-import blog4 from "../../icons/blog/blog-4.png";
-import blog5 from "../../icons/blog/blog-5.png";
-import blog6 from "../../icons/blog/blog-6.png";
-import blog7 from "../../icons/blog/blog-7.png";
-import blog8 from "../../icons/blog/blog-8.png";
 import config from "../../config/index.json";
+
+const blog1 = "../../icons/blog/blog-1.png";
+const blog2 = "../../icons/blog/blog-2.png";
+const blog3 = "../../icons/blog/blog-3.png";
+const blog4 = "../../icons/blog/blog-4.png";
+const blog5 = "../../icons/blog/blog-5.png";
+const blog6 = "../../icons/blog/blog-6.png";
+const blog7 = "../../icons/blog/blog-7.png";
+const blog8 = "../../icons/blog/blog-8.png";
 
 const Blog = (props) => {
   const { topic } = config;

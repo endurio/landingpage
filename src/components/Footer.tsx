@@ -8,7 +8,7 @@ import {
   TwitterMini,
   DiscordMini,
 } from "../icons/socials";
-import Link from "next/link";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const iconsArr = [
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-row items-start gap-6 max-w-[264px]">
           {iconsArr.map((item, idx) => (
-            <Link key={idx} href={item.link} target="_blank">
+            <Link key={idx} to={item.link} target="_blank">
               <div className="max-w-6 max-h-6">{item.icon}</div>
             </Link>
           ))}

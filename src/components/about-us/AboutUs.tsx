@@ -5,7 +5,7 @@ import Card from "./components/Card";
 import Discover from "./components/Discover";
 import config from "../../config/index.json";
 
-const AboutUs = (props) => {
+const AboutUs = (props: any) => {
   const { about } = config;
 
   return (

@@ -14,15 +14,13 @@ import Footer from "./Footer";
 import AboutUs from "./about-us/AboutUs";
 import Blog from "./blog/Blog";
 import BlogDetail from "./blog/BlogDetail";
-import useMediaQuery from "./hooks/useMedia";
-import Link from "next/link";
+import { Link } from "react-router-dom";
 
 function checkInnerWidth() {
   return typeof window !== "undefined" && window.innerWidth >= 768;
 }
 
 const HomeContent = (props) => {
-  // const matches = useMediaQuery(768);
   const [targetReached, setTargetReached] = useState(checkInnerWidth());
 
   const updateTarget = useCallback((e) => {
@@ -70,23 +68,23 @@ const HomeContent = (props) => {
                     </span>
                   </div>
                   <div className="flex flex-row items-start gap-16 max-w-[384px]">
-                    <Link href={"forum"} target="_blank">
+                    <Link to={"forum"} target="_blank">
                       <GroupSocial height={48} width={48} />
                     </Link>
                     <Link
-                      href={"https://twitter.com/DerivableLabs"}
+                      to={"https://twitter.com/DerivableLabs"}
                       target="_blank"
                     >
                       <Twitter height={48} width={48} />
                     </Link>
                     <Link
-                      href={"https://discord.gg/kAcCdEghte"}
+                      to={"https://discord.gg/kAcCdEghte"}
                       target="_blank"
                     >
                       <Discord height={48} width={48} />
                     </Link>
                     <Link
-                      href={"https://github.com/derivable-labs"}
+                      to={"https://github.com/derivable-labs"}
                       target="_blank"
                     >
                       <Github height={48} width={48} />
@@ -116,23 +114,23 @@ const HomeContent = (props) => {
                     </span>
                   </div>
                   <div className="flex flex-row items-start justify-center max-w-[384px] gap-6">
-                    <Link href={"forum"} target="_blank">
+                    <Link to={"forum"} target="_blank">
                       <GroupSocial height={48} width={48} />
                     </Link>
                     <Link
-                      href={"https://twitter.com/DerivableLabs"}
+                      to={"https://twitter.com/DerivableLabs"}
                       target="_blank"
                     >
                       <Twitter height={48} width={48} />
                     </Link>
                     <Link
-                      href={"https://discord.gg/kAcCdEghte"}
+                      to={"https://discord.gg/kAcCdEghte"}
                       target="_blank"
                     >
                       <Discord height={48} width={48} />
                     </Link>
                     <Link
-                      href={"https://github.com/derivable-labs"}
+                      to={"https://github.com/derivable-labs"}
                       target="_blank"
                     >
                       <Github height={48} width={48} />

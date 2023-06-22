@@ -1,14 +1,14 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Breadcrumb from "./components/Breadcumb";
-import { TwitterLogo, FacebookLogo } from "@/app/icons/blog";
-import blogDetail from "../../icons/blog/blog-detail-1.png";
-import blogDetail2 from "../../icons/blog/blog-detail-2.png";
-import blogDetail3 from "../../icons/blog/blog-detail-3.png";
-import Image from "next/image";
+import { TwitterLogo, FacebookLogo } from "../../icons/blog";
 import config from "../../config/index.json";
 import BlogCard from "./components/BlogCard";
 import useMediaQuery from "../hooks/useMedia";
+
+const blogDetail = "../../icons/blog/blog-detail-1.png";
+const blogDetail2 = "../../icons/blog/blog-detail-2.png";
+const blogDetail3 = "../../icons/blog/blog-detail-3.png";
 
 const BlogDetail = (props) => {
   const { blog } = config;
@@ -33,7 +33,7 @@ const BlogDetail = (props) => {
               <FacebookLogo />
               <TwitterLogo />
             </div>
-            <Image src={blogDetail} alt="blog-detail-1" className="w-full" />
+            <img src={blogDetail} alt="blog-detail-1" className="w-full" />
             <div className="w-full text-normal text-base flex flex-col gap-6">
               <div>{blog["blog-detail-1"]["text-1"]}</div>
               <div>{blog["blog-detail-1"]["text-2"]}</div>
@@ -46,7 +46,7 @@ const BlogDetail = (props) => {
               <div>{blog["blog-detail-2"]["text-1"]}</div>
               <div>{blog["blog-detail-2"]["text-2"]}</div>
             </div>
-            <Image src={blogDetail2} alt="blog-detail-2" className="w-full" />
+            <img src={blogDetail2} alt="blog-detail-2" className="w-full" />
             <div className="w-full text-normal text-base flex flex-col gap-6">
               <div>{blog["blog-detail-2"]["text-1"]}</div>
               <div>{blog["blog-detail-2"]["text-2"]}</div>

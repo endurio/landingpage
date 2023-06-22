@@ -6,11 +6,10 @@ import {
   DiscoverBanner,
   DiscoverBannerMobile,
 } from "../icons";
-import Link from "next/link";
-import useMediaQuery from "./hooks/useMedia";
+
+import { Link } from 'react-router-dom'
 
 const Discover = (props) => {
-  // const matches = useMediaQuery(768);
   return (
     <>
       {props.matches ? (
@@ -26,7 +25,7 @@ const Discover = (props) => {
                   contribute to the advancement of Derivable and the broader
                   DeFi ecosystem
                 </p>
-                <Link href="forum" target="_blank">
+                <Link to="forum" target="_blank">
                   <div className="flex flex-row items-start">
                     <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
                       <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
@@ -58,7 +57,7 @@ const Discover = (props) => {
                   contribute to the advancement of Derivable and the broader
                   DeFi ecosystem
                 </span>
-                <Link href="forum" target="_blank">
+                <Link to="forum" target="_blank">
                   <div className="flex flex-row items-start">
                     <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
                       <div className="border-gradient p-[2px] h-12 w-full rounded-lg">

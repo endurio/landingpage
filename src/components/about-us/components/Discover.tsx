@@ -1,6 +1,6 @@
 "use client";
-import { DiscoverBanner, DiscoverBannerMobile } from "@/app/icons/about-us";
-import { ArrowRightIcon } from "@/app/icons";
+import { DiscoverBanner, DiscoverBannerMobile } from "../../../icons/about-us";
+import { ArrowRightIcon } from "../../../icons";
 import React, { useState, useEffect } from "react";
 
 const Discover = (props) => {
