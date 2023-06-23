@@ -17,19 +17,24 @@ const FunctionPlot = (props) => {
       right: 4.25,
     });
     const calculatorRect: any = document.querySelector(".calculator")?.getBoundingClientRect();
-    document.querySelector(".calculator")?.addEventListener('mousemove', function(evt: any) {
+    const focusX = calculatorRect.width * 0.27782;
+    const scaleX = 2.3 * calculatorRect.width / window.innerWidth;
+    document.addEventListener('mousemove', function(event: any) {
+      const clientX = event.clientX - calculatorRect.left;
+      const x = focusX +
+        (clientX > focusX ?
+          scaleX*Math.pow(clientX-focusX, 0.9) :
+          -scaleX*Math.pow(focusX-clientX, 0.78))
       const movementOfXY = (
         calc.current.pixelsToMath({
-          x: evt.clientX - calculatorRect.left,
-          y: evt.clientY - calculatorRect.top
+          x: x,
+          y: event.clientY - calculatorRect.top
         })
       )
-      if (movementOfXY.x >= 0) {
-        calc.current.setExpression({
-          id: "X",
-          latex: "X=" + movementOfXY.x
-        })
-      }
+      calc.current.setExpression({
+        id: "X",
+        latex: "X=" + Math.min(4.25, Math.max(0.02, movementOfXY.x)),
+      })
     })
   }, [calc]);
   return (
