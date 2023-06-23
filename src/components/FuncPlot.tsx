@@ -10,32 +10,39 @@ import {
 const FunctionPlot = (props) => {
   const calc = React.useRef() as React.MutableRefObject<Desmos.Calculator>;
   React.useEffect(() => {
+    const handleMouseMove = event => {
+      const calculatorRect: any = document.querySelector(".calculator")?.getBoundingClientRect();
+      const focusX = calculatorRect.width * 0.27782;
+      const scaleX = 2.3 * calculatorRect.width / window.innerWidth;
+      const clientX = event.clientX - calculatorRect.left;
+        const x = focusX +
+          (clientX > focusX ?
+            scaleX*Math.pow(clientX-focusX, 0.9) :
+            -scaleX*Math.pow(focusX-clientX, 0.78))
+        const movementOfXY = (
+          calc.current.pixelsToMath({
+            x: x,
+            y: event.clientY - calculatorRect.top
+          })
+        )
+        calc.current.setExpression({
+          id: "X",
+          latex: "X=" + Math.min(4.25, Math.max(0.02, movementOfXY?.x)),
+        })
+    }
+
     calc.current.setMathBounds({
       bottom: -0.25,
       left: -0.25,
       top: 3.25,
       right: 4.25,
     });
-    const calculatorRect: any = document.querySelector(".calculator")?.getBoundingClientRect();
-    const focusX = calculatorRect.width * 0.27782;
-    const scaleX = 2.3 * calculatorRect.width / window.innerWidth;
-    document.addEventListener('mousemove', function(event: any) {
-      const clientX = event.clientX - calculatorRect.left;
-      const x = focusX +
-        (clientX > focusX ?
-          scaleX*Math.pow(clientX-focusX, 0.9) :
-          -scaleX*Math.pow(focusX-clientX, 0.78))
-      const movementOfXY = (
-        calc.current.pixelsToMath({
-          x: x,
-          y: event.clientY - calculatorRect.top
-        })
-      )
-      calc.current.setExpression({
-        id: "X",
-        latex: "X=" + Math.min(4.25, Math.max(0.02, movementOfXY.x)),
-      })
-    })
+    
+    document.addEventListener('mousemove', handleMouseMove)
+
+    return () => {
+      document.removeEventListener('mousemove', handleMouseMove);
+    };
   }, [calc]);
   return (
     <>
