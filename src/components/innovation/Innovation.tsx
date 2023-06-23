@@ -53,12 +53,14 @@ const Innovation = (props) => {
           <p className="text-heading text-[34px] md:text-5xl">
             OUR INNOVATIONS
           </p>
-          <p className="text-normal text-lg text-center">
-            Uniswap solves the spot DEX problems.
-          </p>
-          <p className="text-normal text-lg text-center">
-            Derivable solves the perpetual futures DEX problems.
-          </p>
+          <div className="flex flex-col">
+            <p className="text-normal text-lg text-center">
+              Uniswap solves the spot DEX problems.
+            </p>
+            <p className="text-normal text-lg text-center">
+              Derivable solves the perpetual futures DEX problems.
+            </p>
+          </div>
         </div>
         {props.matches ? (
           <div className="flex flex-col items-center gap-8">

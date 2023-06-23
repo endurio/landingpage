@@ -7,14 +7,14 @@ import {
   DiscoverBannerMobile,
 } from "../icons";
 
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 const Discover = (props) => {
   return (
     <>
       {props.matches ? (
         <div className="flex flex-col items-center pb-[120px] gap-[10px]">
-          <div className="relative flex flex-row max-h-[328px] max-w-[996px] rounded-3xl">
+          <div className="relative flex flex-row max-h-[328px] max-w-[996px] rounded-3xl background-gray">
             <RectangleGradient />
             <div className="flex flex-row justify-between items-start gap-6 w-full px-[39px] py-10 absolute">
               <div className="flex flex-col items-start gap-4 max-w-[443px]">

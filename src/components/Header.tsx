@@ -4,7 +4,6 @@ import { DerivableLogo, DerivableLogoMini } from "../icons/index";
 import config from "../config/index.json";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import { Link } from "react-scroll";
 
 const Menu = (props) => {
   const { navigation } = config;
@@ -20,7 +19,7 @@ const Menu = (props) => {
   return (
     <>
       <Popover>
-        <div className="flex flex-col items-start fixed w-full h-[80px] bg-[rgba(0, 0, 0, 0.1)] top-0 backdrop-blur-[32px] z-[9999]">
+        <div className="flex flex-col items-start fixed w-full h-[80px] background-gray top-0 z-[9999]">
           <nav className="flex flex-row justify-between p-2 lg:px-[120px] py-0 w-full h-full border-b-[1px] border-zinc-700">
             <div className="flex justify-center items-center h-full">
               <a href="#">
@@ -61,8 +60,8 @@ const Menu = (props) => {
                 href={"https://app.derivable.org/#/trade"}
                 target="_blank"
               > */}
-              <div className="box-border flex flex-row justify-center items-center py-[14px] px-5 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
-                <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
+              <div className="box-border flex flex-row justify-center items-center py-[14px] px-5 gap-[10px] min-w-[120px] rounded-lg text-heading text-xs">
+                <div className="border-gradient p-[2px] h-[48px] w-full rounded-lg">
                   <div className="group relative h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	flex flex-row justify-center items-center">
                     launch app
                     <div className="border-light absolute top-full text-normal !text-black left-1/2 z-20 mt-3 -translate-x-1/2 whitespace-nowrap rounded border bg-white py-[6px] px-4 text-sm font-semibold opacity-0 group-hover:opacity-100">
@@ -173,4 +172,4 @@ const Menu = (props) => {
   );
 };
 
-export default Menu;
+export default Menu

@@ -7,7 +7,7 @@ const Discover = (props) => {
   return (
     <>
       {props.matches ? (
-        <div className="flex flex-row justify-between items-center p-[40px] gap-[173px] border-[1px] border-gradient-1 max-w-[1200px]">
+        <div className="flex flex-row justify-between items-center p-[40px] gap-[173px] rounded-3xl background-gray max-w-[1200px]">
           <div className="flex flex-col items-start gap-6 max-w-[547px]">
             <div className="flex flex-col items-start gap-4">
               <span className="text-heading text-[40px]">
@@ -62,4 +62,4 @@ const Discover = (props) => {
   );
 };
 
-export default Discover;
+export default Discover

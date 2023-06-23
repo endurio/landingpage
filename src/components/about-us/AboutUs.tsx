@@ -10,7 +10,7 @@ const AboutUs = (props: any) => {
 
   return (
     <>
-      <div className="flex flex-col justify-between items-center px-4 md:px-0 gap-[56px]">
+      <div className="flex flex-col justify-between items-center px-4 md:px-0 gap-[120px]">
         <div className="flex flex-col justify-center items-center text-center w-full md:w-[720px] items-center gap-6 break-normal">
           {props.matches ? <AboutUsBanner /> : <AboutUsBannerMobile />}
           <span className="text-heading text-xl md:text-2xl">

@@ -112,14 +112,14 @@ body {
 }
 
 .background-univer {
-  background:
-    linear-gradient(to top, black, transparent),
+  background: linear-gradient(to top, black, transparent),
     linear-gradient(to top left, #511cb5, transparent),
-    linear-gradient(to top right, #1F0320, transparent);
+    linear-gradient(to top right, #1f0320, transparent);
 }
 
 .background-gray {
   background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(32px);
 }
 
 .background-gray:hover {
