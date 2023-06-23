@@ -23,13 +23,24 @@ body {
   background: #100f22;
   color: #fff;
 }
-
 .calculator {
-  height: 525px;
-  width: 692px;
+  height: 325px;
+  width: 492px;
   .dcg-calculator-api-container {
     .dcg-container {
       background: none !important;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .calculator {
+    height: 525px;
+    width: 692px;
+    .dcg-calculator-api-container {
+      .dcg-container {
+        background: none !important;
+      }
     }
   }
 }

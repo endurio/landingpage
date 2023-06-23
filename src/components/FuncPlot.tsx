@@ -1,7 +1,6 @@
 /* eslint-disable no-template-curly-in-string */
 "use client";
 import React from "react";
-import { FunctionPlotMobile } from "../icons";
 import {
   Expression,
   GraphingCalculator,
@@ -37,13 +36,14 @@ const FunctionPlot = (props) => {
       top: 3.25,
       right: 4.25,
     });
+    if (props.matches) {
+      document.addEventListener('mousemove', handleMouseMove);
+      return () => {
+        document.removeEventListener('mousemove', handleMouseMove);
+      };
+    }
     
-    document.addEventListener('mousemove', handleMouseMove)
-
-    return () => {
-      document.removeEventListener('mousemove', handleMouseMove);
-    };
-  }, [calc]);
+  }, [calc, props.matches]);
   return (
     <>
       {props.matches ? (
@@ -54,7 +54,6 @@ const FunctionPlot = (props) => {
               No Liquidation. Infinite Liquidity.
             </p>
           </div>
-          {/* <FunctionPlotTemplate /> */}
           <GraphingCalculator
             attributes={{ className: "calculator" }}
             fontSize={18}
@@ -103,7 +102,45 @@ const FunctionPlot = (props) => {
               No Liquidation. Infinite Liquidity.
             </p>
           </div>
-          <FunctionPlotMobile />
+          <GraphingCalculator
+            attributes={{ className: "calculator" }}
+            fontSize={14}
+            keypad
+            projectorMode
+            settingsMenu={false}
+            expressionsCollapsed={true}
+            expressions={false}
+            zoomButtons={false}
+            lockViewport={true}
+            invertedColors
+            border={false}
+            showGrid={false}
+            xAxisNumbers={false}
+            yAxisNumbers={false}
+            ref={calc}
+            xAxisArrowMode="POSITIVE"
+            yAxisArrowMode="POSITIVE"
+            xAxisLabel="Price"
+            yAxisLabel="Value"
+          >
+            <Expression id="f" latex={process.env.REACT_APP_FX} hidden/>
+            <Expression id="g" latex={process.env.REACT_APP_GX} hidden/>
+            <Expression id="lR" latex="(0.45,3.1)" color="RED" hidden showLabel label="Pool Reserve" labelOrientation="RIGHT"/>
+            <Expression id="R" latex="y=3\{0.02<x\}" color="RED" lineWidth={1.5}/>
+            <Expression id="rC" latex="x=X\{f(X)<y<g(X)\}" color="ORANGE" lineStyle="DASHED" lineWidth={1.5}/>
+            <Expression id="short" latex="g(x)\{0.02<x\}" color="GREEN"/>
+            <Expression id="long" latex="f(x)\{0.02<x\}" color="PURPLE"/>
+            <Expression id="X" latex="X=1" sliderBounds={{ min: 0.02, max: "", step: "" } }/>
+            <Expression id="p" latex="p=\operatorname{round}\left(X\cdot2000\right)" hidden/>
+            <Expression id="Price" latex="(X,-0.1)" color="BLACK" hidden showLabel label="$${p}" labelOrientation="BELOW"/>
+            <Expression id="S" latex="(X,g(X))" color="GREEN"/>
+            <Expression id="L" latex="(X,f(X))" color="PURPLE"/>
+            <Expression id="rB" latex="x=X\{g(X)<y<3\}" color="GREEN" lineStyle="DASHED" lineWidth={1.5}/>
+            <Expression id="rA" latex="x=X\{0<y<f(X)\}" color="PURPLE" lineStyle="DASHED" lineWidth={1.5}/>
+            <Expression id="lC" latex="(X+0.15,(1.1g(X)+f(X))/2.1)" color="ORANGE" hidden showLabel label="LP" labelOrientation="RIGHT"/>
+            <Expression id="lB" latex="(X-0.3,(g(X)+3)/2)" color="GREEN" hidden showLabel label="Short" labelOrientation="LEFT"/>
+            <Expression id="lA" latex="(X+0.25,0.55f(X))" color="PURPLE" hidden showLabel label="Long" labelOrientation="RIGHT"/>
+          </GraphingCalculator>
         </div>
       )}
     </>
