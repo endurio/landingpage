@@ -3,26 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "export": "NODE_ENV=production next build",
-    "clean": "rimraf out",
-    "lint": "next lint"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "clean": "rimraf out"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.15",
     "@heroicons/react": "v1",
     "@trendyol-js/react-carousel": "^3.0.2",
+    "@types/jest": "^29.5.2",
     "@types/node": "20.2.5",
     "@types/react": "18.0.8",
     "@types/react-dom": "18.0.3",
-    "eslint": "8.41.0",
-    "eslint-config-next": "13.4.4",
-    "next": "13.4.4",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/desmos": "1.6.0",
+    "desmos-react": "^1.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-particles": "^2.10.1",
+    "react-router-dom": "^6.13.0",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.9",
     "react-tsparticles": "^2.10.1",
     "sharp": "^0.32.1",
@@ -34,5 +34,17 @@
     "postcss": "^8.4.24",
     "rimraf": "^5.0.1",
     "tailwindcss": "^3.3.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
