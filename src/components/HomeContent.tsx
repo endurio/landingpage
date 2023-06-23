@@ -49,18 +49,15 @@ const HomeContent = (props) => {
           (props.url === "#home" || props.url === "") && (
             <>
               {targetReached ? (
-                <div className="flex flex-col gap-[40px] items-center pb-[300px]">
+                <div className="flex flex-col gap-[40px] items-center pt-[150px] pb-[300px]">
                   <div id="home" className="flex flex-col items-center gap-6">
-                    <div className="flex flex-col items-start gap-6">
-                      <div className="relative">
-                        <span className="text-heading text-[30px]">
-                          The 1<sup>st</sup>
-                        </span>
+                    <div className="flex flex-row max-[1161px]:flex-col items-center text-heading text-[60px]">
+                      The 1st Perpetuals&nbsp;
+                      <div className="relative flex flex-col">
+                        AMM Protocol
+                        <img src="/vector-3.png" alt="" className="absolute bottom-0"/>
                       </div>
-                      <HomeContentHeader />
-                      <div className="text-heading text-[30px] text-right w-full">
-                        Ever.
-                      </div>
+                      &nbsp;Ever.
                     </div>
                     <span className="text-normal text-lg md:text-xl text-center self-stretch leading-[30px]">
                       Perpetuals trading and liquidity for any token, with any
@@ -103,8 +100,16 @@ const HomeContent = (props) => {
                           </sup>
                         </span>
                       </div>
-                      <HomeContentHeaderMobile />
-                      <div className="text-heading text-base text-right w-full">
+                      <div className="flex flex-col text-heading text-[40px]">
+                        <div className="flex flex-col text-center">
+                          <span>Perpetuals</span>
+                          <span>AMM Protocol</span>
+                        </div>
+                        <div className="max-w-[286px]">
+                          <img src="/vector-3.png" alt="" />
+                        </div>
+                      </div>
+                      <div className="text-heading text-base text-right w-full mt-[4px]">
                         Ever.
                       </div>
                     </div>
