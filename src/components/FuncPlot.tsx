@@ -1,10 +1,10 @@
+/* eslint-disable no-template-curly-in-string */
 "use client";
 import React from "react";
 import { FunctionPlotMobile } from "../icons";
 import {
   Expression,
   GraphingCalculator,
-  useHelperExpression,
 } from "desmos-react";
 
 const FunctionPlot = (props) => {
@@ -16,6 +16,21 @@ const FunctionPlot = (props) => {
       top: 3.25,
       right: 4.25,
     });
+    const calculatorRect: any = document.querySelector(".calculator")?.getBoundingClientRect();
+    document.querySelector(".calculator")?.addEventListener('mousemove', function(evt: any) {
+      const movementOfXY = (
+        calc.current.pixelsToMath({
+          x: evt.clientX - calculatorRect.left,
+          y: evt.clientY - calculatorRect.top
+        })
+      )
+      if (movementOfXY.x >= 0) {
+        calc.current.setExpression({
+          id: "X",
+          latex: "X=" + movementOfXY.x
+        })
+      }
+    })
   }, [calc]);
   return (
     <>
