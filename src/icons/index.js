@@ -509,53 +509,57 @@ const CardBorderHover = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g filter="url(#filter0_b_558_908)">
+      <g filter="url(#filter0_b_2746_17081)">
         <path
           d="M0 24C0 10.7452 10.7452 0 24 0H186.584C192.979 0 199.11 2.55241 203.615 7.09081L236.288 40L269.032 72.9812C273.495 77.477 276 83.5552 276 89.8904V312C276 325.255 265.255 336 252 336H24C10.7452 336 0 325.255 0 312V24Z"
           fill="#0E0C15"
         />
         <path
           d="M0.5 24C0.5 11.0213 11.0213 0.5 24 0.5H186.584C192.846 0.5 198.849 2.99923 203.261 7.44309L235.933 40.3523L268.677 73.3335C273.047 77.7356 275.5 83.6872 275.5 89.8904V312C275.5 324.979 264.979 335.5 252 335.5H24C11.0213 335.5 0.5 324.979 0.5 312V24Z"
-          stroke="url(#paint0_angular_558_908)"
+          stroke="white"
+          stroke-opacity="0.15"
+        />
+        <path
+          d="M0.5 24C0.5 11.0213 11.0213 0.5 24 0.5H186.584C192.846 0.5 198.849 2.99923 203.261 7.44309L235.933 40.3523L268.677 73.3335C273.047 77.7356 275.5 83.6872 275.5 89.8904V312C275.5 324.979 264.979 335.5 252 335.5H24C11.0213 335.5 0.5 324.979 0.5 312V24Z"
+          stroke="url(#paint0_linear_2746_17081)"
+          stroke-opacity="0.85"
         />
       </g>
       <defs>
         <filter
-          id="filter0_b_558_908"
+          id="filter0_b_2746_17081"
           x="-64"
           y="-64"
           width="404"
           height="464"
           filterUnits="userSpaceOnUse"
-          colorInterpolationFilters="sRGB"
+          color-interpolation-filters="sRGB"
         >
-          <feFlood floodOpacity="0" result="BackgroundImageFix" />
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="32" />
           <feComposite
             in2="SourceAlpha"
             operator="in"
-            result="effect1_backgroundBlur_558_908"
+            result="effect1_backgroundBlur_2746_17081"
           />
           <feBlend
             mode="normal"
             in="SourceGraphic"
-            in2="effect1_backgroundBlur_558_908"
+            in2="effect1_backgroundBlur_2746_17081"
             result="shape"
           />
         </filter>
-        <radialGradient
-          id="paint0_angular_558_908"
-          cx="0"
-          cy="0"
-          r="1"
+        <linearGradient
+          id="paint0_linear_2746_17081"
+          x1="138"
+          y1="0"
+          x2="138"
+          y2="336"
           gradientUnits="userSpaceOnUse"
-          gradientTransform="translate(138 168) rotate(90) scale(168 138)"
         >
-          <stop offset="0.046875" stopColor="#FFC876" />
-          <stop offset="0.395833" stopColor="#79FFF7" />
-          <stop offset="0.718753" stopColor="#0182FA" />
-          <stop offset="1" stopColor="#FF98E2" />
-        </radialGradient>
+          <stop stop-color="#33CEFF" />
+          <stop offset="0.562842" stop-color="#D633FF" stop-opacity="0" />
+        </linearGradient>
       </defs>
     </svg>
   );
