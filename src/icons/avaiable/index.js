@@ -7,7 +7,7 @@ const EthereumBorder = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g filter="url(#filter0_b_2736_17061)">
+      <g filter="url(#filter0_b_2736_17059)">
         <rect
           width="276"
           height="292"
@@ -21,12 +21,22 @@ const EthereumBorder = () => {
           width="275"
           height="291"
           rx="23.5"
-          stroke="url(#paint0_angular_2736_17061)"
+          stroke="white"
+          stroke-opacity="0.15"
+        />
+        <rect
+          x="0.5"
+          y="0.5"
+          width="275"
+          height="291"
+          rx="23.5"
+          stroke="url(#paint0_linear_2736_17059)"
+          stroke-opacity="0.85"
         />
       </g>
       <defs>
         <filter
-          id="filter0_b_2736_17061"
+          id="filter0_b_2736_17059"
           x="-64"
           y="-64"
           width="404"
@@ -39,28 +49,26 @@ const EthereumBorder = () => {
           <feComposite
             in2="SourceAlpha"
             operator="in"
-            result="effect1_backgroundBlur_2736_17061"
+            result="effect1_backgroundBlur_2736_17059"
           />
           <feBlend
             mode="normal"
             in="SourceGraphic"
-            in2="effect1_backgroundBlur_2736_17061"
+            in2="effect1_backgroundBlur_2736_17059"
             result="shape"
           />
         </filter>
-        <radialGradient
-          id="paint0_angular_2736_17061"
-          cx="0"
-          cy="0"
-          r="1"
+        <linearGradient
+          id="paint0_linear_2736_17059"
+          x1="138"
+          y1="0"
+          x2="138"
+          y2="292"
           gradientUnits="userSpaceOnUse"
-          gradientTransform="translate(138 146) rotate(90) scale(146 138)"
         >
-          <stop offset="0.046875" stop-color="#FFC876" />
-          <stop offset="0.395833" stop-color="#79FFF7" />
-          <stop offset="0.718753" stop-color="#0182FA" />
-          <stop offset="1" stop-color="#FF98E2" />
-        </radialGradient>
+          <stop stop-color="#33CEFF" />
+          <stop offset="0.562842" stop-color="#D633FF" stop-opacity="0" />
+        </linearGradient>
       </defs>
     </svg>
   );
