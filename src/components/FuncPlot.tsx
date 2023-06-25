@@ -106,7 +106,7 @@ const FunctionPlot = (props) => {
             attributes={{ className: "calculator" }}
             fontSize={14}
             keypad
-            projectorMode
+            projectorMode={false}
             settingsMenu={false}
             expressionsCollapsed={true}
             expressions={false}
@@ -125,14 +125,14 @@ const FunctionPlot = (props) => {
           >
             <Expression id="f" latex={process.env.REACT_APP_FX} hidden/>
             <Expression id="g" latex={process.env.REACT_APP_GX} hidden/>
-            <Expression id="lR" latex="(0.45,3.1)" color="RED" hidden showLabel label="Pool Reserve" labelOrientation="RIGHT"/>
+            <Expression id="lR" latex="(0.72,3.15)" color="RED" hidden showLabel label="Pool Reserve" labelOrientation="RIGHT"/>
             <Expression id="R" latex="y=3\{0.02<x\}" color="RED" lineWidth={1.5}/>
             <Expression id="rC" latex="x=X\{f(X)<y<g(X)\}" color="ORANGE" lineStyle="DASHED" lineWidth={1.5}/>
             <Expression id="short" latex="g(x)\{0.02<x\}" color="GREEN"/>
             <Expression id="long" latex="f(x)\{0.02<x\}" color="PURPLE"/>
             <Expression id="X" latex="X=1" sliderBounds={{ min: 0.02, max: "", step: "" } }/>
             <Expression id="p" latex="p=\operatorname{round}\left(X\cdot2000\right)" hidden/>
-            <Expression id="Price" latex="(X,-0.1)" color="BLACK" hidden showLabel label="$${p}" labelOrientation="BELOW"/>
+            <Expression id="Price" latex="(X,-0.15)" color="BLACK" hidden showLabel label="$${p}" labelOrientation="BELOW"/>
             <Expression id="S" latex="(X,g(X))" color="GREEN"/>
             <Expression id="L" latex="(X,f(X))" color="PURPLE"/>
             <Expression id="rB" latex="x=X\{g(X)<y<3\}" color="GREEN" lineStyle="DASHED" lineWidth={1.5}/>

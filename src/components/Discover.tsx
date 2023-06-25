@@ -45,7 +45,7 @@ const Discover = (props) => {
           </div>
         </div>
       ) : (
-        <div className="flex flex-row items-start pb-[120px] gap-[10px]">
+        <div className="flex flex-row items-start pb-[80px] pt-[80px] gap-[10px]">
           <div className="box-border flex flex-row items-start p-6 gap-[10px] border-[1px] border-gradient-1 rounded-3xl">
             <div className="flex flex-col items-start gap-6">
               <DiscoverBannerMobile />
