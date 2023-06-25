@@ -126,10 +126,14 @@ body {
   backdrop-filter: blur(32px);
 }
 
-.background-gray:hover {
-  background: rgba(14, 12, 21, 0.4);
+.background-card {
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(32px);
 }
 
+.background-card:hover {
+  background: rgba(14, 12, 21, 0.4);
+}
 .padding-card {
   padding: 56px 24px 32px;
 }
