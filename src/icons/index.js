@@ -717,6 +717,82 @@ const RectangleGradient = () => {
   );
 };
 
+const RectangleGradientMobile = () => {
+  return (
+    <svg
+      width="343"
+      height="596"
+      viewBox="0 0 343 596"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g filter="url(#filter0_b_2760_17062)">
+        <rect
+          width="343"
+          height="596"
+          rx="24"
+          fill="black"
+          fill-opacity="0.1"
+        />
+        <rect
+          x="0.5"
+          y="0.5"
+          width="342"
+          height="595"
+          rx="23.5"
+          stroke="white"
+          stroke-opacity="0.15"
+        />
+        <rect
+          x="0.5"
+          y="0.5"
+          width="342"
+          height="595"
+          rx="23.5"
+          stroke="url(#paint0_linear_2760_17062)"
+          stroke-opacity="0.85"
+        />
+      </g>
+      <defs>
+        <filter
+          id="filter0_b_2760_17062"
+          x="-64"
+          y="-64"
+          width="471"
+          height="724"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feGaussianBlur in="BackgroundImageFix" stdDeviation="32" />
+          <feComposite
+            in2="SourceAlpha"
+            operator="in"
+            result="effect1_backgroundBlur_2760_17062"
+          />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect1_backgroundBlur_2760_17062"
+            result="shape"
+          />
+        </filter>
+        <linearGradient
+          id="paint0_linear_2760_17062"
+          x1="171.5"
+          y1="0"
+          x2="171.5"
+          y2="596"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#33CEFF" />
+          <stop offset="0.562842" stop-color="#D633FF" stop-opacity="0" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+
 const DiscoverBanner = () => {
   return (
     <svg
@@ -4157,6 +4233,7 @@ export {
   ArrowIcon,
   ArrowRightIcon,
   RectangleGradient,
+  RectangleGradientMobile,
   DiscoverBanner,
   DiscoverBannerMobile,
   Ellipse,

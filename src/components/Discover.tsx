@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import {
   ArrowRightIcon,
   RectangleGradient,
+  RectangleGradientMobile,
   DiscoverBanner,
   DiscoverBannerMobile,
 } from "../icons";
@@ -45,9 +46,10 @@ const Discover = (props) => {
           </div>
         </div>
       ) : (
-        <div className="flex flex-row items-start pb-[80px] pt-[80px] gap-[10px]">
-          <div className="box-border flex flex-row items-start p-6 gap-[10px] border-[1px] border-gradient-1 rounded-3xl">
-            <div className="flex flex-col items-start gap-6">
+        <div className="relative flex flex-col items-start pb-[80px]">
+          <RectangleGradientMobile />
+          <div className="absolute flex flex-row items-start p-6 gap-[10px] rounded-3xl">
+            <div className="flex flex-col items-start gap-6 absolute">
               <DiscoverBannerMobile />
               <div className="flex flex-col items-start gap-6 font-['Sora'] max-w-[295px]">
                 <span className="text-heading text-[34px]">Be part of us!</span>

@@ -49,7 +49,7 @@ const HomeContent = (props) => {
           (props.url === "#home" || props.url === "") && (
             <>
               {targetReached ? (
-                <div className="flex flex-col gap-[40px] items-center pb-[300px]">
+                <div className="flex flex-col gap-[40px] items-center pt-[100px] pb-[300px]">
                   <div id="home" className="flex flex-col items-center gap-6">
                     <div className="flex flex-col items-start gap-6">
                       <div className="relative">
@@ -77,10 +77,7 @@ const HomeContent = (props) => {
                     >
                       <Twitter height={48} width={48} />
                     </Link>
-                    <Link
-                      to={"https://discord.gg/kAcCdEghte"}
-                      target="_blank"
-                    >
+                    <Link to={"https://discord.gg/kAcCdEghte"} target="_blank">
                       <Discord height={48} width={48} />
                     </Link>
                     <Link
@@ -123,10 +120,7 @@ const HomeContent = (props) => {
                     >
                       <Twitter height={48} width={48} />
                     </Link>
-                    <Link
-                      to={"https://discord.gg/kAcCdEghte"}
-                      target="_blank"
-                    >
+                    <Link to={"https://discord.gg/kAcCdEghte"} target="_blank">
                       <Discord height={48} width={48} />
                     </Link>
                     <Link

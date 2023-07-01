@@ -39,7 +39,7 @@ const Footer = () => {
   ];
   return (
     <>
-      <div className="footer-border-top flex box-border flex-col justify-center items-center py-8 gap-4 w-full mt-[120px] bottom-0 min-h-[164px] z-[9999]">
+      <div className="footer-border-top flex box-border flex-col justify-center items-center py-8 gap-4 w-full md:mt-[120px] bottom-0 min-h-[164px] z-[9999]">
         <div className="max-w-[133.71px] max-h-6">
           <DerivableLogoMini />
         </div>
