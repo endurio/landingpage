@@ -280,6 +280,9 @@ const FunctionPlot = (props) => {
               labelOrientation="RIGHT"
             />
           </GraphingCalculator>
+          <div className="text-normal text-base text-sm">
+            (touch a point to move the price)
+          </div>
         </div>
       )}
     </>
