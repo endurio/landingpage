@@ -44,7 +44,7 @@ const FunctionPlot = (props) => {
   return (
     <>
       {props.matches ? (
-        <div className="flex flex-col justify-center items-center pt-[80px] pb-[80px] md:pb-[120px] md:pt-[120px]">
+        <div className="flex flex-col justify-center items-center pt-[80px] pb-[80px] md:pb-[120px] md:pt-[120px] gap-6">
           <div className="flex flex-col items-center justify-center text-center gap-6">
             <p className="text-heading text-5xl">ASYMPTOTIC POWER CURVES</p>
             <p className="text-normal text-lg">
@@ -163,7 +163,7 @@ const FunctionPlot = (props) => {
           </GraphingCalculator>
         </div>
       ) : (
-        <div className="flex flex-col justify-center items-center pb-[80px] pt-[80px]">
+        <div className="flex flex-col justify-center items-center pb-[80px] pt-[80px] gap-6">
           <div className="flex flex-col items-center justify-center text-center gap-6">
             <p className="text-heading text-[34px]">ASYMPTOTIC POWER CURVES</p>
             <p className="text-normal text-base">
