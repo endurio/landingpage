@@ -33,13 +33,7 @@ const Menu = (props) => {
                   href={item.href}
                   target={item.target}
                   onClick={() => {
-                    if (
-                      item.name === "DOCS" ||
-                      item.name === "FORUM" ||
-                      item.name === "BLOG"
-                    ) {
-                      props.setUrl("#home");
-                    } else {
+                    if (item.href.startsWith('#')) {
                       props.setUrl(item.href);
                     }
                   }}
@@ -125,17 +119,10 @@ const Menu = (props) => {
                           href={item.href}
                           target={item.target}
                           onClick={() => {
-                            if (
-                              item.name === "DOCS" ||
-                              item.name === "FORUM" ||
-                              item.name === "BLOG"
-                            ) {
-                              props.setUrl("#home");
-                              handleClose();
-                            } else {
+                            if (item.href.startsWith('#')) {
                               props.setUrl(item.href);
-                              handleClose();
                             }
+                            handleClose();
                           }}
                           className="block px-3 py-2 text-heading text-2xl text-grey-1 border-l-[3px] border-transparent button-link-mobile"
                         >
