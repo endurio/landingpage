@@ -6,6 +6,7 @@ import {
   ScrollSVG,
 } from "../icons";
 import { Twitter, Github, Telegram } from "../icons/socials";
+import { HackenVerified, Zero2Hero } from "../icons/badge";
 import FunctionPlot from "./FuncPlot";
 import Innovation from "./innovation/Innovation";
 import Available from "./Available";
@@ -52,9 +53,13 @@ const HomeContent = (props) => {
                 <div className="flex flex-col gap-[40px] items-center pt-[20px] pb-[300px]">
                   <div id="home" className="flex flex-col items-center gap-6">
                     <div className="flex flex-col items-start gap-6">
-                      <div className="relative">
+                      <div className="relative flex flex-row flex-justify-between w-full">
                         <span className="text-heading text-[30px]">
                           The 1<sup>st</sup>
+                        </span>
+                        <span className="flex flex-row gap-6 opacity-[0.5]">
+                          <Zero2Hero/>
+                          <HackenVerified/>
                         </span>
                       </div>
                       <HomeContentHeader />
@@ -91,12 +96,16 @@ const HomeContent = (props) => {
                 <div className="flex flex-col gap-[60px] mt-[80px] pb-[250px] max-w-[343px]">
                   <div id="home" className="flex flex-col items-center gap-12">
                     <div className="flex flex-col items-start gap-[10px]">
-                      <div className="relative">
+                      <div className="relative flex flex-row flex-justify-between w-full">
                         <span className="text-heading text-[16px]">
                           The 1
                           <sup className="text-heading text-[12.5px] absolute top-[4px]">
                             st
                           </sup>
+                        </span>
+                        <span className="flex flex-row gap-6 opacity-[0.5] scale-[0.7] badges-mobile">
+                          <Zero2Hero/>
+                          <HackenVerified/>
                         </span>
                       </div>
                       <HomeContentHeaderMobile />
