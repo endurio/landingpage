@@ -93,7 +93,7 @@ const HomeContent = (props) => {
                   </div>
                 </div>
               ) : (
-                <div className="flex flex-col gap-[60px] mt-[80px] pb-[250px] max-w-[343px]">
+                <div className="flex flex-col gap-[60px] mt-[40px] pb-[250px] max-w-[343px]">
                   <div id="home" className="flex flex-col items-center gap-12">
                     <div className="flex flex-col items-start gap-[10px]">
                       <div className="relative flex flex-row flex-justify-between w-full">
