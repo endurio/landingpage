@@ -10,20 +10,14 @@
       "href": "#about",
       "target": "_self"
     },
-
-    {
-      "name": "FORUM",
-      "href": "forum",
-      "target": "_blank"
-    },
     {
       "name": "DOCS",
       "href": "https://docs.derivable.org",
       "target": "_blank"
     },
     {
-      "name": "BLOG",
-      "href": "blog",
+      "name": "GITHUB",
+      "href": "https://github.com/derivable-labs",
       "target": "_blank"
     }
   ],
