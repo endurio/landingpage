@@ -49,7 +49,7 @@ const HomeContent = (props) => {
           (props.url === "#home" || props.url === "") && (
             <>
               {targetReached ? (
-                <div className="flex flex-col gap-[40px] items-center pt-[50px] pb-[300px]">
+                <div className="flex flex-col gap-[40px] items-center pt-[20px] pb-[300px]">
                   <div id="home" className="flex flex-col items-center gap-6">
                     <div className="flex flex-col items-start gap-6">
                       <div className="relative">
@@ -63,8 +63,7 @@ const HomeContent = (props) => {
                       </div>
                     </div>
                     <span className="text-normal text-lg md:text-xl text-center self-stretch leading-[30px]">
-                      Perpetuals trading and liquidity for any token, with any
-                      leverage. By anyone.
+                      Perpetuals trading and liquidity for any token, with any leverage. By anyone.
                     </span>
                   </div>
                   <div className="flex flex-row items-start gap-16 max-w-[384px]">
