@@ -5,7 +5,7 @@ import {
   HomeContentHeaderMobile,
   ScrollSVG,
 } from "../icons";
-import { GroupSocial, Twitter, Discord, Github } from "../icons/socials";
+import { Twitter, Github, Telegram } from "../icons/socials";
 import FunctionPlot from "./FuncPlot";
 import Innovation from "./innovation/Innovation";
 import Available from "./Available";
@@ -66,9 +66,12 @@ const HomeContent = (props) => {
                       Perpetuals trading and liquidity for any token, with any leverage. By anyone.
                     </span>
                   </div>
-                  <div className="flex flex-row items-start gap-16 max-w-[384px]">
-                    <Link to={"forum"} target="_blank">
-                      <GroupSocial height={48} width={48} />
+                  <div className="flex flex-row items-start gap-10 max-w-[384px]">
+                    <Link
+                      to={"https://github.com/derivable-labs"}
+                      target="_blank"
+                    >
+                      <Github height={48} width={48} />
                     </Link>
                     <Link
                       to={"https://twitter.com/DerivableLabs"}
@@ -76,42 +79,42 @@ const HomeContent = (props) => {
                     >
                       <Twitter height={48} width={48} />
                     </Link>
-                    <Link to={"https://discord.gg/kAcCdEghte"} target="_blank">
-                      <Discord height={48} width={48} />
-                    </Link>
                     <Link
-                      to={"https://github.com/derivable-labs"}
+                      to={"https://t.me/DerivableLabs"}
                       target="_blank"
                     >
-                      <Github height={48} width={48} />
+                      <Telegram height={48} width={48} />
                     </Link>
                   </div>
                 </div>
               ) : (
-                <div className="flex flex-col gap-[40px] mt-[100px] pb-[250px] max-w-[343px]">
-                  <div id="home" className="flex flex-col items-center gap-6">
-                    <div className="flex flex-col items-start">
+                <div className="flex flex-col gap-[60px] mt-[80px] pb-[250px] max-w-[343px]">
+                  <div id="home" className="flex flex-col items-center gap-12">
+                    <div className="flex flex-col items-start gap-[10px]">
                       <div className="relative">
-                        <span className="text-heading text-base">
+                        <span className="text-heading text-[16px]">
                           The 1
-                          <sup className="text-heading text-[12.4648px] absolute top-[4px]">
+                          <sup className="text-heading text-[12.5px] absolute top-[4px]">
                             st
                           </sup>
                         </span>
                       </div>
                       <HomeContentHeaderMobile />
-                      <div className="text-heading text-base text-right w-full">
+                      <div className="text-heading text-[16px] text-right w-full">
                         Ever.
                       </div>
                     </div>
                     <span className="text-normal text-xl text-center self-stretch leading-[30px]">
-                      Perpetuals trading and liquidity for any token, with any
-                      leverage.<br/>By anyone.
+                      Perpetuals trading and liquidity for any token, with any leverage.<br/>
+                      By anyone.
                     </span>
                   </div>
                   <div className="flex flex-row items-start justify-center max-w-[384px] gap-6">
-                    <Link to={"forum"} target="_blank">
-                      <GroupSocial height={48} width={48} />
+                  <Link
+                      to={"https://github.com/derivable-labs"}
+                      target="_blank"
+                    >
+                      <Github height={48} width={48} />
                     </Link>
                     <Link
                       to={"https://twitter.com/DerivableLabs"}
@@ -119,14 +122,11 @@ const HomeContent = (props) => {
                     >
                       <Twitter height={48} width={48} />
                     </Link>
-                    <Link to={"https://discord.gg/kAcCdEghte"} target="_blank">
-                      <Discord height={48} width={48} />
-                    </Link>
                     <Link
-                      to={"https://github.com/derivable-labs"}
+                      to={"https://t.me/DerivableLabs"}
                       target="_blank"
                     >
-                      <Github height={48} width={48} />
+                      <Telegram height={48} width={48} />
                     </Link>
                   </div>
                 </div>
