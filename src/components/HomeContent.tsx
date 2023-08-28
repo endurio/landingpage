@@ -58,8 +58,12 @@ const HomeContent = (props) => {
                           The 1<sup>st</sup>
                         </span>
                         <span className="flex flex-row gap-6 opacity-[0.5]">
-                          <Zero2Hero/>
-                          <HackenVerified/>
+                          <a href="https://bnbsmartchain.com/winners-announcement-zero2hero-hackathon/#de-fi" target="_blank">
+                            <Zero2Hero/>
+                          </a>
+                          <a href="https://hacken.io/audits/" target="_blank">
+                            <HackenVerified/>
+                          </a>
                         </span>
                       </div>
                       <HomeContentHeader />
@@ -104,8 +108,12 @@ const HomeContent = (props) => {
                           </sup>
                         </span>
                         <span className="flex flex-row gap-6 opacity-[0.5] scale-[0.7] badges-mobile">
-                          <Zero2Hero/>
-                          <HackenVerified/>
+                          <a href="https://bnbsmartchain.com/winners-announcement-zero2hero-hackathon/#de-fi" target="_blank">
+                            <Zero2Hero/>
+                          </a>
+                          <a href="https://hacken.io/audits/" target="_blank">
+                            <HackenVerified/>
+                          </a>
                         </span>
                       </div>
                       <HomeContentHeaderMobile />
