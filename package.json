@@ -5,6 +5,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "cp -r ./build/* ../../derivableio/derivableio.github.io/;",
     "clean": "rimraf out"
   },
   "dependencies": {
