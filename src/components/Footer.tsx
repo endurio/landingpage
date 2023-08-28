@@ -1,12 +1,11 @@
-import React from "react";
 import { DerivableLogoMini, Ellipse } from "../icons";
 import {
-  Reddit,
   Medium,
   Linkedin,
   Youtube,
   TwitterMini,
   DiscordMini,
+  TelegramMini,
 } from "../icons/socials";
 import { Link } from "react-router-dom";
 
@@ -21,8 +20,8 @@ const Footer = () => {
       link: "https://discord.gg/BAuKQyVjJq",
     },
     {
-      icon: <Reddit />,
-      link: "forum",
+      icon: <TelegramMini />,
+      link: "https://t.me/DerivableLabs",
     },
     {
       icon: <Medium />,

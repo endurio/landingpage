@@ -21,12 +21,12 @@ const Discover = (props) => {
               <div className="flex flex-col items-start gap-4 max-w-[443px]">
                 <p className="text-heading text-5xl">Be part of us!</p>
                 <p className="text-normal text-base">
-                  Join the Derivable Forum and drive the discussions shaping the
+                  Join the Derivable Community and drive the discussions shaping the
                   future of DeFi innovation, where you can propose upgrades and
                   contribute to the advancement of Derivable and the broader
                   DeFi ecosystem
                 </p>
-                <Link to="forum" target="_blank">
+                <a href="https://t.me/DerivableLabs" target="_blank">
                   <div className="flex flex-row items-start">
                     <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
                       <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
@@ -37,7 +37,7 @@ const Discover = (props) => {
                       </div>
                     </div>
                   </div>
-                </Link>
+                </a>
               </div>
               <div>
                 <DiscoverBanner />
@@ -54,12 +54,12 @@ const Discover = (props) => {
               <div className="flex flex-col items-start gap-6 font-['Sora'] max-w-[295px]">
                 <span className="text-heading text-[34px]">Be part of us!</span>
                 <span className="text-normal text-base">
-                  Join the Derivable Forum and drive the discussions shaping the
+                  Join the Derivable Community and drive the discussions shaping the
                   future of DeFi innovation, where you can propose upgrades and
                   contribute to the advancement of Derivable and the broader
                   DeFi ecosystem
                 </span>
-                <Link to="forum" target="_blank">
+                <a href="https://t.me/DerivableLabs" target="_blank">
                   <div className="flex flex-row items-start">
                     <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
                       <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
@@ -70,7 +70,7 @@ const Discover = (props) => {
                       </div>
                     </div>
                   </div>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
