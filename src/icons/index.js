@@ -517,12 +517,12 @@ const CardBorderHover = () => {
         <path
           d="M0.5 24C0.5 11.0213 11.0213 0.5 24 0.5H186.584C192.846 0.5 198.849 2.99923 203.261 7.44309L235.933 40.3523L268.677 73.3335C273.047 77.7356 275.5 83.6872 275.5 89.8904V312C275.5 324.979 264.979 335.5 252 335.5H24C11.0213 335.5 0.5 324.979 0.5 312V24Z"
           stroke="white"
-          stroke-opacity="0.15"
+          strokeOpacity="0.15"
         />
         <path
           d="M0.5 24C0.5 11.0213 11.0213 0.5 24 0.5H186.584C192.846 0.5 198.849 2.99923 203.261 7.44309L235.933 40.3523L268.677 73.3335C273.047 77.7356 275.5 83.6872 275.5 89.8904V312C275.5 324.979 264.979 335.5 252 335.5H24C11.0213 335.5 0.5 324.979 0.5 312V24Z"
           stroke="url(#paint0_linear_2746_17081)"
-          stroke-opacity="0.85"
+          strokeOpacity="0.85"
         />
       </g>
       <defs>
@@ -533,9 +533,9 @@ const CardBorderHover = () => {
           width="404"
           height="464"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="32" />
           <feComposite
             in2="SourceAlpha"
@@ -558,7 +558,7 @@ const CardBorderHover = () => {
           gradientUnits="userSpaceOnUse"
         >
           <stop stop-color="#33CEFF" />
-          <stop offset="0.562842" stop-color="#D633FF" stop-opacity="0" />
+          <stop offset="0.562842" stop-color="#D633FF" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>
@@ -732,7 +732,7 @@ const RectangleGradientMobile = () => {
           height="596"
           rx="24"
           fill="black"
-          fill-opacity="0.1"
+          fillOpacity="0.1"
         />
         <rect
           x="0.5"
@@ -741,7 +741,7 @@ const RectangleGradientMobile = () => {
           height="595"
           rx="23.5"
           stroke="white"
-          stroke-opacity="0.15"
+          strokeOpacity="0.15"
         />
         <rect
           x="0.5"
@@ -750,7 +750,7 @@ const RectangleGradientMobile = () => {
           height="595"
           rx="23.5"
           stroke="url(#paint0_linear_2760_17062)"
-          stroke-opacity="0.85"
+          strokeOpacity="0.85"
         />
       </g>
       <defs>
@@ -761,9 +761,9 @@ const RectangleGradientMobile = () => {
           width="471"
           height="724"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="32" />
           <feComposite
             in2="SourceAlpha"
@@ -786,7 +786,7 @@ const RectangleGradientMobile = () => {
           gradientUnits="userSpaceOnUse"
         >
           <stop stop-color="#33CEFF" />
-          <stop offset="0.562842" stop-color="#D633FF" stop-opacity="0" />
+          <stop offset="0.562842" stopColor="#D633FF" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>

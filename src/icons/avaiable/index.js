@@ -13,7 +13,7 @@ const EthereumBorder = () => {
           height="292"
           rx="24"
           fill="black"
-          fill-opacity="0.1"
+          fillOpacity="0.1"
         />
         <rect
           x="0.5"
@@ -22,7 +22,7 @@ const EthereumBorder = () => {
           height="291"
           rx="23.5"
           stroke="white"
-          stroke-opacity="0.15"
+          strokeOpacity="0.15"
         />
         <rect
           x="0.5"
@@ -31,7 +31,7 @@ const EthereumBorder = () => {
           height="291"
           rx="23.5"
           stroke="url(#paint0_linear_2736_17059)"
-          stroke-opacity="0.85"
+          strokeOpacity="0.85"
         />
       </g>
       <defs>
@@ -42,9 +42,9 @@ const EthereumBorder = () => {
           width="404"
           height="420"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="32" />
           <feComposite
             in2="SourceAlpha"
@@ -66,8 +66,8 @@ const EthereumBorder = () => {
           y2="292"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#33CEFF" />
-          <stop offset="0.562842" stop-color="#D633FF" stop-opacity="0" />
+          <stop stopColor="#33CEFF" />
+          <stop offset="0.562842" stopColor="#D633FF" stopOpacity="0" />
         </linearGradient>
       </defs>
     </svg>
