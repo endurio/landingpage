@@ -51,7 +51,7 @@ const HomeContent = (props) => {
             <>
               {targetReached ? (
                 <div className="flex flex-col gap-[40px] items-center pt-[20px] pb-[300px]">
-                  <div id="home" className="flex flex-col items-center gap-6">
+                  <div className="flex flex-col items-center gap-6">
                     <div className="flex flex-col items-start gap-6">
                       <div className="relative flex flex-row flex-justify-between w-full">
                         <span className="text-heading text-[30px]">
@@ -98,7 +98,7 @@ const HomeContent = (props) => {
                 </div>
               ) : (
                 <div className="flex flex-col gap-[60px] mt-[40px] pb-[250px] max-w-[343px]">
-                  <div id="home" className="flex flex-col items-center gap-12">
+                  <div className="flex flex-col items-center gap-12">
                     <div className="flex flex-col items-start gap-[10px]">
                       <div className="relative flex flex-row flex-justify-between w-full">
                         <span className="text-heading text-[16px]">
