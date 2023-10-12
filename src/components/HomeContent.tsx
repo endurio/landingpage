@@ -61,7 +61,7 @@ const HomeContent = (props) => {
                           <a href="https://bnbsmartchain.com/winners-announcement-zero2hero-hackathon/#de-fi" target="_blank">
                             <Zero2Hero/>
                           </a>
-                          <a href="https://hacken.io/audits/" target="_blank">
+                          <a href="https://docs.derivable.org/audits" target="_blank">
                             <HackenVerified/>
                           </a>
                         </span>
@@ -111,7 +111,7 @@ const HomeContent = (props) => {
                           <a href="https://bnbsmartchain.com/winners-announcement-zero2hero-hackathon/#de-fi" target="_blank">
                             <Zero2Hero/>
                           </a>
-                          <a href="https://hacken.io/audits/" target="_blank">
+                          <a href="https://docs.derivable.org/audits" target="_blank">
                             <HackenVerified/>
                           </a>
                         </span>
