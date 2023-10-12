@@ -130,7 +130,7 @@ const Menu = (props) => {
                         </a>
                       ))}
                     </div>
-                    <div className="flex h-full justify-start">
+                    <div className="flex h-full justify-start pb-[1rem]">
                       {/* <NextLink
                         href={"https://app.derivable.org/#/trade"}
                         target="_blank"
