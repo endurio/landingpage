@@ -1,71 +1,51 @@
 import React from "react";
 import { EthereumBorder } from "../icons/avaiable";
+import { ArbitrumLogo, BSCLogo} from "../icons/chain";
 
 const Available = (props) => {
   return (
     <>
       <div className="flex flex-col justify-center items-center pt-[80px] pb-[80px] md:pt-[120px] md:pb-[120px] gap-[56px]">
-        <p className="text-heading text-[34px] md:text-[48px]">Available on</p>
+        <div className="justify-center items-center text-center">
+          <p className="text-heading text-[34px] md:text-[48px]">Available on</p>
+          <p className="text-[22px] md:text-[34px]" style={{color: 'gray'}}>All EVM COMPATUBLE PLATFORMS</p>
+        </div>
+      
         <div className="flex flex-wrap flex-row justify-center md:justify-between items-start gap-8 max-w-[584px]">
-          <div className="relative background-card box-border flex flex-col items-center justify-center rounded-3xl gap-[26px] w-[276px] h-[292px]">
+        {/* <div className="relative background-card box-border flex flex-col items-center justify-center rounded-3xl gap-[26px] w-[143px] h-[169px]">
             <EthereumBorder />
             <div className="absolute flex flex-col items-center justify-center w-full h-full gap-[26px]">
-              <img
-                src="/ethereum.png"
-                alt="logo"
-                className="absolute -z-[2] top-0"
-              />
-              <div className="flex flex-col items-center gap-4 max-w-[100px] max-h-[146px]">
-                <img src="/ethereum-icon.png" alt="logo" />
-                <p className="text-heading text-xl">Ethereum</p>
-              </div>
-              <div className="flex justify-center items-center">
-                <div className="box-border flex flex-row justify-center items-center py-[14px] px-5 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
-                  <a href={"https://app.derivable.org"} target="_blank">
-                  <div className="border-gradient p-[2px] h-[36px] w-full rounded-lg">
-                    <div className="group relative h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	flex flex-row justify-center items-center">
-                      LAUNCH BETA APP
-                      {/*
-                      <div className="border-light absolute top-full text-normal !text-black left-1/2 z-20 mt-3 -translate-x-1/2 whitespace-nowrap rounded border bg-white py-[6px] px-4 text-sm font-semibold opacity-0 group-hover:opacity-100">
-                        <span className="border-light absolute -top-1 left-1/2 -z-10 h-2 w-2 -translate-x-1/2 rotate-45 rounded-sm border-t border-l bg-white"></span>
-                        COMING SOON
-                      </div>
-                      */}
-                    </div>
-                  </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="relative background-card box-border flex flex-col items-center justify-center rounded-3xl gap-[26px] w-[276px] h-[292px]">
-            <EthereumBorder />
-            <div className="absolute flex flex-col items-center justify-center w-full h-full gap-[26px]">
-              <img
-                src="/arbitrum.png"
-                alt="logo"
-                className="absolute -z-[2] top-0"
-              />
               <div className="flex flex-col items-center gap-4 max-w-[100px] max-h-[146px]">
                 <img src="/arbitrum-icon.png" alt="logo" />
                 <p className="text-heading text-xl">Arbitrum</p>
               </div>
-              <div className="flex justify-center items-center">
-                <div className="box-border flex flex-row justify-center items-center py-[14px] px-5 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
-                  <a href={"https://app.derivable.org"} target="_blank">
-                  <div className="border-gradient p-[2px] h-[36px] w-full rounded-lg">
-                    <div className="group relative h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	flex flex-row justify-center items-center">
-                      LAUNCH BETA APP
-                      {/*
-                      <div className="border-light absolute top-full text-normal !text-black left-1/2 z-20 mt-3 -translate-x-1/2 whitespace-nowrap rounded border bg-white py-[6px] px-4 text-sm font-semibold opacity-0 group-hover:opacity-100">
-                        <span className="border-light absolute -top-1 left-1/2 -z-10 h-2 w-2 -translate-x-1/2 rotate-45 rounded-sm border-t border-l bg-white"></span>
-                        COMING SOON
-                      </div>
-                      */}
-                    </div>
-                  </div>
-                  </a>
-                </div>
+            </div>
+          </div> */}
+               <div className="relative background-card box-border flex flex-col items-center justify-center rounded-3xl gap-[26px] w-[143px] h-[169px]">
+            <EthereumBorder />
+            <div className="absolute flex flex-col items-center justify-center w-full h-full gap-[26px]">
+              <div className="flex flex-col items-center gap-4 max-w-[100px] max-h-[146px]">
+                {/* <img src="/arbitrum-icon.png" alt="logo" /> */}
+                <ArbitrumLogo width="100px" height="146px" style={{marginTop: "-1rem"}}/>
+                <p className="text-heading text-xl">Arbitrum</p>
+              </div>
+            </div>
+          </div>
+          <div className="relative background-card box-border flex flex-col items-center justify-center rounded-3xl gap-[26px] w-[143px] h-[169px]">
+            <EthereumBorder />
+            <div className="absolute flex flex-col items-center justify-center w-full h-full gap-[26px]">
+              <div className="flex flex-col items-center gap-4 max-w-[100px] max-h-[146px]">
+                {/* <img src="/bsc-icon.png" alt="logo" /> */}
+                <BSCLogo width="100px" height="146px"  style={{marginTop: "-1rem"}}/>
+                <p className="text-heading text-xl">BSC</p>
+              </div>
+            </div>
+          </div>
+          <div className="relative background-card box-border flex flex-col items-center justify-center rounded-3xl gap-[26px] w-[143px] h-[169px]">
+            <EthereumBorder />
+            <div className="absolute flex flex-col items-center justify-center w-full h-full gap-[26px]">
+              <div className="flex flex-col items-center text-center items-center gap-4 max-w-[100px] max-h-[146px]">
+                <p className="text-heading text-xl">More Comming Soon</p>
               </div>
             </div>
           </div>
