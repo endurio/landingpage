@@ -1,4 +1,3 @@
-import React from "react";
 import { EthereumBorder } from "../icons/avaiable";
 import { ArbitrumLogo, BSCLogo} from "../icons/chain";
 
@@ -15,19 +14,23 @@ const Available = (props) => {
           <div className="relative box-border flex flex-col items-center justify-center rounded-3xl gap-[26px] w-[143px] h-[169px]">
             <EthereumBorder />
             <div className="absolute flex flex-col items-center justify-center w-full h-full gap-[26px]">
-              <div className="flex flex-col items-center gap-4 max-w-[100px] max-h-[146px]">
-                <ArbitrumLogo width="100px" height="146px" style={{marginTop: "-1rem"}}/>
-                <p className="text-heading text-xl">Arbitrum</p>
-              </div>
+              <a href="https://app.derivable.org/#/?chain=arbitrum" target="_blank">
+                <div className="flex flex-col items-center gap-4 max-w-[100px] max-h-[146px]">
+                  <ArbitrumLogo width="100px" height="146px" style={{marginTop: "-1rem"}}/>
+                  <p className="text-heading text-xl">Arbitrum</p>
+                </div>
+              </a>
             </div>
           </div>
           <div className="relative box-border flex flex-col items-center justify-center rounded-3xl gap-[26px] w-[143px] h-[169px]">
             <EthereumBorder />
             <div className="absolute flex flex-col items-center justify-center w-full h-full gap-[26px]">
-              <div className="flex flex-col items-center gap-4 max-w-[100px] max-h-[146px]">
-                <BSCLogo width="100px" height="146px"  style={{marginTop: "-1rem"}}/>
-                <p className="text-heading text-xl">BSC</p>
-              </div>
+              <a href="https://app.derivable.org/#/?chain=bsc" target="_blank">
+                <div className="flex flex-col items-center gap-4 max-w-[100px] max-h-[146px]">
+                  <BSCLogo width="100px" height="146px"  style={{marginTop: "-1rem"}}/>
+                  <p className="text-heading text-xl">BSC</p>
+                </div>
+              </a>
             </div>
           </div>
           <div className="relative box-border flex flex-col items-center justify-center rounded-3xl gap-[26px] w-[143px] h-[169px]">
