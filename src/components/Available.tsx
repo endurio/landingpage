@@ -37,7 +37,7 @@ const Available = (props) => {
             <EthereumBorder />
             <div className="absolute flex flex-col items-center justify-center w-full h-full gap-[26px]">
               <div className="flex flex-col items-center text-center items-center gap-4 max-w-[100px] max-h-[146px]">
-                <p className="text-heading text-xl">More Comming Soon</p>
+                <p className="text-heading text-xl">More Coming Soon</p>
               </div>
             </div>
           </div>
