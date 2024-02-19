@@ -200,6 +200,13 @@ body {
   animation: fadein 2s forwards;
 }
 
+.available-on-items {
+  overflow-x: hidden;
+  @media (min-width: 350px) {
+    padding: 1rem;
+  }
+}
+
 @keyframes fadein {
   0% {
     opacity: 0;
