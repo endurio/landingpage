@@ -12,22 +12,22 @@
     },
     {
       "name": "DOCS",
-      "href": "https://docs.derivable.org",
+      "href": "https://docs.derion.io",
       "target": "_blank"
     },
     {
       "name": "WHITEPAPER",
-      "href": "https://docs.derivable.org/whitepaper",
+      "href": "https://docs.derion.io/whitepaper",
       "target": "_blank"
     },
     {
       "name": "AUDITS",
-      "href": "https://docs.derivable.org/audits",
+      "href": "https://docs.derion.io/audits",
       "target": "_blank"
     },
     {
       "name": "GITHUB",
-      "href": "https://github.com/derivable-labs",
+      "href": "https://github.com/derion-io",
       "target": "_blank"
     }
   ],
@@ -64,7 +64,7 @@
     }
   ],
   "about": {
-    "heading": "Derivable is the first Perpetuals Automated Market Maker (AMM) Protocol with infinite liquidity and no liquidation.",
+    "heading": "Derion is the first Perpetuals Automated Market Maker (AMM) Protocol with infinite liquidity and no liquidation.",
     "explain": "Our innovative pricing mechanism utilizes a novel Asymptotic Power Curve to ensure that positions are never liquidated and liquidity is always available, even during periods of extreme market volatility."
   },
   "vision": {
