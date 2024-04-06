@@ -1,11 +1,11 @@
 {
-  "name": "derivable-landingpage",
+  "name": "derion-landingpage",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "cp -r ./build/* ../../derivableio/derivableio.github.io/;",
+    "deploy": "cp -r ./build/* ../../derionio/derionio.github.io/;",
     "clean": "rimraf out"
   },
   "dependencies": {
