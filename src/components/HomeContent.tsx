@@ -55,7 +55,7 @@ const HomeContent = (props) => {
                     <div className="flex flex-col items-start gap-6">
                       <div className="relative flex flex-row flex-justify-between w-full">
                         <span className="text-heading text-[30px]">
-                          The 1<sup>st</sup>
+                          &nbsp;
                         </span>
                         <span className="flex flex-row gap-6 opacity-[0.5]">
                           <a href="https://bnbsmartchain.com/winners-announcement-zero2hero-hackathon/#de-fi" target="_blank">
@@ -68,11 +68,11 @@ const HomeContent = (props) => {
                       </div>
                       <HomeContentHeader />
                       <div className="text-heading text-[30px] text-right w-full">
-                        Ever.
+                        &nbsp;
                       </div>
                     </div>
                     <span className="text-normal text-lg md:text-xl text-center self-stretch leading-[30px]">
-                      Perpetuals trading and liquidity for any token, with any leverage. By anyone.
+                      AMM protocol for perpetual futures that never get liquidated.
                     </span>
                   </div>
                   <div className="flex flex-row items-start gap-10 max-w-[384px]">
@@ -102,10 +102,7 @@ const HomeContent = (props) => {
                     <div className="flex flex-col items-start gap-[10px]">
                       <div className="relative flex flex-row flex-justify-between w-full">
                         <span className="text-heading text-[16px]">
-                          The 1
-                          <sup className="text-heading text-[12.5px] absolute top-[4px]">
-                            st
-                          </sup>
+                          &nbsp;
                         </span>
                         <span className="flex flex-row gap-6 opacity-[0.5] scale-[0.7] badges-mobile">
                           <a href="https://bnbsmartchain.com/winners-announcement-zero2hero-hackathon/#de-fi" target="_blank">
@@ -118,12 +115,11 @@ const HomeContent = (props) => {
                       </div>
                       <HomeContentHeaderMobile />
                       <div className="text-heading text-[16px] text-right w-full">
-                        Ever.
+                        &nbsp;
                       </div>
                     </div>
                     <span className="text-normal text-xl text-center self-stretch leading-[30px]">
-                      Perpetuals trading and liquidity for any token, with any leverage.<br/>
-                      By anyone.
+                      AMM protocol for perpetual futures that never get liquidated.
                     </span>
                   </div>
                   <div className="flex flex-row items-start justify-center max-w-[384px] gap-6">
