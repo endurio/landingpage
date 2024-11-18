@@ -13,7 +13,7 @@ const Footer = () => {
   const iconsArr = [
     {
       icon: <TwitterMini />,
-      link: "https://twitter.com/DerivableLabs",
+      link: "https://x.com/DerionLabs",
     },
     {
       icon: <DiscordMini />,

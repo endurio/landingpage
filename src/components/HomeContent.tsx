@@ -83,7 +83,7 @@ const HomeContent = (props) => {
                       <Github height={48} width={48} />
                     </Link>
                     <Link
-                      to={"https://twitter.com/DerivableLabs"}
+                      to={"https://x.com/DerionLabs"}
                       target="_blank"
                     >
                       <Twitter height={48} width={48} />
@@ -130,7 +130,7 @@ const HomeContent = (props) => {
                       <Github height={48} width={48} />
                     </Link>
                     <Link
-                      to={"https://twitter.com/DerivableLabs"}
+                      to={"https://x.com/DerionLabs"}
                       target="_blank"
                     >
                       <Twitter height={48} width={48} />
