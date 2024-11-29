@@ -26,7 +26,7 @@ const Discover = (props) => {
                   contribute to the advancement of Endurio and the broader
                   DeFi ecosystem
                 </p>
-                <a href="https://t.me/DerivableLabs" target="_blank">
+                <a href="https://t.me/endur_io" target="_blank" rel="noreferrer">
                   <div className="flex flex-row items-start">
                     <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
                       <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
@@ -59,7 +59,7 @@ const Discover = (props) => {
                   contribute to the advancement of Endurio and the broader
                   DeFi ecosystem
                 </span>
-                <a href="https://t.me/DerivableLabs" target="_blank">
+                <a href="https://t.me/endur_io" target="_blank" rel="noreferrer">
                   <div className="flex flex-row items-start">
                     <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
                       <div className="border-gradient p-[2px] h-12 w-full rounded-lg">

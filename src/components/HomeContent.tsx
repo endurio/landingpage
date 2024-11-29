@@ -81,7 +81,7 @@ const HomeContent = (props) => {
                       <Twitter height={48} width={48} />
                     </Link>
                     <Link
-                      to={"https://t.me/DerivableLabs"}
+                      to={"https://t.me/endur_io"}
                       target="_blank"
                     >
                       <Telegram height={48} width={48} />
@@ -120,7 +120,7 @@ const HomeContent = (props) => {
                       <Twitter height={48} width={48} />
                     </Link>
                     <Link
-                      to={"https://t.me/DerivableLabs"}
+                      to={"https://t.me/endur_io"}
                       target="_blank"
                     >
                       <Telegram height={48} width={48} />

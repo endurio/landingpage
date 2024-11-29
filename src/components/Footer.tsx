@@ -21,7 +21,7 @@ const Footer = () => {
     },
     {
       icon: <TelegramMini />,
-      link: "https://t.me/DerivableLabs",
+      link: "https://t.me/endur_io",
     },
     {
       icon: <Medium />,
