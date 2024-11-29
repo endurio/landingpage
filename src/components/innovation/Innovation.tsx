@@ -58,7 +58,7 @@ const Innovation = (props) => {
               Uniswap solves the spot DEX problems.
             </p>
             <p className="text-normal text-lg text-center">
-              Derion solves the perpetual futures DEX problems.
+              Endurio solves the perpetual futures DEX problems.
             </p>
           </div>
         </div>

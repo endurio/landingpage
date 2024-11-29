@@ -61,7 +61,7 @@ const HomeContent = (props) => {
                           <a href="https://bnbsmartchain.com/winners-announcement-zero2hero-hackathon/#de-fi" target="_blank">
                             <Zero2Hero/>
                           </a>
-                          <a href="https://docs.derion.io/audits" target="_blank">
+                          <a href="https://docs.endur.io/audits" target="_blank">
                             <HackenVerified/>
                           </a>
                         </span>
@@ -77,7 +77,7 @@ const HomeContent = (props) => {
                   </div>
                   <div className="flex flex-row items-start gap-10 max-w-[384px]">
                     <Link
-                      to={"https://github.com/derion-io"}
+                      to={"https://github.com/endurio"}
                       target="_blank"
                     >
                       <Github height={48} width={48} />
@@ -108,7 +108,7 @@ const HomeContent = (props) => {
                           <a href="https://bnbsmartchain.com/winners-announcement-zero2hero-hackathon/#de-fi" target="_blank">
                             <Zero2Hero/>
                           </a>
-                          <a href="https://docs.derion.io/audits" target="_blank">
+                          <a href="https://docs.endur.io/audits" target="_blank">
                             <HackenVerified/>
                           </a>
                         </span>
@@ -124,7 +124,7 @@ const HomeContent = (props) => {
                   </div>
                   <div className="flex flex-row items-start justify-center max-w-[384px] gap-6">
                   <Link
-                      to={"https://github.com/derion-io"}
+                      to={"https://github.com/endurio"}
                       target="_blank"
                     >
                       <Github height={48} width={48} />

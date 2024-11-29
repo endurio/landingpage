@@ -46,7 +46,7 @@ const InnovationCard = (item: any) => {
           </div>
         </div>
         <Link
-          to={`https://docs.derion.io/${item.item.path ?? ""}`}
+          to={`https://docs.endur.io/${item.item.path ?? ""}`}
           target="_blank"
         >
           <div className="flex flex-row items-center gap-2 cursor-pointer">

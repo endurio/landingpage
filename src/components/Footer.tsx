@@ -52,7 +52,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-center items-center gap-2 text-normal text-xs">
           <p>Terms and Conditions</p>
           <Ellipse />
-          <p>Copyright © 2023 Derion. All rights reserved</p>
+          <p>Copyright © 2024 Endurio. All rights reserved</p>
         </div>
       </div>
     </>

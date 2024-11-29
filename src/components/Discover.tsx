@@ -21,9 +21,9 @@ const Discover = (props) => {
               <div className="flex flex-col items-start gap-4 max-w-[443px]">
                 <p className="text-heading text-5xl">Be part of us!</p>
                 <p className="text-normal text-base">
-                  Join the Derion Community and drive the discussions shaping the
+                  Join the Endurio Community and drive the discussions shaping the
                   future of DeFi innovation, where you can propose upgrades and
-                  contribute to the advancement of Derion and the broader
+                  contribute to the advancement of Endurio and the broader
                   DeFi ecosystem
                 </p>
                 <a href="https://t.me/DerivableLabs" target="_blank">
@@ -54,9 +54,9 @@ const Discover = (props) => {
               <div className="flex flex-col items-start gap-6 font-['Sora'] max-w-[295px]">
                 <span className="text-heading text-[34px]">Be part of us!</span>
                 <span className="text-normal text-base">
-                  Join the Derion Community and drive the discussions shaping the
+                  Join the Endurio Community and drive the discussions shaping the
                   future of DeFi innovation, where you can propose upgrades and
-                  contribute to the advancement of Derion and the broader
+                  contribute to the advancement of Endurio and the broader
                   DeFi ecosystem
                 </span>
                 <a href="https://t.me/DerivableLabs" target="_blank">

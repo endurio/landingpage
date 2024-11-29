@@ -12,22 +12,22 @@
     },
     {
       "name": "DOCS",
-      "href": "https://docs.derion.io",
+      "href": "https://docs.endur.io",
       "target": "_blank"
     },
     {
       "name": "WHITEPAPER",
-      "href": "https://docs.derion.io/whitepaper",
+      "href": "https://docs.endur.io/whitepaper",
       "target": "_blank"
     },
     {
       "name": "AUDITS",
-      "href": "https://docs.derion.io/audits",
+      "href": "https://docs.endur.io/audits",
       "target": "_blank"
     },
     {
       "name": "GITHUB",
-      "href": "https://github.com/derion-io",
+      "href": "https://github.com/endurio",
       "target": "_blank"
     }
   ],
@@ -64,7 +64,7 @@
     }
   ],
   "about": {
-    "heading": "Derion is the first Perpetuals Automated Market Maker (AMM) Protocol with infinite liquidity and no liquidation.",
+    "heading": "Endurio is the first Perpetuals Automated Market Maker (AMM) Protocol with infinite liquidity and no liquidation.",
     "explain": "Our innovative pricing mechanism utilizes a novel Asymptotic Power Curve to ensure that positions are never liquidated and liquidity is always available, even during periods of extreme market volatility."
   },
   "vision": {

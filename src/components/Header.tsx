@@ -50,7 +50,7 @@ const Menu = (props) => {
               ))}
             </div>
             <div className="hidden md:flex h-full justify-center items-center">
-              <a href={"https://app.derion.io"} target="_blank">
+              <a href={"https://app.endur.io"} target="_blank">
               <div className="box-border flex flex-row justify-center items-center py-[14px] px-5 gap-[10px] min-w-[120px] rounded-lg text-heading text-xs">
                 <div className="border-gradient p-[2px] h-[48px] w-full rounded-lg">
                   <div className="group relative h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	flex flex-row justify-center items-center">
@@ -130,7 +130,7 @@ const Menu = (props) => {
                       ))}
                     </div>
                     <div className="flex h-full justify-start pb-[1rem]">
-                      <a href={"https://app.derion.io"} target="_blank">
+                      <a href={"https://app.endur.io"} target="_blank">
                       <div className="box-border flex flex-row justify-center items-center px-3 py-2 gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
                         <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
                           <div className="group relative h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	flex flex-row justify-center items-center">
