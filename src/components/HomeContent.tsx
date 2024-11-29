@@ -5,6 +5,7 @@ import {
   HomeContentHeaderMobile,
 } from "../icons";
 import { Twitter, Github, Telegram } from "../icons/socials";
+import Economic from "./Economic";
 import Innovation from "./innovation/Innovation";
 import Available from "./Available";
 import Discover from "./Discover";
@@ -125,6 +126,7 @@ const HomeContent = (props) => {
                   </div>
                 </div>
               )}
+              <Economic matches={targetReached} />
               <Innovation matches={targetReached} />
               <Available matches={targetReached} />
               <Discover matches={targetReached} />
