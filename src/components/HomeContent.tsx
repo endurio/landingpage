@@ -57,14 +57,6 @@ const HomeContent = (props) => {
                         <span className="text-heading text-[30px]">
                           &nbsp;
                         </span>
-                        <span className="flex flex-row gap-6 opacity-[0.5]">
-                          <a href="https://bnbsmartchain.com/winners-announcement-zero2hero-hackathon/#de-fi" target="_blank">
-                            <Zero2Hero/>
-                          </a>
-                          <a href="https://docs.endur.io/audits" target="_blank">
-                            <HackenVerified/>
-                          </a>
-                        </span>
                       </div>
                       <HomeContentHeader />
                       <div className="text-heading text-[30px] text-right w-full">
@@ -72,7 +64,7 @@ const HomeContent = (props) => {
                       </div>
                     </div>
                     <span className="text-normal text-lg md:text-xl text-center self-stretch leading-[30px]">
-                      AMM protocol for perpetual futures that never get liquidated.
+                      Generate brand awareness, transaction by transaction.
                     </span>
                   </div>
                   <div className="flex flex-row items-start gap-10 max-w-[384px]">
@@ -104,14 +96,6 @@ const HomeContent = (props) => {
                         <span className="text-heading text-[16px]">
                           &nbsp;
                         </span>
-                        <span className="flex flex-row gap-6 opacity-[0.5] scale-[0.7] badges-mobile">
-                          <a href="https://bnbsmartchain.com/winners-announcement-zero2hero-hackathon/#de-fi" target="_blank">
-                            <Zero2Hero/>
-                          </a>
-                          <a href="https://docs.endur.io/audits" target="_blank">
-                            <HackenVerified/>
-                          </a>
-                        </span>
                       </div>
                       <HomeContentHeaderMobile />
                       <div className="text-heading text-[16px] text-right w-full">
@@ -119,7 +103,7 @@ const HomeContent = (props) => {
                       </div>
                     </div>
                     <span className="text-normal text-xl text-center self-stretch leading-[30px]">
-                      AMM protocol for perpetual futures that never get liquidated.
+                      Generate brand awareness, transaction by transaction.
                     </span>
                   </div>
                   <div className="flex flex-row items-start justify-center max-w-[384px] gap-6">
