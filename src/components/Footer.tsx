@@ -12,28 +12,8 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   const iconsArr = [
     {
-      icon: <TwitterMini />,
-      link: "https://x.com/DerionLabs",
-    },
-    {
-      icon: <DiscordMini />,
-      link: "https://discord.gg/BAuKQyVjJq",
-    },
-    {
       icon: <TelegramMini />,
       link: "https://t.me/endur_io",
-    },
-    {
-      icon: <Medium />,
-      link: "https://medium.com/@DerivableLabs",
-    },
-    {
-      icon: <Linkedin />,
-      link: "https://linkedin.com/company/derivablelabs/",
-    },
-    {
-      icon: <Youtube />,
-      link: "https://youtube.com/@DerivableLabs",
     },
   ];
   return (
