@@ -3,11 +3,8 @@ import React, { useState, useEffect, useCallback } from "react";
 import {
   HomeContentHeader,
   HomeContentHeaderMobile,
-  ScrollSVG,
 } from "../icons";
 import { Twitter, Github, Telegram } from "../icons/socials";
-import { HackenVerified, Zero2Hero } from "../icons/badge";
-import FunctionPlot from "./FuncPlot";
 import Innovation from "./innovation/Innovation";
 import Available from "./Available";
 import Discover from "./Discover";
@@ -128,7 +125,6 @@ const HomeContent = (props) => {
                   </div>
                 </div>
               )}
-              <FunctionPlot matches={targetReached} />
               <Innovation matches={targetReached} />
               <Available matches={targetReached} />
               <Discover matches={targetReached} />
