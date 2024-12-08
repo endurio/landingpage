@@ -24,19 +24,19 @@
   "innovation": [
     {
       "title": "Utility Value",
-      "content": "The END token is necessary for users to promote their brands through the Endurio protocol.",
+      "content": "The ENDU token is necessary for users to promote their brands through the Endurio protocol.",
       "path": "brand-market",
       "icon": "RealYield"
     },
     {
       "title": "Creation Value",
-      "content": "Minting END requires an actual Bitcoin transaction fee, along with mining strategy and effort, as all miners must compete for the fixed token minting rate.",
+      "content": "Minting ENDU requires an actual Bitcoin transaction fee, along with mining strategy and effort, as all miners must compete for the fixed token minting rate.",
       "path": "por/reward",
       "icon": "Effcient"
     },
     {
       "title": "Market Value",
-      "content": "END has the properties of 'sound money,' as its creation is limited, demand is self-sustaining, and supply decreases through Referral Network rent and Brand Market fees.",
+      "content": "ENDU has the properties of 'sound money,' as its creation is limited, demand is self-sustaining, and supply decreases through Referral Network rent and Brand Market fees.",
       "path": "referral-network/rent",
       "icon": "NoLiquidation"
     },
