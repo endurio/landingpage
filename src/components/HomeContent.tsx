@@ -7,7 +7,7 @@ import {
 import { Twitter, Github, Telegram } from "../icons/socials";
 import Economic from "./Economic";
 import Innovation from "./innovation/Innovation";
-import Available from "./Available";
+import RefNet from "./RefNet";
 import Discover from "./Discover";
 import Footer from "./Footer";
 import AboutUs from "./about-us/AboutUs";
@@ -119,7 +119,7 @@ const HomeContent = (props) => {
               )}
               <Economic matches={targetReached} />
               <Innovation matches={targetReached} />
-              <Available matches={targetReached} />
+              <RefNet matches={targetReached} />
               <Discover matches={targetReached} />
             </>
           )}
