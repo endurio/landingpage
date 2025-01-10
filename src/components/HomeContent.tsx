@@ -14,6 +14,7 @@ import AboutUs from "./about-us/AboutUs";
 import Blog from "./blog/Blog";
 import BlogDetail from "./blog/BlogDetail";
 import { Link } from "react-router-dom";
+import { TransactionSVG } from "../icons/transaction";
 
 function checkInnerWidth() {
   return typeof window !== "undefined" && window.innerWidth >= 768;
@@ -43,7 +44,7 @@ const HomeContent = (props) => {
 
   return (
     <>
-      <div className="absolute flex flex-col justify-center inset-x-0 items-center py-0 px-4 w-full top-[104px] md:top-[220px]">
+      <div className="absolute flex flex-col justify-center inset-x-0 items-center py-0 px-4 w-full top-[104px] md:top-[160px]">
         {typeof window !== "undefined" &&
           (props.url === "#home" || props.url === "") && (
             <>
@@ -61,7 +62,8 @@ const HomeContent = (props) => {
                         &nbsp;
                       </div>
                     </div>
-                    <span className="text-normal text-lg md:text-xl text-center self-stretch leading-[30px]">
+                    <TransactionSVG width={480}></TransactionSVG>
+                    <span className="text-normal text-lg md:text-xl text-center self-stretch leading-[30px] pt-8">
                       Generate brand awareness, transaction by transaction.
                     </span>
                   </div>
@@ -82,7 +84,7 @@ const HomeContent = (props) => {
                 </div>
               ) : (
                 <div className="flex flex-col gap-[60px] mt-[40px] pb-[250px] max-w-[343px]">
-                  <div className="flex flex-col items-center gap-12">
+                  <div className="flex flex-col items-center gap-8">
                     <div className="flex flex-col items-start gap-[10px]">
                       <div className="relative flex flex-row flex-justify-between w-full">
                         <span className="text-heading text-[16px]">
@@ -94,7 +96,8 @@ const HomeContent = (props) => {
                         &nbsp;
                       </div>
                     </div>
-                    <span className="text-normal text-xl text-center self-stretch leading-[30px]">
+                    <TransactionSVG width={320}></TransactionSVG>
+                    <span className="text-normal text-xl text-center self-stretch leading-[30px] pt-4">
                       Generate brand awareness, transaction by transaction.
                     </span>
                   </div>
