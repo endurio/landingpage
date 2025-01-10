@@ -23,8 +23,8 @@
   ],
   "innovation": [
     {
-      "title": "Utility Value",
-      "content": "The ENDU token is necessary for users to promote their brands through the Endurio protocol.",
+      "title": "Use Value",
+      "content": "The Endurio protocol enables anyone to promote brand awareness in every Bitcoin transaction using the ENDU token.",
       "path": "brand-market",
       "icon": "RealYield"
     },
@@ -47,9 +47,9 @@
       "icon": "HighResistance"
     },
     {
-      "title": "Self-Initiating",
-      "content": "Endurio is an on-chain branding protocol that markets its own brand, driving organic growth and enabling a potential hyper-growth rate.",
-      "path": "por/mining",
+      "title": "Organic Growth",
+      "content": "Endurio is an on-chain branding protocol that promotes its own brand through a built-in referral network, enabling the potential for hyper-growth.",
+      "path": "refnet",
       "icon": "InfiniteLiquidity"
     }
   ],
