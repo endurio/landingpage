@@ -12,28 +12,8 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   const iconsArr = [
     {
-      icon: <TwitterMini />,
-      link: "https://x.com/DerionLabs",
-    },
-    {
-      icon: <DiscordMini />,
-      link: "https://discord.gg/BAuKQyVjJq",
-    },
-    {
       icon: <TelegramMini />,
-      link: "https://t.me/DerivableLabs",
-    },
-    {
-      icon: <Medium />,
-      link: "https://medium.com/@DerivableLabs",
-    },
-    {
-      icon: <Linkedin />,
-      link: "https://linkedin.com/company/derivablelabs/",
-    },
-    {
-      icon: <Youtube />,
-      link: "https://youtube.com/@DerivableLabs",
+      link: "https://t.me/endur_io",
     },
   ];
   return (
@@ -52,7 +32,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-center items-center gap-2 text-normal text-xs">
           <p>Terms and Conditions</p>
           <Ellipse />
-          <p>Copyright © 2023 Derion. All rights reserved</p>
+          <p>Copyright © 2024 Endurio. All rights reserved</p>
         </div>
       </div>
     </>

@@ -126,8 +126,8 @@ body {
 
 .background-univer {
   background: linear-gradient(to top, black, transparent),
-    linear-gradient(to top left, #511cb5, transparent),
-    linear-gradient(to top right, #1f0320, transparent);
+    linear-gradient(to top left, #64a587, transparent),
+    linear-gradient(to top right, #0d1511, transparent);
 }
 
 .background-gray {

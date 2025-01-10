@@ -21,11 +21,11 @@ const Blog = (props) => {
     <div className="flex flex-col gap-[56px] md:gap-[120px] md:min-w-[1280px]">
       <div className="flex flex-col justify-center items-center py-8 px-2 bg-[#252134] rounded-3xl w-full gap-4">
         <div className="text-heading text-[34px] flex text-center gap-2">
-          Derion<span className="text-blue-1">Blog</span>
+          Endurio<span className="text-blue-1">Blog</span>
         </div>
         <div className="flex flex-row items-center gap-3">
           <TwitterLogo />
-          <span className="text-normal text-sm">Follow @Derion</span>
+          <span className="text-normal text-sm">Follow @Endurio</span>
         </div>
       </div>
       <BlogCard

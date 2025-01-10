@@ -51,14 +51,11 @@ const Innovation = (props) => {
       >
         <div className="flex flex-col justify-center items-center gap-6">
           <p className="text-heading text-[34px] md:text-5xl">
-            OUR INNOVATIONS
+            OUR VALUES
           </p>
           <div className="flex flex-col">
             <p className="text-normal text-lg text-center">
-              Uniswap solves the spot DEX problems.
-            </p>
-            <p className="text-normal text-lg text-center">
-              Derion solves the perpetual futures DEX problems.
+              The currency of the global branding economy.
             </p>
           </div>
         </div>

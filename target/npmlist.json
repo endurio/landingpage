@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "name": "derion-landingpage",
+  "name": "endurio-landingpage",
   "dependencies": {
     "@headlessui/react": { "version": "1.7.15" },
     "@heroicons/react": { "version": "1.0.6" },

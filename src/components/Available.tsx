@@ -14,7 +14,7 @@ const Available = (props) => {
           <div className="relative box-border flex flex-col items-center justify-center rounded-3xl gap-[26px] w-[143px] h-[169px]">
             <EthereumBorder />
             <div className="absolute flex flex-col items-center justify-center w-full h-full gap-[26px]">
-              <a href="https://app.derion.io/#/?chain=arbitrum" target="_blank">
+              <a target="_blank" rel="noreferrer">
                 <div className="flex flex-col items-center gap-4 max-w-[100px] max-h-[146px]">
                   <ArbitrumLogo width="100px" height="146px" style={{marginTop: "-1rem"}}/>
                   <p className="text-heading text-xl">Arbitrum</p>
@@ -25,7 +25,7 @@ const Available = (props) => {
           <div className="relative box-border flex flex-col items-center justify-center rounded-3xl gap-[26px] w-[143px] h-[169px]">
             <EthereumBorder />
             <div className="absolute flex flex-col items-center justify-center w-full h-full gap-[26px]">
-              <a href="https://app.derion.io/#/?chain=bsc" target="_blank">
+              <a target="_blank" rel="noreferrer">
                 <div className="flex flex-col items-center gap-4 max-w-[100px] max-h-[146px]">
                   <BSCLogo width="100px" height="146px"  style={{marginTop: "-1rem"}}/>
                   <p className="text-heading text-xl">BSC</p>
@@ -37,7 +37,7 @@ const Available = (props) => {
             <EthereumBorder />
             <div className="absolute flex flex-col items-center justify-center w-full h-full gap-[26px]">
               <div className="flex flex-col items-center text-center items-center gap-4 max-w-[100px] max-h-[146px]">
-                <p className="text-heading text-xl">More Coming Soon</p>
+                <p className="text-heading text-xl">Coming Soon</p>
               </div>
             </div>
           </div>

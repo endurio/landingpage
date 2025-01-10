@@ -3,11 +3,9 @@ import React, { useState, useEffect, useCallback } from "react";
 import {
   HomeContentHeader,
   HomeContentHeaderMobile,
-  ScrollSVG,
 } from "../icons";
 import { Twitter, Github, Telegram } from "../icons/socials";
-import { HackenVerified, Zero2Hero } from "../icons/badge";
-import FunctionPlot from "./FuncPlot";
+import Economic from "./Economic";
 import Innovation from "./innovation/Innovation";
 import Available from "./Available";
 import Discover from "./Discover";
@@ -57,14 +55,6 @@ const HomeContent = (props) => {
                         <span className="text-heading text-[30px]">
                           &nbsp;
                         </span>
-                        <span className="flex flex-row gap-6 opacity-[0.5]">
-                          <a href="https://bnbsmartchain.com/winners-announcement-zero2hero-hackathon/#de-fi" target="_blank">
-                            <Zero2Hero/>
-                          </a>
-                          <a href="https://docs.derion.io/audits" target="_blank">
-                            <HackenVerified/>
-                          </a>
-                        </span>
                       </div>
                       <HomeContentHeader />
                       <div className="text-heading text-[30px] text-right w-full">
@@ -72,24 +62,18 @@ const HomeContent = (props) => {
                       </div>
                     </div>
                     <span className="text-normal text-lg md:text-xl text-center self-stretch leading-[30px]">
-                      AMM protocol for perpetual futures that never get liquidated.
+                      Generate brand awareness, transaction by transaction.
                     </span>
                   </div>
                   <div className="flex flex-row items-start gap-10 max-w-[384px]">
                     <Link
-                      to={"https://github.com/derion-io"}
+                      to={"https://github.com/endurio"}
                       target="_blank"
                     >
                       <Github height={48} width={48} />
                     </Link>
                     <Link
-                      to={"https://x.com/DerionLabs"}
-                      target="_blank"
-                    >
-                      <Twitter height={48} width={48} />
-                    </Link>
-                    <Link
-                      to={"https://t.me/DerivableLabs"}
+                      to={"https://t.me/endur_io"}
                       target="_blank"
                     >
                       <Telegram height={48} width={48} />
@@ -104,14 +88,6 @@ const HomeContent = (props) => {
                         <span className="text-heading text-[16px]">
                           &nbsp;
                         </span>
-                        <span className="flex flex-row gap-6 opacity-[0.5] scale-[0.7] badges-mobile">
-                          <a href="https://bnbsmartchain.com/winners-announcement-zero2hero-hackathon/#de-fi" target="_blank">
-                            <Zero2Hero/>
-                          </a>
-                          <a href="https://docs.derion.io/audits" target="_blank">
-                            <HackenVerified/>
-                          </a>
-                        </span>
                       </div>
                       <HomeContentHeaderMobile />
                       <div className="text-heading text-[16px] text-right w-full">
@@ -119,24 +95,18 @@ const HomeContent = (props) => {
                       </div>
                     </div>
                     <span className="text-normal text-xl text-center self-stretch leading-[30px]">
-                      AMM protocol for perpetual futures that never get liquidated.
+                      Generate brand awareness, transaction by transaction.
                     </span>
                   </div>
                   <div className="flex flex-row items-start justify-center max-w-[384px] gap-6">
                   <Link
-                      to={"https://github.com/derion-io"}
+                      to={"https://github.com/endurio"}
                       target="_blank"
                     >
                       <Github height={48} width={48} />
                     </Link>
                     <Link
-                      to={"https://x.com/DerionLabs"}
-                      target="_blank"
-                    >
-                      <Twitter height={48} width={48} />
-                    </Link>
-                    <Link
-                      to={"https://t.me/DerivableLabs"}
+                      to={"https://t.me/endur_io"}
                       target="_blank"
                     >
                       <Telegram height={48} width={48} />
@@ -144,7 +114,7 @@ const HomeContent = (props) => {
                   </div>
                 </div>
               )}
-              <FunctionPlot matches={targetReached} />
+              <Economic matches={targetReached} />
               <Innovation matches={targetReached} />
               <Available matches={targetReached} />
               <Discover matches={targetReached} />
