@@ -44,7 +44,7 @@ const HomeContent = (props) => {
 
   return (
     <>
-      <div className="absolute flex flex-col justify-center inset-x-0 items-center py-0 px-4 w-full top-[104px] md:top-[160px]">
+      <div className="absolute flex flex-col justify-center inset-x-0 items-center py-0 px-4 w-full top-[60px] md:top-[100px]">
         {typeof window !== "undefined" &&
           (props.url === "#home" || props.url === "") && (
             <>
