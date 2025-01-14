@@ -19,19 +19,16 @@ const Discover = (props) => {
             <RectangleGradient />
             <div className="flex flex-row justify-between items-start gap-6 w-full px-[39px] py-10 absolute">
               <div className="flex flex-col items-start gap-4 max-w-[443px]">
-                <p className="text-heading text-5xl">Be part of us!</p>
+                <p className="text-heading text-5xl">Start Mining Now!</p>
                 <p className="text-normal text-base">
-                  Join the Endurio Community and drive the discussions shaping the
-                  future of DeFi innovation, where you can propose upgrades and
-                  contribute to the advancement of Endurio and the broader
-                  DeFi ecosystem
+                  And be one of the first to drive the future of a global brand awareness network.
                 </p>
-                <a href="https://t.me/endur_io" target="_blank" rel="noreferrer">
+                <a href="https://t.me/endurio_bot" target="_blank" rel="noreferrer">
                   <div className="flex flex-row items-start">
                     <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
                       <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
                         <div className=" h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	gap-[6px] flex flex-row justify-center items-center">
-                          Discover
+                          LAUNCH
                           <ArrowRightIcon />
                         </div>
                       </div>
@@ -52,19 +49,16 @@ const Discover = (props) => {
             <div className="flex flex-col items-start gap-6 absolute">
               <DiscoverBannerMobile />
               <div className="flex flex-col items-start gap-6 font-['Sora'] max-w-[295px]">
-                <span className="text-heading text-[34px]">Be part of us!</span>
+                <span className="text-heading text-[34px]">Start Mining Now!</span>
                 <span className="text-normal text-base">
-                  Join the Endurio Community and drive the discussions shaping the
-                  future of DeFi innovation, where you can propose upgrades and
-                  contribute to the advancement of Endurio and the broader
-                  DeFi ecosystem
+                  And be one of the first to drive the future of a global brand awareness network.
                 </span>
-                <a href="https://t.me/endur_io" target="_blank" rel="noreferrer">
+                <a href="https://t.me/endurio_bot" target="_blank" rel="noreferrer">
                   <div className="flex flex-row items-start">
                     <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
                       <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
                         <div className=" h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	gap-[6px] flex flex-row justify-center items-center">
-                          Discover
+                          LAUNCH
                           <ArrowRightIcon />
                         </div>
                       </div>

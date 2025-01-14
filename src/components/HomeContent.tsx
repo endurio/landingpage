@@ -74,6 +74,17 @@ const HomeContent = (props) => {
                     >
                       <Github height={48} width={48} />
                     </Link>
+                    <a href="https://t.me/endurio_bot" target="_blank" rel="noreferrer">
+                      <div className="flex flex-row items-start">
+                        <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
+                          <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
+                            <div className=" h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	gap-[6px] flex flex-row justify-center items-center">
+                              LAUNCH
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
                     <Link
                       to={"https://t.me/endur_io"}
                       target="_blank"
@@ -108,6 +119,17 @@ const HomeContent = (props) => {
                     >
                       <Github height={48} width={48} />
                     </Link>
+                    <a href="https://t.me/endurio_bot" target="_blank" rel="noreferrer">
+                      <div className="flex flex-row items-start">
+                        <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
+                          <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
+                            <div className=" h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	gap-[6px] flex flex-row justify-center items-center">
+                              LAUNCH
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
                     <Link
                       to={"https://t.me/endur_io"}
                       target="_blank"
