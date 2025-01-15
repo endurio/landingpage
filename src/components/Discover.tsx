@@ -1,5 +1,4 @@
 "use client";
-import React, { useState, useEffect } from "react";
 import {
   ArrowRightIcon,
   RectangleGradient,
@@ -7,8 +6,8 @@ import {
   DiscoverBanner,
   DiscoverBannerMobile,
 } from "../icons";
+import { getLaunchURL } from "./lib/utils";
 
-import { Link } from "react-router-dom";
 
 const Discover = (props) => {
   return (
@@ -23,7 +22,7 @@ const Discover = (props) => {
                 <p className="text-normal text-base">
                   And be one of the first to drive the future of a global brand awareness network.
                 </p>
-                <a href="https://t.me/endurio_bot" target="_blank" rel="noreferrer">
+                <a href={getLaunchURL()} target="_blank" rel="noreferrer">
                   <div className="flex flex-row items-start">
                     <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
                       <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
@@ -53,7 +52,7 @@ const Discover = (props) => {
                 <span className="text-normal text-base">
                   And be one of the first to drive the future of a global brand awareness network.
                 </span>
-                <a href="https://t.me/endurio_bot" target="_blank" rel="noreferrer">
+                <a href={getLaunchURL()} target="_blank" rel="noreferrer">
                   <div className="flex flex-row items-start">
                     <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
                       <div className="border-gradient p-[2px] h-12 w-full rounded-lg">

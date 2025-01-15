@@ -1,10 +1,10 @@
 "use client";
-import React, { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback } from "react";
 import {
   HomeContentHeader,
   HomeContentHeaderMobile,
 } from "../icons";
-import { Twitter, Github, Telegram } from "../icons/socials";
+import { Github, Telegram } from "../icons/socials";
 import Economic from "./Economic";
 import Innovation from "./innovation/Innovation";
 import RefNet from "./RefNet";
@@ -15,6 +15,7 @@ import Blog from "./blog/Blog";
 import BlogDetail from "./blog/BlogDetail";
 import { Link } from "react-router-dom";
 import { TransactionSVG } from "../icons/transaction";
+import { getLaunchURL } from "./lib/utils";
 
 function checkInnerWidth() {
   return typeof window !== "undefined" && window.innerWidth >= 768;
@@ -74,7 +75,7 @@ const HomeContent = (props) => {
                     >
                       <Github height={48} width={48} />
                     </Link>
-                    <a href="https://t.me/endurio_bot" target="_blank" rel="noreferrer">
+                    <a href={getLaunchURL()} target="_blank" rel="noreferrer">
                       <div className="flex flex-row items-start">
                         <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
                           <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
@@ -119,7 +120,7 @@ const HomeContent = (props) => {
                     >
                       <Github height={48} width={48} />
                     </Link>
-                    <a href="https://t.me/endurio_bot" target="_blank" rel="noreferrer">
+                    <a href={getLaunchURL()} target="_blank" rel="noreferrer">
                       <div className="flex flex-row items-start">
                         <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
                           <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
