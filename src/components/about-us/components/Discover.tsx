@@ -26,13 +26,15 @@ const Discover = (props) => {
                   of Endurio.
                 </span>
                 <div className="flex flex-row items-start">
-                  <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
-                    <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
-                      <div className=" h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	gap-[6px] flex flex-row justify-center items-center">
-                        JOIN NOW
+                  <a href="https://t.me/endur_io" target="_blank" rel="noreferrer">
+                    <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
+                      <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
+                        <div className=" h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	gap-[6px] flex flex-row justify-center items-center">
+                          Discover
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -47,25 +49,26 @@ const Discover = (props) => {
             <div className="flex flex-col items-start gap-6">
               <div className="flex flex-col items-start gap-4">
                 <span className="text-heading text-2xl">
-                  Together, Build a Decentralized Derivatives Technology
-                  Community
+                Together, Build a Decentralized Global Branding Ecosystem.
                 </span>
                 <span className="text-normal text-base">
                   Engage with developers, experts, and researchers to exchange
                   ideas, mechanisms and designs to contribute to the advancement
-                  of decentralized finance.
+                  of Endurio.
                 </span>
               </div>
             </div>
             <div className="flex flex-row items-start">
-              <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
-                <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
-                  <div className=" h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	gap-[6px] flex flex-row justify-center items-center">
-                    Discover
-                    <ArrowRightIcon />
+              <a href="https://t.me/endur_io" target="_blank" rel="noreferrer">
+                <div className="box-border flex flex-row justify-center items-center py-[14px] gap-[10px] h-12 min-w-[120px] rounded-lg text-heading text-xs">
+                  <div className="border-gradient p-[2px] h-12 w-full rounded-lg">
+                    <div className=" h-full w-full bg-[#0E0C15] py-[14px] px-5 rounded-lg uppercase cursor-pointer	gap-[6px] flex flex-row justify-center items-center">
+                      Discover
+                      <ArrowRightIcon />
+                    </div>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
