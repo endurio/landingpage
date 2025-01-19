@@ -23,14 +23,14 @@
   ],
   "innovation": [
     {
-      "title": "Use Value",
+      "title": "Utility Value",
       "content": "The Endurio protocol enables anyone to promote brand awareness in every Bitcoin transaction using the ENDU token.",
       "path": "brand-market",
       "icon": "RealYield"
     },
     {
-      "title": "Creation Value",
-      "content": "Minting ENDU requires an actual Bitcoin transaction fee, along with mining strategy and effort, as all miners must compete for the fixed token minting rate.",
+      "title": "Production Cost",
+      "content": "Minting ENDU requires an actual Bitcoin transaction fee, along with mining strategies and efforts, as all miners must compete and share a deterministic amount of token rewards.",
       "path": "por/reward",
       "icon": "Effcient"
     },
