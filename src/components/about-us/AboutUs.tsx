@@ -1,9 +1,9 @@
 "use client";
-import React from "react";
 import { AboutUsBanner, AboutUsBannerMobile } from "../../icons/about-us/index";
 import Card from "./components/Card";
 import Discover from "./components/Discover";
 import config from "../../config/index.json";
+import Team from "../Team";
 
 const AboutUs = (props: any) => {
   const { about } = config;
@@ -19,6 +19,7 @@ const AboutUs = (props: any) => {
           <span className="text-normal text-base">{about.explain}</span>
         </div>
         <Card matches={props.matches} />
+        <Team />
         <Discover matches={props.matches} />
       </div>
     </>
